@@ -1,0 +1,76 @@
+#1 Geometría Analítica 1
+¡Hola! Aquí hay bastante material de Geometría Analítica separado en 5 bellas unidades.1) El Plano y el Espacio Cartesiano2) Trigonometría y Sistemas de Coordenadas Polares, Cilíndricas y Esféricas.3) Espacios Vectoriales4) Rectas y Planos5) Cónicas Espero el material te sea de ayuda, ya sea que lo quieras para estudiar o para dar clase 😊.
+Para cada tema podrás encontrar Notas, Videos y Cuestionario. Además al final de cada unidad viene una lista de ejercicios para resolver.
+#2 Unidad 1. El plano y el espacio cartesiano
+- El plano cartesiano: Sus coordenadas y lugares geométricos[Notas](gd:0B42ihcbfBy7cRmJRVFUyU1hGUDBlOVQ5VUEtVlhuZlo4bF9B) Videos: [1](yt:sgglNmz97l4) [2](yt:VsScFOua7uc) [Cuestionario](gf:1FAIpQLSePMWrTF1ITAnoXaWvPyKeiszRurD3252lyXr_lPakF3gcVUA)
+- El espacio cartesiano: Sus coordenadas y lugares geométricos[Notas](gd:1xFPgOyCDG3DB1h-tsWXlCTnFlZGMlZ8z) Videos: [1](yt:UgTYlaj074I@343s) [2](yt:v_S2CL_yx2c) [Cuestionario](gf:1FAIpQLScHhfQGXlacOm3v5WdIVpeEp8IxoI6qvtVcq5hKCbd2BAOQsA)
+- Subconjuntos del plano y el espacio cartesiano[Notas](gd:0B42ihcbfBy7cdnc3UnZBVUNjQ1lMYnFVRXdPWUIxMFBqUmFN) Videos: [1](yt:55ko2zdMTXc) [Cuestionario](gf:1FAIpQLSe9JKy_0HDDUEfQPozKZwWGOHTt3LoFtRjhMfy3KxUMH-PoBQ)
+- Distancia[Notas](gd:0B42ihcbfBy7cRHFhSkJqRlJfd3JfVGZWRGt1R1ctTjBYbWNz) Videos: [1](yt:Mq-9ThMgjTU) [2](yt:c4dWc5yxFF4) [3](yt:7yDKQEDTx-g) [4](yt:W51Yl9LCoRc) [Cuestionario](gf:1FAIpQLSf5vq4QN9basgnHSwA60lalydfVwC3Ugmw8kjLXkLRbcfWg9A)
+- SimetríasNotas Videos: [1](yt:nUd96olJWQM@2s) [2](yt:sWq6hJJtQvg) [3](yt:ROj7On9aN_s) [Cuestionario](gf:1FAIpQLSfGelgKBMGKGxJpJYPEFkSJJ2GM6TMjJcCYM-udZVVdyCg0HQ)
+- Gráficas de funcionesNotas Videos: [1](yt:msCfefsD6dM) [2](yt:kMtsL8BonbE) [Cuestionario](gf:1FAIpQLSc1IgaTaZmix7QOUZ0hHHFYmQRN7SnWD1ggNUtQV-YkpWL45w)
+#3 [Ejercicios de práctica](gd:14j93wnDz9HUob9qVRRtqHgx4bAUmza88) [Cuestionario](gf:1FAIpQLSdmI3Nwg0uRLMTYeFroUlLDWVD1k8Qkp-eSyWaFLve2N676sA)
+#3 Actividades, preguntas y retos
+[Simetría, GeoGebra](https://www.geogebra.org/m/rkfc7pwf)
+[Gráficas de funciones, Python](https://colab.research.google.com/drive/16ogFz1t6117NHes75XPnfgP1HekLMFmI?usp=drive_link)
+#2 Unidad 2. Trigonometría y Más sistemas de coordenadas: Polares, cilíndricas y esféricas.
+- Trigonometría (triángulos rectos) [Notas](gd:1si9vsNPtK4WRTzOm_GEK4We3KVI-oFAl) Videos: [1](yt:c4dWc5yxFF4@35s) [2](yt:qnGgc0aXGZE) [3](yt:bAEdf0zqCL8@3s) [Cuestionario](gf:1FAIpQLSfx8Me0nYQLppQJDfv9eM8Ztwj23hsnPCKLTK_15jqTEyNOdA)
+- RadiánNotas [Video y Actividad](yt:3spLqbmDyL8) [Cuestionario](gf:1FAIpQLSfegP-Cx4AgSA6-v7a1xc5nlRnfRbW6OTf-gjvW-lGLLLQ28g)
+- Resolución de triángulos RectosNotas Videos: [1](yt:cmwGL3zURsg) [2](yt:Xe9XEyqNMFs) [Cuestionario](gf:1FAIpQLSfHJx-PNKnuduFY3eMgahvHltHGXxanDaLuY_DJBNUiQyn-QA)
+- Ángulos notablesNotas Videos: [1](yt:NALDXSnZX7I) [2](yt:v0SvEtMzstQ) [Cuestionario](gf:1FAIpQLSfWZzmGZvi_rAuo58O6BxTWnX47_WXFXFxLjARoAOZ-u0Qnfw)
+- Todos los triángulos: Leyes de Senos y de Cosenos y Resolución de triángulos Notas Videos: [1](yt:bmiBxN7rUOM) [2](yt:nzHrRvCmTSE) [3](yt:dtzG-OIeF2I) [Cuestionario](gf:1FAIpQLSc-WFxyM7nUf-mGEYnZaN9Hr_UF6T9q5UNg_tA7sQeO4ZEoiA)
+- Sistema de Coordenadas Polares [Notas](gd:1my9UDjGYHULU4TiGVKgB65R2hh4xs07S) Videos: [1](yt:UMHSwkpJn4o) [2](yt:IH3zRBGPHCA@108s) [3](yt:HbjP0jO3blM) [4](yt:Iz0XIEJ7heg) [5](yt:ZojNn8IvKoo) [6](yt:1Ws0wanE2z8) [Cuestionario](gf:1FAIpQLScd4IR63M_akCmysnPBZoOsCmCDHfkz5rsbACENVuQlLanxyg) Actv. Geogebra: [1](https://www.geogebra.org/m/vswcbbcu) [2](https://www.geogebra.org/m/zq9ybzhb) [3](https://www.geogebra.org/m/wepzgmbq)
+- Graficar funciones en el plano polarVideos: [1](yt:nzs4b9M2EDo) [2](yt:rwduBc7s2Qk) [Cuestionario](gf:1FAIpQLSfxdZkhZ2oon61xsYgIU5xK-smY5BBIftESUZNS7Ft_CA_sig) [Acvt. Geogebra](https://www.geogebra.org/m/Gn38WfVj) [Graficador online coordenadas polares](https://www.desmos.com/calculator/qvhphws8us?lang=es)
+- Sistemas de Coordenadas en el espacio [Notas](gd:1DjRcq-zeA6Y_cfDgN8XcCrYDyHxsy0_c) Videos: [1](yt:EZQCz6CcRvc@10s) [2](yt:zpkIkx8qWI0) [3](yt:otFw-otybvc) [4](yt:YdR1NV0_4C4) [5](yt:pb08KMs4pps) [Cuestionario](gf:1FAIpQLSdjtG4C0fS2gppgIu5STov-DEFERefPO2Pr-0rOqGoIS2rQqw)
+#3 [Ejercicios de práctica](gd:1MORUPX_bCegUyPWlOBbwEtvG11l6aFhT) [Cuestionario](gf:1FAIpQLSf14Xy-n-tsUbGVgRdWdTXlQhjhzyWRf7CI7zF9lfYEfg3-Tg)
+#3 [Actividad de autoevaluación](https://drive.google.com/drive/folders/1MywwTZfbIHHyprLoA7J3d3VRORLRgcn6?usp=sharing).Primero debes abrir la lista de ejercicios y resolverlos. Después puedes comparar las respuestas correctas y utilizar la guía de autoevaluación.
+#3 Actividades, preguntas y retos
+[El plano polar, GeoGebra](https://www.geogebra.org/m/jr5hd357)
+[Graficando en el plano polar, GeoGebra](https://www.geogebra.org/m/a5eusghm)
+[Medidas indirectas, GeoGebra](https://www.geogebra.org/m/kdqsdztw)
+[Ley de senos y cosenos en acción, GeoGebra](https://www.geogebra.org/m/apugw426)
+[Coordenadas Polares, Python](https://colab.research.google.com/drive/1O6KB_AG2zhCro2I6D3EPKdTxkJDll_5K?usp=drive_link)
+#2 Unidad 3. Espacios vectoriales
+- ¿Qué es un espacio vectorial?[Notas](gd:1quxtHBHwqLNxHekpOZxLfPR5SiUHx6q7) Videos: [1](yt:OH-Jl37SJpw) [2](yt:WJsTf6GlfC8@26s) [Cuestionario](gf:1FAIpQLSdqHwimU7CmNaIdtAjY8y4I5tcqzMEQdpnqF8f_cQnthwkjWA)
+- ¿Son las matrices un espacio vectorial? Notas: [1](gd:1qPJhrs5hn6tTiLTjjU0CuHsytKQvwMba) [2](gd:1hO5SvPwnPJgxEIdHjS72BEiLdpZri_v0) Videos: [1](yt:8eSPCQdOU-M) [2](yt:TJxQZu-vjJk) [3](yt:lr33ZwVf0ms) [Cuest1](gf:1FAIpQLScNaMlR7bNIWbcEf-X8AOgc3uoLUW73cOgnLoMnlOQHxg95pg) [Cuest2](gf:1FAIpQLScifZe6Hy1A6L3A6loEsx1gmdw7yxwlsRCOs0YmVRMbKZlWLg)
+- Subespacio vectorial[Notas](gd:1g--Uq9si_NNKOvRT7JrAaMaU7Ew5k1HV) Video: [1](yt:vVF7fGhsu6A@5s) [2](yt:g6wbnQyhg1I@4s) [3](yt:0ou3pmjiM-8) [4](yt:JPCMq7LzR_s@1s) [5](yt:frkigTe7E2Q@2s) [6](yt:VmoCgoIvd8Y@73s) [Cuestionario](gf:1FAIpQLSfvcn-tPdN3gdWAzRQDlpQtKV2rUqDi7LLcDxgzu2wryEl21g)
+- Dependencia e Independencia Lineal[Notas](gd:1mZ-RzHK7yOWpPsC6qWFJNwQkIejEcijc) Video: [1](yt:uzYYUF0DDDY@2s), [2](yt:S26Ib2UOpXg@0s) [Cuestionario](gf:1FAIpQLSfm37IIy61AJwNitbmpVQ2MlzCkgL6Onqf0KGam8n4Brq27Cg)
+- Bases de un espacio vectorial[Notas](gd:1IIogWpe7EdSNGorqUOC0tsL0IfdpJsgl), +[notas](gd:1cSwNaQbwn0c7p_2G6O3j8x8z_COpgI6W) Videos: [1](yt:YVGZ8sPjlH0@2s) [2](yt:rysueB5dKtk) [3](yt:tRvxlLqAIrc) [Cuestionario](gf:1FAIpQLSeUCJKqBiBkmsa3rNT_dmNA9wHFca_L3XLJu1zzkb26nxfa3A)
+- Producto punto[Notas](gd:1stwMvoXnsoIux7JS8RSsw5RB6-F_zXUs) Videos: [1](yt:xR9kvAOYbLk@0s) [2](yt:J3pKRTWasg0@197s) [Cuestionario](gf:1FAIpQLSeUSGCwoVMdWvVuRIYqiOWvqLeqdNLBr1W7of9WO9JA3vDotg)
+- Determinantes: Cálculo y Propiedades.Notas Videos: [1](yt:E-4YGsoeO3w@2s) [2](yt:WNrYB0fF_IY) [Cuestionario](gf:1FAIpQLScX3qUJnENtZYqYiB-cJrwJS4_mfDwjqbdWte7e3WN8-E2g1A)
+- Producto cruz (Producto vectorial)[Notas](gd:1hc6CXH5MriwlyItb_gc9LafNxDN3LyWR) Videos: [1](yt:jUhD0Lueq_c) [Cuestionario](gf:1FAIpQLSego7DoFzwy-tkOQX62wif2JJbAhrigeT1q0oTQF0jecKdVeg)
+- Producto triple de vectores[Notas](gd:19GDK1WyGExDwNajFezDSWkJkcACDi4ze) Videos: [1](yt:d6pCsWd-_wo@0s) [2](yt:u1T45O4RsQ0@0s) [Cuestionario](gf:1FAIpQLSeuwhysLDDi3ham7Q45dPChGRLoFpvS2tvCeTOWc6vdonO9Kw)
+- Ejercicios de repaso[Notas](gd:1oylF86pan_TIXBHTYLgNOKcFXVjdzqOk)
+#3 [Ejercicios de práctica](gd:10-AXGM3ElfMsXDFiixi8ImtTEhf069Bh) [Cuestionario](gf:1FAIpQLSf37E1iTIRB67O4v_0zKntcMPE_aiS4gBtlLf8wZZ1K0xlJdQ)
+#3 Actividades, preguntas y retos
+[La forma vectorial de la ley de cosenos](https://www.geogebra.org/m/tkn8tadf), GeoGebra
+[Vectores y matrices 1, Python](https://colab.research.google.com/drive/1gXs1PWWy4VglBcGDy1Nn5heuoqkgtLCQ?usp=drive_link)
+[Vectores y matrices 2, Python](https://colab.research.google.com/drive/1vPaAgDhMXqfDh6c8OZjYUudx3KXlHtUk?usp=drive_link)
+#2 Unidad 4. Rectas y Planos
+- Ecuaciones de la recta en el plano[Notas](gd:187_NV1TVzALQOfLQwg_f9jGj9a_eb2NL) Video: [1](yt:EGX76qqoF0g) [2](yt:tEgvFy4ZNPk@133s) [Cuestionario](gf:1FAIpQLSdOtbeQS0h04fp9rDp5d4skMTRMjDjRBfyLwG1EynU5yw5jBQ)
+- Ecuaciones de la recta en R^n[Notas](gd:10oUpUt91doAJ73-VE_mcs20GIIuuBZ6I) Videos: [1](yt:ROluTepx-Tg) [Cuestionario](gf:1FAIpQLSdykqP-JqxRtK1Foi02zlxxUXMW3gtq4AjF8pYIfTbH4OEyKA)
+- Semiplanos, dividir un segmento en partes iguales[Notas](gd:1IVmpcp3BPeESz-j0ThqVznaQaaEkPy11) Videos: [1](yt:8rI5Sht18hc) [Cuestionario](gf:1FAIpQLSezbhoIY6J5_3QowRpenAIuKgFh7gBHDhvbvUQgpwWLspRswg)
+- Rectas y distancias en el espacio[Notas](gd:1O9ERzTTOj6wadDwU-ndDC4W4bWTH7krg) Videos: [1](yt:XOfla39aFLU) [2](yt:nqFDCVACLvc@1s) [3](yt:q-HhOFut1cU@20s) [Cuestionario](gf:1FAIpQLSdkkQ7slEkO-nfGVMaOVr_pINyg0049spGlbaOlQkmdbyUBgw)
+- Ecuaciones de planos en el espacio[Notas](gd:1daXk0MuV0Wu-NnRYnJEU1CzlTEkZ8zvj) Videos: [1](yt:Bily1QkSibk) [2](yt:9-ELlC43jTo@511s) [Cuestionario](gf:1FAIpQLSfqYhgngawEu9UL7aMqPVpJB-kaqV0HlMmUp3L_wDrKDx707A)
+- Planos y distancias en el espacio [Notas](gd:1NXf1dJWCGA4_XCcPJpeK2CS54n9QoVMK) Videos: [1](yt:rlJty5-Z2zg) [2](yt:CIeV8K2zx6k) [3](yt:Uzkjr4F_KJ0) [Cuestionario](gf:1FAIpQLSeF5QJmd3BPrIiR08pKaZUFG4BdduPiKTo2NhHMXJJI6DlyEg)
+[Ejercicios de práctica](gd:1WXcqDeRfjgj9PU1-91PGp_d3-AWhwgWL) [Cuestionario](gf:1FAIpQLSeF2yF_c7w9g8SN-MJVfgQ4T2l_bjFWaTWpyH2sAqT7_u8Tbg)
+#3 Actividades, preguntas y retos
+[Ecuaciones de la recta en el plano, GeoGebra](https://www.geogebra.org/m/ucmffh7p)
+[Ecuaciones de la recta en el espacio, GeoGebra](https://www.geogebra.org/m/cxwmaumg)
+[Ecuaciones del plano, GeoGebra](https://www.geogebra.org/m/kfhcf9py)
+#2 Unidad 5. Cónicas
+- ¿Qué y cuáles son las cónicas?[Notas](gd:1_lw5zj0IX5FqAVtEEBYbDPRqREA2_LEa) Video: [1](yt:w6o8OfW5NG8) [Cuestionario](gf:1FAIpQLSen6qv4WhjDYEQYqrHxnB0STH3DLqH89-0j0mupxBocUeuTTw)
+- Lugar geométrico de las cónicas[Notas](gd:12Fw6DE8KL6g8cXw5E41wzDSyWDjBSAXI) Video: [1](yt:MCIhjMkVhTA) [Cuestionario](gf:1FAIpQLSdI3Tb9Bs3EAdNVtbW2RtZ2NhEoxB_SxPGBofgp7ojjRZSdsg) Actividad bonita:
+- Ecuaciones canónicas de las cónicas[Notas](gd:1HRi7o3BXiim_kFZ4QnjHpqOYrzF8alMP) Videos: [1](yt:4Eu7ByNsajU) [2](yt:-vdUyzoo558) [3](yt:H-iXJNSpL7k) [4](yt:aGuxZz2rxxM@5s) [Cuestionario](gf:1FAIpQLScfSE5pVbaomQGs_x9TV365AlM0Fg_zNXyR5tEV8Sk7M6IfCw)Actidades en Geogebra: [Circunferencia](https://www.geogebra.org/m/pwd5r9yv), [Elipse](https://www.geogebra.org/m/vpgzafzy), [Parábola](https://www.geogebra.org/m/ma4svdhr), [Hipérbola](https://www.geogebra.org/m/pmymrn2j)
+- Traslaciones[Notas](gd:1nTgf74bAxm_XETFJPiKpx8Bro5uuZ2vj) Video: [1](yt:-UnyxEAWN3s) [2](yt:8NamXvH76AM) [Cuestionario](gf:1FAIpQLSdGatw8n1LqKnvxhgZdbHifKlE7aW98VsT5bpadfr01zxTCFg)
+- Rotación [Notas](gd:1BY5cUnEnus57d6ipwYQs2DyDHweTW8EX) Video: [1](yt:5pHLBdomT_s@3s) [Cuestionario](gf:1FAIpQLSeRaEDiSJ2wSPOJ-5QyM_DdrRKr0jC2--vmulz552abL3yIjg)
+- Simetrías de las cónicas[Notas](gd:19AKNjXig5wpBeX4l4BJkdN5NH6SfH_Cv) Video: [1](yt:-Th_VROKwF0) [Cuestionario](gf:1FAIpQLSfaYowPCE_GaeGcbWEXQMOpkHdyMqfZu4OjK9KsSBwJtzk00Q)
+- Discriminante y Excentricidad [Notas](gd:1rc5-0sVZYCOjR-iVdJeeiRFm2UO1DwcV) Video: [1](yt:MWXyo0fjCQU) [2](yt:d8H_aAcCa4Q) [Cuestionario](gf:1FAIpQLSdo4Gi5lEh6XMAif_6n0oArLAHp3T_Jp2uvMPLwYQhfbV_LYg)
+- Parametrización de curvas[Notas](gd:14gX1JpEOU-kvVeYUMUXSLWZd6eNXWZI5) Video: [1](yt:Llogw60yqMI) [Cuestionario](gf:1FAIpQLSfKaX_3n3bfjtMzzvp-DDHmJ_n8xM0y8tnSD0Aoy5q0JorPeQ)
+- Parametrización de las cónicas[Notas](gd:15WIRqikh9hvIheRTSCbuJjHIksVt2sn7) Videos: [1](yt:yMtXBu0RRVA) [2](yt:wyEOvw2XGRk) [Cuestionario](gf:1FAIpQLSed8lO4vTHpcot_gqolK8A0qNy3loqeEDxr1e7b5yJLVUIFig)
+[Ejercicios de práctica](gd:1547gZgGSzIhcx7pv8eKGLs9GWpN_a4v2) [Cuestionario](gf:1FAIpQLSe6SRhMes94CzBzrO83Kag6hl2rnYs3bceCyVZQsimtPMHiLQ)
+#3 Actividades, preguntas y retos
+[Dukensio y Sombra 1, GeoGebra](https://www.geogebra.org/m/htuqpq9w)
+[Dukensio y Sombra 2, GeoGebra](https://www.geogebra.org/m/cc4wa3re)
+[Telescopios, Antenas y Parábola, GeoGebra](https://www.geogebra.org/m/rz6ekhpq)
+[Cónicas a partir de circunferencias y mediatrices, GeoGebra](https://www.geogebra.org/m/aacskpxd)
+Agradecimientos:Cuestionarios: Sergio Arturo Armendariz TrejoListas de ejercicios: Antonio Romero TéllezActividades de autoevaluación: Nidia Elizabeth Gómez OrtegaActividades, preguntas y retos: Sabino Cano

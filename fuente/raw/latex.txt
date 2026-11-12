@@ -1,0 +1,10 @@
+#1 LaTeX en Overleaf
+Bienvenido, visitante que quiere escribir matemáticas bonitas, 😋.Esta sección más que un curso completo es una ayuda para quienes están aprendiendo a escribir en LaTeX. Los primeros dos videos son un Mini Cursito de aprender LaTeX con [Luis Jorge,](https://sites.google.com/im.unam.mx/luisjorgesanchezsaldana/p%C3%A1gina-principal?authuser=0) [Leonardo](https://nekomath.com/) y conmigo. Lo básico y necesario para escribir una tareita bonita. Los otros videos son explicaciones más detalladas de cada uno de los temas con [Luis Jorge](https://sites.google.com/im.unam.mx/luisjorgesanchezsaldana/p%C3%A1gina-principal?authuser=0) y yo.
+Minicurso de iniciación en LaTeX y Overleaf. [Parte 1](yt:A3wNAw7InTQ) [Parte 2](yt:shBNS53QBxo)
+Por temas
+- [Ambientes, Comandos y Operadores](yt:6IRhaqr0jHg)
+- [Tablas y Matrices](yt:m_PW7DVv37I)
+- [Referencias y bibliografía](yt:DiJkHQDEpH0)
+- [Diagramas e imágenes](yt:1ZRKKXiodlM@1s)
+- [Práctica: Escribir una tarea](yt:NSs8EcKLL7o)
+- [Hacer un Curriculum Vitae](yt:pHajFttkOsI@2s)

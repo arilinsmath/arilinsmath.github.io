@@ -1,0 +1,11 @@
+#1 Ecuaciones Diferenciales I
+#1 Aquí podrás encontrar todo el material que hemos realizado de Ecuaciones Diferenciales I
+1.Introducción
+1. Teorema Fundamental del Cálculo.
+Notas de Clase [1](gd:1FnlWUR4837iHtbJUch1-1jF9GV0Kne0y) [2](gd:10A9pPMYKfy44Q88wOiJbAvcoLLCHaXi2) [Ejercicios de Repaso](gf:1FAIpQLScL35s52gZAMgt3dSJIt5sPfOau6oXDiav6IyM7kCEX7-42Tg)
+2. Ecuaciones diferenciales separables
+Notas de Clase [1](gd:10iQ86vf0GUb3Sj6YtscqIzBtzKtx1P2k), Ejercicios: [1](gf:1FAIpQLSeFQsP7XjxwLhYbrsJR7XlFv66qo2Fk8lAayJOzEb3E9XlELg)
+3. Ecuaciones diferenciales lineales de primer orden
+Notas de Clase: [1](gd:1I2lpxE_iB4HjzaVGdprI7zbJrSXn9VtV), [2](gd:1WUVp5iJmUWv2OXZDhy4m_aOmKD38QW_D)
+Este material está hecho en tiempo real.
+Realizado por Alejandro Legaspe

@@ -1,0 +1,75 @@
+#1 Álgebra Superior I
+Impartido por: [Arilín Haro](https://sites.google.com/view/arilinsmathworld/) y [Luis Jorge Sánchez Saldaña](https://sites.google.com/im.unam.mx/luisjorgesanchezsaldana/).En la Facultad de Ciencias, para alumnos de Licenciatura en MatemáticasPara ver más ejemplos y ejercicios se sugiere consultar A Transition to Advanced Mathematics,. 7th Edition. Douglas Smith, Maurice Eggen, and. Richard St. Andre.
+VIDEO yt:oS9pVSVwvos
+- Lógica y Demostraciones.
+- Proposiciones, conectores y cuantificadores.
+- Videos: [1](yt:WiBv_eCfXzM@5s) [2](yt:FrbZfXifopU@319s) [3](yt:v0DXholI7-8) [4](yt:bs3xxDPKLlM@9s) [5](yt:E6wNy1qEjLM) [6](yt:24HpOdDlUxM) Notas: [1](gd:12WkXJd0Qzn1h14lJSgzqY6rKvuI99W8P) [2](gd:129LyhgKz23Ywvr2_saghwrrHJfNO4VHL) [3](gd:1uF71kKbU4DT3yIbMBr0iBRb7R8iZyV5S) [4](gd:1LV6m2-GqUM3WmUTD_560tC-2EjIiv1LB) [5](gd:1ORV9ZEV6VM84afSL11KF7n8_yvTD6eqP)
+- Condicionales y bicondicionales.
+- Videos: [1](yt:TyjiU4HL92I) [2](yt:urZ8jxM2d8s) [3](yt:XUfQpYqzEj0@17s) Notas: [1](gd:1arBEi3x-XTgCyNiFYYirTGGxskMphT3X) [2](gd:1dELjsUfyCGeGNcVYp3uDF0ez6xlcUa7c)
+- Demostraciones: ¿Qué? y ¿Cómo?
+- Videos: [1](yt:OGLJYmPXPK4@1s) [2](yt:HGKyLuoXZEg) [3](yt:N_jbnIVokck) [4](yt:c4dWc5yxFF4@35s) Videos de Arilín: [1](yt:8uslc0hd4Bg@2s) [2](yt:gtWrV2fxAfQ@2s) [3](yt:BPWmWpFDI6k@28s) [4](yt:Pw0i2qoqlzE@5s)
+- Contrapositiva y Contradicción.
+- Videos: [1](yt:EkMjOOlTKFE) [2](yt:pkleiMI8l5w) [3](yt:4U3F9AJh6S8) [4](yt:sVeF71svKys)
+- Bicondicional y Demostraciones con Cuantificadores.
+- Videos: [1](yt:G3rfnvfkQW0) [2](yt:qhIYaNMNLLY) [3](yt:PHJY5JzAXfY@96s) Notas: [1](gd:1uofODuPBmIciAtEhntFnlJc9ktvXR5UT)
+- Ejemplos de demostraciones.
+- Videos: [1](yt:NQjvhMsqfI8) [2](yt:sVeF71svKys@1s)
+#3 [Ejercicios](gd:1rgONq4paXPPoVUzJDExUtBCSxLn26rGW) - [Cuestionario](gf:1FAIpQLSdkggqY3v0lY6Q59_YHdI3sUV1sMN4HWkgwHTalw9Uz52OVEA) - [Más ejemplos](gd:1PdwwtN0t8CqmzhEtJGvdRjAY3MBJrUmB)
+- Conjuntos y Relaciones.
+- Conjuntos, subconjuntos, igualdad de conjuntos.
+- Videos: [1](yt:Filcz-IgkT4@1s) [2](yt:JLR-0Vss_uI@0s) [3](yt:ALnGd8MbIcA@0s) [4](yt:JdlPlllxAKs) Notas: [1](gd:13DiwMxq9f1fGy1_MsnhcG49N8DUpTrLe)
+- Operaciones con conjuntos: Unión, Intersección, Diferencia y Complemento.
+- Videos: [1](yt:cQpQSWHDmp8) [2](yt:sboyaAtYnuk) [3](yt:WSq0k1agYuw) [4](yt:MZYno9rXTcQ) Notas: [1](gd:1gaR4JC4RyHmRO7UpfuEMFUgxXeqGmmvj)
+- Propiedades de las Operaciones de Conjuntos.
+- Videos: [1](yt:5HrLdhwcnvc) Notas: [1](gd:1MFrSv19rv5w1EitfmIoIkTutYO_J9Ep0)
+- Conjunto potencia, Producto Cartesiano y Familias de Conjuntos.
+- Videos: [1](yt:dlDImFCLqqw@535s) [2](yt:QlT_v29i4FE) [3](yt:14sgj_I5ye8) [4](yt:z4iFLRquARE) Notas: [1](gd:19EMF-LcqKmuz_60etAs9a7JIWEGGrc8U)
+- Relaciones: Dominio, Codominio, Imagen y Composición.
+- Videos: [1](yt:QbXS4URiE7c) [2](yt:fOj21cwXlXw@3s) [3](yt:ARiGwAAoJDg) Notas: [1](gd:1ChCPVJ8L21h0FDhTw0wnxQJSUo-a3jCl)
+- Relaciones de equivalencia y Particiones.
+- Videos: [1](yt:5-k1A1cFEVs@11s) [2](yt:5SBlAKmPnSw) [3](yt:nawrxrzlV68@23s) [4](yt:HiX49ZK061o) Notas: [1](gd:16eu179JJKY3Omd5QwgSX35FdfEucdxAH)
+#3 [Ejercicios](gd:1tfKdPTKIvVqHqdSHsLzicXAzO_hnh_0z) - [Cuestionario](gf:1FAIpQLSdIXzc6woeN4Uk0Du0P5Z56rMoVzqyUDLGXvQJyo35UY9IiVA) - [Más ejemplos](gd:1Be8hcdzTdJ0h9ECTcHdJI0UsYeT-yCdA)
+- Funciones y Cardinalidad.
+- Funciones: Definición, Imagen, Preimagen e Igualdad de funciones.
+- Videos: [1](yt:22NJbX49Hew) [2](yt:wFRr9Ka2Igk) [3](yt:Ml39StHV8O0) [4](yt:-stolcB_na0) Notas: [1](gd:1Kh-UoTuy-3kHNmxhSNEIZYaDrx5PrEBT) [2](gd:1jMuATCyQOY8aOJ_vYgv5jokoLqdHsSp6)
+- Composición, Inversa y restricción.
+- Videos: [1](yt:4je1fU40ffA) [2](yt:o53-WeESPfo) [3](yt:at1M11GcjpQ) [4](yt:3mOXYjzXxSc) Notas: [1](gd:1KsvOspTLfsYYZJ0hUfhhcv6ak5RpOdsp)
+- Funciones Suprayectivas, Inyectivas y Biyectivas.
+- Videos: [1](yt:u1MmMCbqJpg) [2](yt:2VIpusL8EJs) [3](yt:m6Q5gb7IqPI) [4](yt:zYQdI0cl0EQ) [5](yt:uPEATGBpHhg) [6](yt:lzuq9UxwVWc) Notas: [1](gd:1HKlkEVYXI_GA7FOSUJmPiZdB72RhIo8u)
+- Funciones biyectivas e invertibles.
+- Videos: [1](yt:pAegBa24Ye0) [2](yt:AkK3u2lBnWU) [3](yt:68We1Todrnw@1s) Notas: [1](gd:1WhEtudB9AEeKD0ETkcCy6ploQgUuIsiT)
+- Cardinalidad.
+- Videos: [1](yt:i_en03l1KiA) [2](yt:-G0G89jFfDI) [3](yt:K9CSETqqy9Y) [4](yt:MQS5T5l40SM) [5](yt:41-myKgXNas) Notas: [1](gd:1EdCJU7MMnuztv2E4vMTzNz8mm_YimLdj) [2](gd:1plxW0hzvYPLZ_l1gOuPpC7s_edeG3IwU) [3](gd:1QwZ49-wLUGiJa39wa0YFaLU7NgMGyteQ)
+- Ejercicios de funciones.
+- No hay videos ni notas para este día.
+#3 [Ejercicios](gd:17UII0SQFV0R2QZhdkbHKPP7Sziz_mEUh) - [Cuestionario](gf:1FAIpQLSckOan3l4cpgpQMoMKUUBgGRuWPEITs8JxUTsfktyCAw_oELA) - Más ejemplos [1](gd:1NP43PJiuX_CCaBWrWsNHLmezRsegFmsW) [2](gd:1rPxYu361DdkEGe1J8wIfOZ7J7cn6KORX) [3](gd:13ixmHasZgR8QYDzpTcrMeK2ey2oMLqT2) [4](gd:1aVUTfV3ph8KUcUJ_W6BuwwXWP0EAcVDt) [5](gd:1HtfEDgFEZ9l63Xco9gyTY6XFNQ3UAxGZ)
+- Inducción y Combinatoria.
+- Números Naturales e Inducción Matemática.
+- Videos: [1](yt:RzzrQFqE2p0) [2](yt:7uJ-Iuj1RKg) Videos alternativos: [1](yt:oYRI0dYG1qg) [2](yt:H7GFElmoMig@1012s) Notas: [1](gd:10tJxbckCflHMZGaXZxsDARS_XOV7ftJp) v.a: [1 y 2](gd:1ORg9cWgpwPkLbLMiaUDUwbF1YwmizkAU)
+- Ejemplos Interesantes de Inducción.
+- Videos: [1](yt:7N73ykDWKHI) [Sumatoria](yt:3gq9EjkluqU) Notas: [1](gd:1Gb4N4Pq671v9z0stBxK9R_PCZwVRzBeL)
+- Ordenaciones con repetición, Ordenaciones, Permutaciones y Combinaciones.
+- Videos: [1](yt:_dvD8DCoG7Q) [2](yt:ao7Dyu_vfg0) [3](yt:fBOhRYdxVXA) Notas: [1](gd:16Lt1bZQ3QBZpBAmq29lF33XPqWeCQLg6)
+- Ejemplos de combinatoria y propiedades del combinatorio
+- Videos: [1](yt:hyiLSeY_BG0@192s) [2](yt:XTb2zIKzXyY) [3](yt:O9R7dQ_W57o) Notas: [1](gd:1_WZEHlr6-Sers-3A92qVWMfCuklxzAuB)
+- Teorema de binomio y Triángulo de Pascal.
+- Videos: [1](yt:GwoCQujkW7Q) [2](yt:GJCaOHyxh9M) [3](yt:PqodGdHUSiQ) [Dem. Teo. del Binomio](yt:ZbAmvvNjRZE@546s) [Triángulo de Pasca](yt:B3Z75lDnU7o)l Notas: [1](gd:1PXbyekU60huBcsdq5IKWCzJ1xoGC2jfP)
+#3 [Ejercicios](gd:1Tam343wwX1KTFs64Dg4Bo314uqbQN4Nv) - [Cuestionario](gf:1FAIpQLSeFlsKRnpzTg-L_BOHWT6K6Wp72E7K2SOsfsTPi18jbvOvSyA)- [Más ejemplos](gd:1KZYL5ajYULTq7NkuAlyp7rqMm_FA-6qA)
+- Sistemas de ecuaciones, determinantes y espacios vectoriales.
+- Sistemas de ecuaciones lineales, sus soluciones y su matriz de coeficientes.
+- Videos: [1](yt:eAviut3zJMU) [2](yt:EgZXv_lwfHk) [3](yt:JPROTD_eGOQ) [4](yt:VIc-ywne9tc) Notas: [1](gd:1E7X0D7zMJdaIJqr4QnkUbHe_WkhKhOso)
+- El proceso de Gauss-Jordan y análisis cualitativo de soluciones.
+- Videos: [1](yt:-c-Cudqh1vw) [2](yt:sV8QAJ1296A) [3](yt:zDTjSqWbdXY) [4](yt:HjYF57dRS6o) Notas: [1](gd:1BzRIktp7pGeSQXVN5SCl649vejyoNxiA) [2](gd:1jMBRpXbi7LNqDlqtyT0vz7Ipb7UzaqVJ)
+- Matrices y operaciones con matrices: Suma, Resta, Multiplicación. Transpuesta.
+- Videos: [1](yt:8eSPCQdOU-M) [2](yt:oOUA0pHHjrY) [3](yt:qEviWv6GjjY) Notas: [1](gd:1wNxCoAIeWSBvQA-pVkQh9_JraCZUwN81)
+- Determinantes: Cálculo y Propiedades.
+- Videos: [1](yt:E-4YGsoeO3w@2s) [2](yt:WNrYB0fF_IY) [3](yt:_Ahyo-BAatI) Notas: [1](gd:1zCMBYX7ltkVEq2Dk2-QSSUwgWiyqIOzl)
+- R^2 y R^3 como espacios vectoriales.
+- Videos: [1](yt:OH-Jl37SJpw) [2](yt:vVF7fGhsu6A@0s) [3](yt:g6wbnQyhg1I@3s) Notas: [1](gd:1ndmv4qqT47q6dFbPLfdpNaicpG4hfpFo)
+- Para profundizar en espacios vectoriales te sugerimos esta [playlist](ytl:PLsHfADbz5gM7ZZnqKkglAu91S2omDZJDg).
+#3 [Ejercicios](gd:17pdEdiGPVyOnaJCdeyWNkp9RNvcMuKZa), [Cuestionario](gf:1FAIpQLScKOoizP4zGjuw8Ypuzj92E4gw8VGq3PF4Iuh5k9LCULmyyiA) y más [ejercicios](gd:1FPaknB_ZRi-U7GWqc1NFQ5E8rYxGJCyV)
+#3 Agradecimientos
+- Videos y notas elaborados por : [Arilín Haro](https://sites.google.com/view/arilinsmathworld/) y [Luis Jorge Sánchez Saldaña](https://sites.google.com/im.unam.mx/luisjorgesanchezsaldana/).
+- Cuestionarios elaborados por: [Samuel Restoy Berganza](https://resberg.wixsite.com/espejodevaldrada) y Arilín Haro.
+- Las listas de ejercicios de práctica fueron escritas por Brenda Navarro Flores.
+- Los ejemplos resueltos fueron escritos por Arilín Haro, Luis Jorge Sánchez Saldaña, Brenda Navarro Flores, Luis Fernando García Mora, Antonio Romero Téllez, Porfirio León Álvarez y [Samuel Restoy Berganza](https://resberg.wixsite.com/espejodevaldrada).

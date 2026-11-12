@@ -1,0 +1,80 @@
+#1 Álgebra
+#3 Facultad de Ciencias Licenciatura en Física
+Impartido por: [Arilín Haro](https://sites.google.com/view/arilinsmathworld/)
+Del programa Licenciatura en Física en la Facultad de Ciencias.
+VIDEO yt:oS9pVSVwvos
+- Conjuntos y Relaciones.
+- Conjuntos, subconjuntos, igualdad de conjuntos.
+- Videos: [1](yt:Filcz-IgkT4@1s) [2](yt:JLR-0Vss_uI@0s) [3](yt:ALnGd8MbIcA@0s) [4](yt:JdlPlllxAKs) Notas: [1](gd:13DiwMxq9f1fGy1_MsnhcG49N8DUpTrLe)
+- Operaciones con conjuntos: Unión, Intersección, Diferencia y Complemento.
+- Videos: [1](yt:cQpQSWHDmp8) [2](yt:sboyaAtYnuk) [3](yt:WSq0k1agYuw) [4](yt:MZYno9rXTcQ) Notas: [1](gd:1gaR4JC4RyHmRO7UpfuEMFUgxXeqGmmvj)
+- Propiedades de las Operaciones de Conjuntos.
+- Videos: [1](yt:5HrLdhwcnvc) Notas: [1](gd:1MFrSv19rv5w1EitfmIoIkTutYO_J9Ep0)
+- Conjunto potencia, Producto Cartesiano y Familias de Conjuntos.
+- Videos: [1](yt:dlDImFCLqqw@535s) [2](yt:QlT_v29i4FE) [3](yt:14sgj_I5ye8) [4](yt:z4iFLRquARE) Notas: [1](gd:19EMF-LcqKmuz_60etAs9a7JIWEGGrc8U) [2](gd:10Hjmm6CIYYZgPGAegUUoroumx3s-dnkl) [3](gd:1TCvfo1fMiHdWAKFXBfEncmLcuoB64eT5)
+- Relaciones: Dominio, Codominio, Imagen y Composición.
+- Videos: [1](yt:QbXS4URiE7c) [2](yt:fOj21cwXlXw@3s) [3](yt:ARiGwAAoJDg) Notas: [1](gd:1ChCPVJ8L21h0FDhTw0wnxQJSUo-a3jCl)
+- Relaciones de equivalencia y Particiones.
+- Videos: [1](yt:5-k1A1cFEVs@11s) [2](yt:5SBlAKmPnSw) [3](yt:nawrxrzlV68@23s) [4](yt:HiX49ZK061o) Notas: [1](gd:16eu179JJKY3Omd5QwgSX35FdfEucdxAH)
+#3 [Ejercicios](gd:1Fid-YRZdz2HxlAFl9nqKDBHTPFjPUQtF) - [Cuestionario](gf:1FAIpQLSdIXzc6woeN4Uk0Du0P5Z56rMoVzqyUDLGXvQJyo35UY9IiVA) - [Más ejemplos](gd:1Be8hcdzTdJ0h9ECTcHdJI0UsYeT-yCdA)
+- Funciones y Cardinalidad.
+- Funciones: Definición, Imagen, Preimagen e Igualdad de funciones.
+- Videos: [1](yt:22NJbX49Hew) [2](yt:wFRr9Ka2Igk) [3](yt:Ml39StHV8O0) [4](yt:-stolcB_na0) Notas: [1](gd:1Kh-UoTuy-3kHNmxhSNEIZYaDrx5PrEBT) [2](gd:1jMuATCyQOY8aOJ_vYgv5jokoLqdHsSp6)
+- Composición, Inversa y restricción.
+- Videos: [1](yt:4je1fU40ffA) [2](yt:o53-WeESPfo) [3](yt:at1M11GcjpQ) [4](yt:3mOXYjzXxSc) Notas: [1](gd:19R-Jq1a_AeloaJInrrtEmey6u-uv9Obv)
+- Funciones Suprayectivas, Inyectivas y Biyectivas.
+- Videos: [1](yt:u1MmMCbqJpg) [2](yt:2VIpusL8EJs) [3](yt:m6Q5gb7IqPI) [4](yt:zYQdI0cl0EQ) [5](yt:uPEATGBpHhg) [6](yt:lzuq9UxwVWc) Notas: [1](gd:1-8KCiTQzGAsqkqPBvmNrGrYlbwevEbBu)
+- Funciones biyectivas e invertibles.
+- Videos: [1](yt:pAegBa24Ye0) [2](yt:AkK3u2lBnWU) [3](yt:68We1Todrnw@1s) Notas: [1](gd:1EfGelxINHg7WXjbI_L4SxRhPRf8JNC8W)
+- Cardinalidad.
+- Videos: [1](yt:i_en03l1KiA) [2](yt:-G0G89jFfDI) [3](yt:K9CSETqqy9Y) [4](yt:MQS5T5l40SM) [5](yt:41-myKgXNas) Notas: [1](gd:1O7vIuJcDNxHPKe-10fgRqgdTT0pyjUHX) [2](gd:1zrEnG2mP8SewmXhlbohlbLgpGkMtccqX) [3](gd:1NT_aJEkdLzwwNnty9nRXrG8CIdZSKDI_)
+- Números Naturales e Inducción Matemática.
+- Videos: [1](yt:RzzrQFqE2p0) [2](yt:7uJ-Iuj1RKg) Notas: [1](gd:10tJxbckCflHMZGaXZxsDARS_XOV7ftJp)
+#3 [Ejercicios](gd:17UII0SQFV0R2QZhdkbHKPP7Sziz_mEUh) [+Ejercicios](gd:14ZMls9xGBjYw0douOY86nsnAak_Ue25o) - [Cuestionario](gf:1FAIpQLSckOan3l4cpgpQMoMKUUBgGRuWPEITs8JxUTsfktyCAw_oELA) - Más ejemplos [1](gd:1NP43PJiuX_CCaBWrWsNHLmezRsegFmsW) [2](gd:1rPxYu361DdkEGe1J8wIfOZ7J7cn6KORX) [3](gd:13ixmHasZgR8QYDzpTcrMeK2ey2oMLqT2) [4](gd:1aVUTfV3ph8KUcUJ_W6BuwwXWP0EAcVDt) [5](gd:1HtfEDgFEZ9l63Xco9gyTY6XFNQ3UAxGZ)
+- Matrices y Sistemas de ecuaciones
+- Matrices: ¿Qué y cómo? Tipos de matrices
+- Videos: [1](yt:8eSPCQdOU-M) [2](yt:UBBeBcJGkps) Notas: [1](gd:1qPJhrs5hn6tTiLTjjU0CuHsytKQvwMba)
+- Operaciones con matrices: Suma, Resta, Multiplicación escalar y de matrices, Transpuesta.
+- Videos: [1](yt:TJxQZu-vjJk) [2](yt:lr33ZwVf0ms) [3](yt:oOUA0pHHjrY) [4](yt:qEviWv6GjjY@1s) Notas: [1](gd:1hO5SvPwnPJgxEIdHjS72BEiLdpZri_v0) [2](gd:1hO5SvPwnPJgxEIdHjS72BEiLdpZri_v0)
+- Sistemas de Ecuaciones y sus matrices asociadas
+- Sistemas de ecuaciones lineales, sus soluciones.
+- Videos: [1](yt:eAviut3zJMU) [2](yt:EgZXv_lwfHk) Notas: [1](gd:1E7X0D7zMJdaIJqr4QnkUbHe_WkhKhOso)
+- Operaciones elementales reglón
+- Videos: [1](yt:JPROTD_eGOQ) [2](yt:VIc-ywne9tc) Notas: [1](gd:1E7X0D7zMJdaIJqr4QnkUbHe_WkhKhOso)
+- El proceso de Gauss-Jordan.
+- Videos: [1](yt:-c-Cudqh1vw) [2](yt:sV8QAJ1296A) Notas: [1](gd:1BzRIktp7pGeSQXVN5SCl649vejyoNxiA)
+- Análisis cualitativo de soluciones
+- Videos: [1](yt:zDTjSqWbdXY) [2](yt:HjYF57dRS6o) Notas: [1](gd:1jMBRpXbi7LNqDlqtyT0vz7Ipb7UzaqVJ)
+- Matrices invertibles y determinante de una matriz
+- Rango de una matriz y matrices elementales.
+- Videos: [1](yt:jsBEHyFcigM) [2](yt:__BJ5JMxKjo) Notas: [1](gd:12d6zBZdZWRmtkNHXMjNWHzJ0l23WZnT8)
+- Determinantes: Cálculo y Propiedades.
+- Videos: [1](yt:E-4YGsoeO3w@2s) [2](yt:WNrYB0fF_IY) [3](yt:_Ahyo-BAatI) Notas: [1](gd:1zCMBYX7ltkVEq2Dk2-QSSUwgWiyqIOzl)
+- Matrices invertibles:
+- Videos: [1](yt:VMl0gFvyAzc) Notas:
+#3 [Ejercicios](gd:17pdEdiGPVyOnaJCdeyWNkp9RNvcMuKZa), [+Ejercicios](gd:1FORQLup9oUsXIKnUIbTvXK_Zuhv8lVxE) y [Cuestionario](gf:1FAIpQLScKOoizP4zGjuw8Ypuzj92E4gw8VGq3PF4Iuh5k9LCULmyyiA)
+- Números Complejos
+- Los números complejos: ¿Qué son? Operaciones con i.
+- Videos: [1](yt:vRJx2LO5ABI) [2](yt:fgnb2CTf_Y8) [3](yt:YRA1dMnw36Q) [4](yt:VOt3PdN28GQ) Notas: [1](gd:1bK7_4ExKIZLwvLEBX6XzSsMsEq3JQRSN)
+- EL plano complejo. Representación polar. Propiedades del módulo de un número complejo.
+- Videos: [1](yt:dMOYHoMRKDA) [2](yt:ssWZwwp4LBs) [3](yt:HqHlB8FyrRA) Notas: [1](gd:1R_TEeKdvW5UcYqajLX6N1qftaGBs3sUi)
+- El conjugado de un número complejo (propiedades). Ecuaciones de segundo grado.
+- Videos: [1](yt:oynb3gDroSo) [2](yt:jiIDIacBVns@2s) [3](yt:qGWOek5LDSw) Notas: [1](gd:1qGfFUo8vkrfZwo4FyJuGQQUlEMxpILDb)
+- Teorema de Moivre. Raíces de números complejos.
+- Videos: [1](yt:kZz6w9YkTu4) [2](yt:zQynB-vbMQk) [3](yt:HkGrTdwbnWw) Notas: [1](gd:1kkbSMxj4gdkrRo5k2SV9u1ZAulmfQ2wu)
+#3 [Ejercicios](gd:14gMmnY97ziZMFSpKwKR6vEJOpKVWVu7a) - [Cuestionario](gf:1FAIpQLSdvZHdKYp9Z5uj3pMv6BpKPNi5bQD7olvSiG5e25RhS0u4zDw)
+- Polinomios.
+- Polinomios con coeficientes en un campo (Q, R, C). Operaciones.
+- Video: [1](yt:1Ath__bxRDg) [2](yt:qQRSHg1W_1g) [3](yt:ZgqMBN3VVeY@2s) [4](yt:rPffB2prdHo) Notas: [1](gd:1q_ihy5zhNuvrONxYK9S8QXX309dzFp9P)
+- Divisibilidad de polinomios, división de polinomios y división sintética
+- Videos: [1](yt:dpUIZqf6RPE) [2](yt:bhB9LhQi2VI) [3](yt:FqvCpYxwASU) Notas: [1](gd:1ZBiYrceJmhzShHOIfDTGwWAmDY6IF44D)
+- Raíces de Polinomios, Teorema del residuo y Teorema del Factor.
+- Videos: [1](yt:pxIlyYRQwI8) [2](yt:Jr7CPR_5Tzo) [3](yt:sOq6-wYFJIY) Notas: [1](gd:1wwcdybKOE6UKhXh-ilFb6WiM-GpdpVE1)
+- Factorización de polinomios. Cálculo aproximado de raíces.
+- Videos: [1](yt:WtptN_WzOMA) [2](yt:60spcZZsXUU) [3](yt:K24dJqyu6Os) [4](yt:dStk-SaPc2Y@9s) Notas: [1](gd:1dlV_4hOCKZfAHM3RnemYJltTLwgjDMgA)
+#3 [Ejercicios](gd:1nBbooMsgCOorHDhml-yynOstnqSNLvYZ) - [Cuestionario](gf:1FAIpQLSeo5reDhJwujMVZuHe__TN6xzgveXdbAoqSrbQ9PT6acqFgng)
+#3 Agradecimientos
+- Videos y notas elaborados por : [Arilín Haro](https://sites.google.com/view/arilinsmathworld/) y [Luis Jorge Sánchez Saldaña](https://sites.google.com/im.unam.mx/luisjorgesanchezsaldana/).
+- Cuestionarios elaborados por: [Samuel Restoy Berganza](https://resberg.wixsite.com/espejodevaldrada), Pablo Adrian Hernandez Munguia y Arilín Haro.
+- Las listas de ejercicios de práctica fueron escritas por Antonio Romero Tellez, Brenda Navarro Flores y Arilín Haro
+- Los ejemplos resueltos fueron escritos por Arilín Haro, Luis Jorge Sánchez Saldaña, Brenda Navarro Flores, Luis Fernando García Mora, Antonio Romero Téllez, Porfirio León Álvarez y [Samuel Restoy Berganza](https://resberg.wixsite.com/espejodevaldrada).

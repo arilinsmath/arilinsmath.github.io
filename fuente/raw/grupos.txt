@@ -1,0 +1,163 @@
+#1 Introducción
+#1 a la teoría de grupos
+Bibliografía:
+- An introduction to the theory of groups. Joseph J. Rotman.
+Créditos:
+Notas y videos complementarios: Daniel Guardado Cabral.
+Cuestionarios: Víctor Eduardo San Martín Macías.
+Videos: Luis Jorge Sánchez Saldaña.
+Foto de portada: Encontrada en FB.
+VIDEO yt:KZdsLFQv7iM
+#1 Permutaciones
+- Permutaciones.
+- Notas: [1](gd:11A_CxKLDf9DOJvlWNvqsG-xR_m4mQefO)
+- Cuestionario: [1](gf:1FAIpQLSfOn7x_jXVy-IVQTblSsiuSuc69OyvQcQVu6TJOhZJzD0PBSQ)
+- Videos: [1](yt:jv_SDsUl5Ww@7s) [2](yt:m87e0HbDPEc)
+- Video complementario: [1](gd:1IMPwBSi_jZiBr_fcOQ__DHmKYl9jhhS9)
+- Ciclos.
+- Notas: [1](gd:1Z1sRPIzSooSmdDl2okp0zXaKPyc9iGWR)
+- Cuestionario: [1](gf:1FAIpQLSdNiEUzKOSZNcbIEgCQIxNva-duArnBJbdM4mPLFWIGQXxNTQ)
+- Videos: [1](yt:NUvm3xt24IY) [2](yt:kt_wYcv-0TE)
+- Video complementario: [1](gd:1pYLUvSlzaC6fvun2C3IOOFoqwR6nH3EU)
+- Factorización en ciclos disjuntos.
+- Notas: [1](gd:1dFa_LX94lTN13R_XtbZoEZr11tDWx0Bf)
+- Cuestionario: [1](gf:1FAIpQLSef46UQefFYyT4CfhKP-f3hz7f6jh2zwXs0RvC9IM29CZP9Yw)
+- Videos: [1](yt:ThIxDzu927s) [2](yt:YURs3HUa4rI) [3](yt:eKiqBTPjCE8)
+- Video complementario: [1](gd:1BbdLX3YSubod2L0scS1ZXzm4thpzI7L1)
+- Permutaciones pares e impares.
+- Notas: [1](gd:1xer439xUIjqz-GDLkVMpWCPAp9SniAfG)
+- Cuestionario: [1](gf:1FAIpQLSdjYud8Wc182-SvimbV2_xyXDCspgCAzksPpf-cIaHdwH3kPg)
+- Videos: [1](yt:9glWsKaotog) [2](yt:D_16xzYcpVI) [3](yt:oyGk8h2lkZc) [4](yt:-rYk43dWuT8) [5](yt:RNZLT5kp5cU)
+- Video complementario: [1](gd:1d0ByqSO6ATbFumFzgk37JHaENRUygatG)
+CUESTIONARIO DE LA UNIDAD: [1](https://forms.gle/vAvSjx85pKrv3a5F8)
+[EJERCICIOS DE PRÁCTICA](https://www.overleaf.com/read/rdrgrtwzxtzs)
+#1 Grupos
+- Definición de grupo.
+- Notas: [1](gd:1_1HMIent-7NpMNIEhEG2hZ2NXai394Qt) [2](gd:1RDsMVnLIAHnH0EugEPBaajyqatw4c_TA)
+- Cuestionario: [1](gf:1FAIpQLSeKTwkP1-DsQ1g0FZ5rFFlRZy-CEE5es9bQclXXflbdoIjzKA)
+- Videos: [1](yt:kXstD-Uy3zI) [2](yt:ykIvLSgIF4o@6s) [3](yt:j4O3SIWbk3s) [4](yt:9pQXv_8avfQ) [5](yt:2hQGsXBVz0Y)
+- Video complementario: [1](gd:1lE9N3xAAV1rroEiAeO-sFngx-pn7N6xA) [2](gd:1gjy9Mh9gCsGNoyCmXTIwwg7vBYxVcX_8)
+- Homomorfismos.
+- Notas: [1](gd:1Dpk7zLahcP26TuPEtxFUQdP4w8zXkEeI)
+- Cuestionario: [1](gf:1FAIpQLScVZHMvkrRucBCEU2FdYZ3IqnOTlqB_srDdbLf0b9Dx21hrOw)
+- Videos: [1](yt:PIJ9XMrLTM4@3s) [2](yt:EtKhhVWdTPo@9s) [3](yt:bGBEMd9olmI@1s)
+- Video complementario: [1](gd:1FGiqbzTB_XbcNcwFo7fz4O7gEpPV3JNe)
+- Subgrupos.
+- Notas: [1](gd:12KEktDFSUIOUs9E5bFAn6FubhJOrdIxi)
+- Cuestionario: [1](https://docs.google.com/forms/d/10NOtss3cGOVjHqGdsk_c3Uy6K2QBTsF21YkLhoe29l8/edit?usp=sharing)
+- Videos: [1](yt:9Ni1M9XexbQ) [2](yt:w1GQwfojggM)
+- Video complementario: [1](gd:1xRvIVs30TtHnXjNd9xgrgCMytSJXng70)
+- Subgrupos cíclicos.
+- Notas: [1](gd:1Qz4HXGDjpeIuTFk40xf3nMOjr4D7NJvv)
+- Cuestionario: [1](gf:1FAIpQLScfq87zlsw14aEefwKuTKBSkTrDvCz8Vguo9_j9Kx15H2K72g)
+- Videos: [1](yt:rLD48TppBM0) [2](yt:0JEOUrMojEk) [3](yt:3kazL2li0Xw)
+- Video complementario: [1](gd:1tHMSz5ljt1vRVOWNe5M258oY9KuVeEiZ)
+- Subgrupos generados por un subconjunto.
+- Notas: [1](gd:1ak4xx0nc0iLHzsEv9tDVl5T5i7JreFFQ)
+- Cuestionario: [1](gf:1FAIpQLSe3n2AfNDUJBWsKhbQrZfluYSHONKyeR74pHNmzUtfeM9Vu8g)
+- Videos: [1](yt:fwCwLqMwjP8) [2](yt:UeN1cilTseg)
+- Video complementario: [1](gd:1JJlI0Qk0Ccy3_U5XTcUJMAsKTaCGWMiN)
+- Clases laterales.
+- Notas: [1](gd:1NkE78NHKigTOZ9yY7z6Hjw0y8GjZ33XQ)
+- Videos: [1](yt:-l7P9eV7sJk) [2](yt:Hx6M48CX1Tk) [3](yt:Un1I8xafA1U)
+- El teorema de Lagrange.
+- Notas: [1](gd:1hCExnvY_7paMU_i8SpHib1RCx2AdTzL_)
+- Cuestionario: [1](https://forms.gle/aTbBs4XKvwCDwbNPA)
+- Videos: [1](yt:E7AAzkR33-E) [2](yt:gg6JdqAd15c) [3](yt:6jlrq5tUYIw)
+- Video complementario:
+- Grupos Cíclicos
+- Notas: [1](gd:1MqnPvddEi4d5QGRlyW5kE1kayPJxJ6-b)
+- Cuestionario: [1](https://forms.gle/sLERvWjN5jzmGGEj6)
+- Videos: [1](yt:J96EwZiQnwA) [2](yt:gM5yDdcxYsw)
+- Video complementario:
+CUESTIONARIO DE LA UNIDAD: [1](https://forms.gle/DAnpZd5Vssz39MaZ6)
+[EJERCICIOS DE PRÁCTICA](https://www.overleaf.com/read/smdxqqwtzqsk)
+#1 Los teoremas de isomorfismo
+- Subgrupos normales.
+- Notas: [1](gd:1eFIpMXnFAe-8sMJ22MnkH5-M1iwJidgD)
+- Cuestionario: [1](https://forms.gle/xwUBYPT5wrXUQ7Wb9)
+- Videos: [1](yt:ETtTk0TsGAM@1s) [2](yt:l6ygi6D21SE) [3](yt:qIs-TYhQKWY) [4](yt:d6vKYGeu8Wg)
+- Video complementario:
+- Grupos cocientes.
+- Notas: [1](gd:1k-3tFvQtKobW57lMe5-VQ8K26uCMyO1k)
+- Cuestionario: [1](https://forms.gle/5NEa24rFf4n46ZPE8)
+- Videos: [1](yt:HnToYUJcgwM) [2](yt:tmPZkE2F_sk)
+- Video complementario:
+- El primer teorema de isomorfismo.
+- Notas: [1](gd:1eArRRU0W9fDIlfG0lqX-5IcD7Tm-Bcyd)
+- Cuestionario: [1](https://forms.gle/LNztqtU2PVKTF57j6)
+- Videos: [1](yt:wMaWMQEsWXY) [2](yt:6GLU9uzZauM)
+- Video complementario:
+- El segundo teorema de isomorfismo.
+- Notas: [1](gd:1NQBdGm6ufniY0OV2y7AXF3QIfdxSbFDl)
+- Cuestionario: [1](https://forms.gle/FWiiWRrZAfqGe6957)
+- Videos: [1](yt:xbspUW2ZJbM) [2](yt:NHKfLDemXZY)
+- Video complementario:
+- El tercer teorema de isomorfismo.
+- Notas: [1](gd:1udQOBT4c3NgHPiC3Vewv6V_GY2doeWS-)
+- Cuestionario: [1](https://forms.gle/ztAhBptnPtBu1UnC6)
+- Videos: [1](yt:XG--em2Cq4w)
+- Video complementario:
+- El teorema de la correspondencia.
+- Notas: [1](gd:1CvMpNBGayoo84uIjRy1b9G2XFdIkcJJ3)
+- Cuestionario: [1](https://forms.gle/cdSi66d32MeZi3jGA)
+- Videos: [1](yt:lIoEcs_GwLM)
+- Video complementario:
+- Producto directo:
+- Notas: [1](gd:19V57Sij9o_YfVDem_x3nnOtZViGDYwMH)
+- Cuestionario: [1](https://forms.gle/A4YLUd6ePufvcLae6)
+- Videos: [1](yt:0hI2zxeNnL8) [2](yt:54ZieHi4P-o) [3](yt:ykwpTVRy3jk)
+- Video complementario:
+CUESTIONARIO DE LA UNIDAD: [1](https://forms.gle/jqbXSBsTt8ygYR87A) [2](https://forms.gle/Ko2xGttA6JoxcY3KA)
+[EJERCICIOS DE PRÁCTICA](https://www.overleaf.com/read/nqrzcvdmnzbc)
+#1 Acciones de grupos
+- Conjugados.
+- Notas: [1](gd:1pBafAmxeMjrD1KDW76kiT9hhDNg3HTcM)
+- Cuestionario: [1](https://forms.gle/rLejy7i41mdQ48MT8)
+- Videos: [1](yt:GMtClyMAKkI) [2](yt:39_NeEVComg) [3](yt:fqQssRq0wFw)
+- Video complementario:
+- Más del grupo simétrico.
+- Notas: [1](gd:1LJdX8N5TuzvIh9NblnadVirqsPfbBwoo)
+- Cuestionario: [1](https://forms.gle/iTqUimeJZNY68e9a6)
+- Videos: [1](yt:TXLWoGUtGG8) [2](yt:mzSZXw9yv4I)
+- Video complementario:
+- Los grupos alternantes (grandes) son simples.
+- Notas: (pendiente)
+- Cuestionario:
+- Videos: [1](yt:fsOvD1UayvY) [2](yt:XAGYAR-0nKA) [3](yt:MA-VzURgFf4)
+- Video complementario:
+- Teoremas de representación.
+- Notas: [1](gd:1b2rOwEwLnVAJq8qTYThDTFO1EslfuCdb)
+- Cuestionario: [1](https://forms.gle/eybSSHfPTvU51vAD8)
+- Videos: [1](yt:1yIQI3Puc2Y)
+- Video complementario:
+- G-conjuntos.
+- Notas: [1](gd:1iOOUmB1k1chHwHY7blkbsOsnmSAmr-pY)
+- Cuestionario: [1](https://forms.gle/AA3kmiTFdRjyJMax6)
+- Videos: [1](yt:vd8nb8uIZmQ)
+- Video complementario:
+- Conteo de órbitas.
+- Notas: [1](gd:1FloWg1UZGO5zGannO1hvCsr9ft8h3TpY)
+- Cuestionario: [1](https://forms.gle/4reJ2KwKF1vwir258)
+- Videos: [1](yt:ZXvOztjq3ZE)
+- Video complementario:
+CUESTIONARIO DE LA UNIDAD:
+[EJERCICIOS DE PRÁCTICA](https://www.overleaf.com/read/zpypfthwghpj)
+#1 Los teoremas de Sylow
+- p-grupos
+- Notas: [1](gd:1R35NY1ZDXcXMhPjlQn9zeaBD75NzQouo)
+- Cuestionario: [1](https://forms.gle/9d4Vf22QNd9VgcYT6)
+- Videos: [1](yt:ZcY4vCcNrfI) [2](yt:xeHOwLYS2Ms)
+- Video complementario:
+- Los teoremas de Sylow
+- Notas: [1](gd:11FvTxMJbFDaxwhmShbSt6i2FpMVWO2nK)
+- Cuestionario:
+- Videos: [1](yt:j3UXvc4IoPY@423s) [2](yt:hiJXs9gSsEg)
+- Video complementario:
+- Grupos de orden pequeño.
+- Notas: (pendiente)
+- Cuestionario:
+- Videos:
+- Video complementario:
+CUESTIONARIO DE LA UNIDAD:
+EJERCICIOS DE PRÁCTICA

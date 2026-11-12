@@ -1,0 +1,64 @@
+#1 Álgebra Superior II
+La diversión continua...
+- Números Enteros
+- El anillo de los números enteros. Z como dominio entero.
+- Videos: [1](yt:rbc6PK21gPs) [2](yt:zgy8xksnRH4) Notas: [1](gd:1ulG2UXj_JykGYvipzFUKIGnA20MUDk0N) [Cuestionario](gf:1FAIpQLSdZb7uedL8TaxXgp-c5X2Pl1ItUCKoYmfs_3XsP_D2pvtdPJw)
+- El orden en Z. Unidades en Z.
+- Videos: [1](yt:9gAbv1s6OQs) [2](yt:JAunY_jyL70) Notas: [1](gd:19e02jZnQW8_P1zPzgTVQri_iJCUsD1I4) [2](gd:1GWkpv-FcaEMT77F-uh8VGDUgowgRkJCf) [Cuestionario](gf:1FAIpQLScYdFwN9fbH0TtDm0fxJnjUBUlId0V8uZWtVQ4urYxcU5U4zQ)
+- Principio de inducción.
+- Videos: [1](yt:RzzrQFqE2p0) [2](yt:oYRI0dYG1qg) Notas: [1](gd:1L-ltIMYpAQlHxc8x0r5AuBSXNWX8SoNS) [Cuestionario](gf:1FAIpQLSdBtAFvzWoJDDqPeBfPdL0k1IOFgSKSeE9nd4QaoKtJdc6fXQ)
+- Principio del buen orden.
+- Videos: [1](yt:tCssMboJPkQ) [2](yt:ChQSUSdt_aM) [3](yt:VJbaPex-uXM) [4](yt:C4KEIzVqZp4) Notas: [1](gd:18AJk_JZaNZzjwfwEkw4H_PxDleDm5kce) [Cuestionario](gf:1FAIpQLSelwF88KE_OBjab976Q3jQjUpb99DaT1Ls8hJrZ2-ZK14qwOA)
+#3 [Ejercicios](gd:1Qh-5VdLQ7MGscDI_pkYrqpTa1vGZ0cjv)- [Cuestionario](gf:1FAIpQLSeCHkeosOauDaIaGFNd7riceTa-2_9f0-XGjEBsOhhgeYw7hg) - Más ejemplos - [Erratas videos y notas](gd:1o6HkxL8JU1k__3FNDXhJZ4QOSV6ttD6e)
+- Divisibilidad
+Puedes encontrar las notas de toda la sección de divisibilidad y congruencias [aquí](https://1drv.ms/u/s!AvwFBFHLehCHtk-N9LNZIP37m063) en un documento de OneNote. Tal vez necesites una cuenta de microsoft, pero también puedes registrarte en Office 365 con tu cuenta institucional.
+- Divisibilidad: Propiedades elementales.
+- Videos: [1](yt:ay0brUvuwMA) [2](yt:uSvvhpti2SA) Notas: [1](gd:1Wr2zcdcolSyRcGpPPc2iXFIPjDyKn6RJ) [Cuestionario](gf:1FAIpQLSehsdeqc4apKxCREroiHXvRnJeOMgGmhzB9-EnxJS6GotBSAg)
+- Algoritmo de la división. Máximo común divisor.
+- Videos: [1](yt:l3UqaSh-Qos) [2](yt:t1iHScPaVPc) [3](yt:xN6_X4AqS74) [4](yt:h8Y9PSd6kVQ) Notas: [1](gd:14p7Ljh8-ApMT8dHlbVmBs6EHCEL9dqYm) [2](gd:1ySxvYpnPaIkEnaREUbNZZgR9gS2XP2wo) [Cuestionario](gf:1FAIpQLSdGk3MVqLn9XGcz1_g1SBXkFLG7owHd58lc_twyCcS-RxBhUA)
+- Algoritmo de Euclides. Mínimo común múltiplo.
+- Videos: [1](yt:iMapaV3gYic) [2](yt:k6ODRu7IKlo) [3](yt:lLLg_sgfUXw) [4](yt:e-msF3P6TPQ) Notas: [1](gd:1MWksEJdMJuBgIAa8nI0_J17uJnaKPxqa) [2](gd:1YjucPuiHqgaSv2tH8gR-DPQZy3J23ywV) [3](gd:1usjuXlgpSQvxHjlS1dlgn5zxL66MyqRh) [Cuestionario](gf:1FAIpQLSdY4bIDqeDR9msTmbi-B04Mv6rJSePUkrS6ubQslfi8_KHQig)
+- Soluciones enteras de una ecuación lineal.
+- Videos: [1](yt:Muuupca_v7Q) [2](yt:AwRKYs63TL4) [3](yt:N82w6IWa2Ns) [4](yt:kO-HO5QXBKw) Notas: [1](gd:1GLtGP3jYSfoO2PFz-AS-OXK61Cb-mkVq) [Cuestionario](gf:1FAIpQLSdkbrV4Mml2IH46mblQ-gbTSlWZiCSBYegajZ7-6qgI-Jtvxg)
+- Números primos. Factorización única.
+- Videos: [1](yt:g1Aghn3niAA) [2](yt:LHox6hWBxOw) [3](yt:mdYSsjtcyKU) [4](yt:dBg-4xEt-RE) [5](yt:XJRNmYAdrWw) Notas: [1](gd:1vdbkqiHt1wUvb7SvOR0OdAQpP5T0YI1n) [2](gd:1LfTxqSQykHYAFDUgwDSvEKTs_ktAEJuo) [Cuestionario](gf:1FAIpQLScLi3zkyRVJj4JYWodC-49BfPq0FPGSQ7I1CSBIpAmuvddGRg)
+#3 [Ejercicios](gd:1bZXX2f-RPNTAPnEiHYxnsh1J5W9KFvUD)- [Cuestionario](gf:1FAIpQLSf3--juOYqkXMOGO5lCL-zMMM__amj8pawoEPI3dIp5h-LioA) - Más ejemplos - [Erratas videos y notas](gd:1yFAuxgMBFGhkU5L0EOs-Rjt5ChwqJTNy)
+- Congruencias
+- Congruencias.
+- Videos: [1](yt:6Va08FZp2kA) [2](yt:XXvxAubPZtE) [3](yt:HGnm0zGH6fE) Notas: [1](gd:1HKStaHL5xYCA25WBbZgHoTwy3q5tKlZo) [Cuestionario](gf:1FAIpQLScXrTLeiDkVt4KfzcitnxfyVV9DG5stqIDDcWQynR3cl1iumQ)
+2. Los enteros módulo n
+- Videos: [1](yt:kmOjoeUfZpc) [2](yt:wwVhqsIpQHk) Notas: [1](gd:1vq0Ghx0xfxqbnfUFlV70pF3VLu5FCaE8) [Cuestionario](gf:1FAIpQLScnmLqRM8zsD74krWxby-Q2Og61hvVTUkltLDG6B2uQQyRXkg)
+3. Los teoremas de Euler y Fermat.
+- Videos: [1](yt:uJ2KgcZXJkA) [2](yt:doZoroOmbDY) Notas: [1](gd:1LrXC6gSIrfV-mStse-gKPmL9fK7QMyiD) [Cuestionario](gf:1FAIpQLScKS3MZwiSVOVmQbG-zmNaH0I__TJwBVFpNnIpIGHfgFS92Jw)
+4. Congruencias lineales.
+- Videos: [1](yt:uBgFI-cdS7o) [2](yt:733hQqGLFEE) [3](yt:ttcgeApPuoA) Notas: [1](https://blog.nekomath.com/algebra-superior-ii-ecuaciones-en-congruencias/) [Cuestionario](gf:1FAIpQLSfy0WZnTdhgNR9yvRAAaN9TAZ0938ggzIUM72if0MSjb-bG0Q)
+5. Teorema chino del residuo.
+- Videos: Notas: [1](https://blog.nekomath.com/algebra-superior-ii-teorema-chino-del-residuo/) [Cuestionario](gf:1FAIpQLScA97I1Vh44e_WUhHwRUgqaVwOtPkbG-GK265D0SoRvUQ-DTQ)
+Si quieres profundizar más en estos temas de divisibilidad y congruencias, o quieres leer con más detalle lo que viene en las notas, te recomendamos que consultes el libro Introducción a la teoría de números de Niven y Zuckerman. Adicionalmente, en este libro vienen montañas de ejercicios para practicar.
+#3 [Ejercicios](gd:1HnO92FvUeJ4c-3NjXLu8kTkAeqCgJvi_)- [Cuestionario](gf:1FAIpQLSeCYl_FDzHn8rzhZtLgsnrQ-WIbq8-NQp-vLVs8oqtwliqEbQ) - Más ejemplos
+- Números Complejos
+- Los números complejos: ¿Qué son? Operaciones con i.
+- Videos: [1](yt:vRJx2LO5ABI) [2](yt:fgnb2CTf_Y8) [3](yt:YRA1dMnw36Q) [4](yt:tW8q_OQhi2U) [5](yt:VOt3PdN28GQ) Notas: [1](gd:1bK7_4ExKIZLwvLEBX6XzSsMsEq3JQRSN) [Cuestionario](gf:1FAIpQLSdQVqLawGYZaFBjXKYf5XmNbCaT7th7As8hR28bh3cMPAerXg)
+- EL plano complejo. Representación polar. Propiedades del módulo de un número complejo.
+- Videos: [1](yt:dMOYHoMRKDA) [2](yt:ssWZwwp4LBs) [3](yt:HqHlB8FyrRA) Notas: [1](gd:1R_TEeKdvW5UcYqajLX6N1qftaGBs3sUi) [Cuestionario](gf:1FAIpQLSfUU99mUkP2qoLbZvJFPAg_I3k-uhR0TUWr64E3LuN7VEdgkQ)
+- El conjugado de un número complejo (propiedades). Ecuaciones de segundo grado.
+- Videos: [1](yt:oynb3gDroSo) [2](yt:jiIDIacBVns@2s) [3](yt:qGWOek5LDSw) Notas: [1](gd:1qGfFUo8vkrfZwo4FyJuGQQUlEMxpILDb) [Cuestionario](gf:1FAIpQLSeweMxWl8RAj-nP76qCtgWiesTpDzoscOnqCU4spHlpiFY1eg)
+- Teorema de Moivre. Raíces de números complejos.
+- Videos: [1](yt:kZz6w9YkTu4) [2](yt:zQynB-vbMQk) [3](yt:HkGrTdwbnWw) [4](yt:q7qQBH0E_wU) Notas: [1](gd:1kkbSMxj4gdkrRo5k2SV9u1ZAulmfQ2wu) [Cuestionario](gf:1FAIpQLSfxJcJEKUgs5KgPFoKn6K33Vl4GL1TtIYgnsdh99h5boszvMg)
+#3 [Ejercicios](gd:11Yh3wHgcjCHqhjcvArbzZt333TR_88hf)- [Cuestionario](gf:1FAIpQLSdgRxdCX0AlT5creDlezf3c2tBy_EtQCLDdcTXYnneI7uBIUQ) - Más ejemplos - [Erratas videos y notas](gd:1rrFKwD1qPKMKo4ODHmT1N-4U9Ydi1IY6)
+- Polinomios.
+- Polinomios con coeficientes en un campo (Q, R, C). Operaciones.
+- Video: [1](yt:1Ath__bxRDg) [2](yt:qQRSHg1W_1g) [3](yt:ZgqMBN3VVeY@2s) [4](yt:rPffB2prdHo) Notas: [1](gd:1q_ihy5zhNuvrONxYK9S8QXX309dzFp9P) [Cuestionario](gf:1FAIpQLScXC6gkBC3MYqzUmsxBoANO4zlqBbtg-P8rOFqQYQrksevrJg)
+- Divisibilidad de polinomios, división de polinomios y división sintética
+- Videos: [1](yt:dpUIZqf6RPE) [2](yt:bhB9LhQi2VI) [3](yt:FqvCpYxwASU) Notas: [1](gd:1ZBiYrceJmhzShHOIfDTGwWAmDY6IF44D) [Cuestionario](gf:1FAIpQLScdYZFEk9j39U_l7YGC88mrX-22fnjsj_XwkTaS85E_oX9xEA)
+- Raíces de Polinomios, Teorema del residuo y Teorema del Factor.
+- Videos: [1](yt:pxIlyYRQwI8) [2](yt:Jr7CPR_5Tzo) [3](yt:sOq6-wYFJIY) Notas: [1](gd:1wwcdybKOE6UKhXh-ilFb6WiM-GpdpVE1) [Cuestionario](gf:1FAIpQLSeDB8FUEqWcFhfo9aQA1ZIv8IkQGy8DK9xnUEOhVkeLvfIErQ)
+- Polinomios irreducibles y Factorización de polinomios.
+- Videos: [1](yt:WtptN_WzOMA) [2](yt:60spcZZsXUU) [3](yt:K24dJqyu6Os) [4](yt:dStk-SaPc2Y@9s) Notas: [1](gd:1dlV_4hOCKZfAHM3RnemYJltTLwgjDMgA) [Cuestionario](gf:1FAIpQLSeU4GIqbcIi2xgndGxJ7D2HBFBxEwgoKKf5JDTRnUZl4moe3A)
+- Derivadas y multiplicidad.
+- Videos: [1](yt:dlSUvItx8Ws) [2](yt:hjWY-ttVXB8) [3](yt:wa-_Sb4eIBQ) Notas: [1](gd:1Meniv37kL8qgB4o3F9LwX2MCGMZqmOgT) [Cuestionario](gf:1FAIpQLSdBxCZ17_F5AFRZQeVvCzCAO_FgCv8hdF1yeZC_tRFNIspmbQ)
+- Teorema fundamental del álgebra y consecuencias
+- Videos: Notas: [1](https://blog.nekomath.com/algebra-superior-ii-irreducibilidad-y-factorizacion-en-polinomios-reales/)
+#3 [Ejercicios](gd:1IlKrM6KzMrg2TjnyxWRF-gLVJYSMA4p4)- [Cuestionario](gf:1FAIpQLScUzVQJtRcAHkPo0PhTF53cJnTIIqhz3uSLdMcJ-7Nzad-lqQ) - Más ejemplos
+Agracedimientos:
+Cuestionarios: José Antonio Quiroz

@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arilín Haro · Matemática, docente y divulgadora</title>
+<meta name="description" content="Página personal de la Dra. Arilín Haro: matemática con doctorado en Matemática Educativa, profesora de la Facultad de Ciencias de la UNAM y creadora del Museo Virtual Arilín's Math World.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Cg%20transform%3D%22translate%282%2C6.019237886466843%29%20scale%280.6%29%22%3E%3Cg%20transform%3D%22translate%280%2C0%29%22%3E%3Cpath%20d%3D%22M37.50%2021.65L50.00%200.00L62.50%2021.65Z%22%20fill%3D%22%23f0b232%22/%3E%3Cpath%20d%3D%22M25.00%2043.30L37.50%2021.65L50.00%2043.30Z%22%20fill%3D%22%23e89628%22/%3E%3Cpath%20d%3D%22M50.00%2043.30L62.50%2021.65L75.00%2043.30Z%22%20fill%3D%22%23f7c45a%22/%3E%3Cpath%20d%3D%22M12.50%2064.95L25.00%2043.30L37.50%2064.95Z%22%20fill%3D%22%231ca08f%22/%3E%3Cpath%20d%3D%22M0.00%2086.60L12.50%2064.95L25.00%2086.60Z%22%20fill%3D%22%2314788c%22/%3E%3Cpath%20d%3D%22M25.00%2086.60L37.50%2064.95L50.00%2086.60Z%22%20fill%3D%22%233cb6a0%22/%3E%3Cpath%20d%3D%22M62.50%2064.95L75.00%2043.30L87.50%2064.95Z%22%20fill%3D%22%23de4a6e%22/%3E%3Cpath%20d%3D%22M50.00%2086.60L62.50%2064.95L75.00%2086.60Z%22%20fill%3D%22%23b23e8c%22/%3E%3Cpath%20d%3D%22M75.00%2086.60L87.50%2064.95L100.00%2086.60Z%22%20fill%3D%22%23ec6e78%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf8f2; --bg2:#f4eee3; --card:#ffffff; --line:#e6dccb;
+  --ink:#1c1a27; --muted:#6a6377;
+  --gold:#a8761c; --gold2:#d9a441; --goldsoft:#f6e8c8;
+  --teal:#2c857c; --tealsoft:#dcefec; --rose:#b94d60; --rosesoft:#f6e0e3;
+  --serif:'Cormorant Garamond',Georgia,serif; --sans:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace;
+  --r:18px; --shadow:0 1px 2px rgba(28,26,39,.04),0 8px 28px rgba(28,26,39,.06);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* Header */
+header{position:sticky;top:0;z-index:20;background:rgba(251,248,242,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--serif);font-weight:700;font-size:1.35rem;letter-spacing:.2px}
+.brand svg{width:30px;height:30px}
+.menu{display:flex;gap:4px;margin-left:0;list-style:none;margin:0;padding:0}
+.menu a{display:block;padding:7px 13px;border-radius:999px;text-decoration:none;font-size:.92rem;color:var(--muted);transition:.2s}
+.menu a:hover{color:var(--ink);background:var(--bg2)}
+.menu a.museo{color:var(--gold);font-weight:600}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:10px;padding:7px 10px;cursor:pointer;color:var(--ink)}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;padding:88px 0 96px}
+.hero .sier{position:absolute;right:-120px;top:-40px;width:760px;opacity:.32;pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:56px;align-items:center}
+.eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.08;margin:0}
+h1{font-size:clamp(2.7rem,6vw,4.4rem);margin:14px 0 22px}
+h1 em,h2 em{color:var(--gold);font-style:italic}
+.lead{font-size:1.12rem;color:var(--muted);max-width:56ch;margin:0 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.95rem;transition:.2s;border:1px solid transparent}
+.btn.primary{background:var(--ink);color:#fbf8f2}
+.btn.primary:hover{background:#2d2a3b;transform:translateY(-1px)}
+.btn.gold{background:var(--gold2);color:var(--ink)}
+.btn.gold:hover{background:#e6b55a;transform:translateY(-1px)}
+.btn.ghost{border-color:var(--line);background:var(--card)}
+.btn.ghost:hover{border-color:var(--gold2)}
+
+.portrait{position:relative;justify-self:center}
+.portrait .frame{width:min(340px,80vw);aspect-ratio:1;border-radius:50%;padding:10px;background:conic-gradient(from 210deg,var(--gold2),var(--teal),var(--rose),var(--gold2));box-shadow:var(--shadow)}
+.portrait img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:6px solid var(--bg)}
+.plinks{display:flex;flex-direction:column;gap:10px;margin-top:22px;align-items:stretch}
+.plink{display:flex;align-items:center;gap:12px;padding:11px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);text-decoration:none;box-shadow:var(--shadow);transition:.2s;font-size:.93rem}
+.plink:hover{border-color:var(--gold2);transform:translateY(-2px)}
+.plink .pi{width:34px;height:34px;flex:none;border-radius:10px;display:grid;place-items:center;font-size:1rem}
+.plink b{display:block;font-weight:600}
+.plink small{color:var(--muted);font-size:.8rem}
+.plink .arr{margin-left:auto;color:var(--gold)}
+
+/* Sections */
+section{padding:88px 0}
+section.alt{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.head{margin-bottom:40px;max-width:720px}
+.head h2{font-size:clamp(2.1rem,4vw,3rem);margin-top:10px}
+.head p{color:var(--muted);margin:14px 0 0}
+
+/* About */
+.about{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:start}
+.about p{margin:0 0 16px;font-size:1.05rem}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow)}
+.fact .k{font-family:var(--serif);font-size:2.2rem;font-weight:700;line-height:1;color:var(--gold)}
+.fact .v{font-size:.9rem;color:var(--muted);margin-top:8px}
+.roles{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chip{font-size:.82rem;padding:5px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+
+/* Courses */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.filters button{font:inherit;font-size:.88rem;padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:var(--card);cursor:pointer;color:var(--muted);transition:.2s}
+.filters button:hover{color:var(--ink)}
+.filters button.on{background:var(--ink);color:#fbf8f2;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.course{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px 22px 20px;text-decoration:none;box-shadow:var(--shadow);transition:.22s;overflow:hidden}
+.course:hover{transform:translateY(-3px);border-color:var(--gold2)}
+.course .ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:16px;font-family:var(--serif);font-size:1.5rem;font-weight:700}
+.course .tag{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.course h3{font-size:1.5rem;margin:6px 0 8px}
+.course p{margin:0 0 16px;font-size:.92rem;color:var(--muted);flex:1}
+.course .go{font-size:.88rem;font-weight:600;color:var(--gold)}
+.c-alg .ico{background:var(--goldsoft);color:var(--gold)}
+.c-geo .ico{background:var(--tealsoft);color:var(--teal)}
+.c-an .ico{background:var(--rosesoft);color:var(--rose)}
+.c-tool .ico{background:#ebe8f3;color:#4b4470}
+.course.hidden{display:none}
+.course.soon{background:transparent;border-style:dashed;box-shadow:none}
+.course.soon:hover{transform:none;border-color:var(--line)}
+.pill{position:absolute;top:18px;right:18px;font-size:.7rem;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--goldsoft);color:var(--gold)}
+.pill.t{background:var(--tealsoft);color:var(--teal)}
+.sub{font-family:var(--serif);font-size:1.6rem;margin:46px 0 16px}
+.extra{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.extra a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;border-radius:14px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-size:.95rem;transition:.2s}
+.extra a:hover{border-color:var(--gold2)}
+.extra a span:last-child{color:var(--gold)}
+.extra small{display:block;color:var(--muted);font-size:.8rem}
+
+/* Museum */
+.museum{position:relative;overflow:hidden;border-radius:28px;background:linear-gradient(135deg,#fff8ea 0%,#fbefd5 55%,#f3e4f0 100%);border:1px solid #ecd9b0;padding:56px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.museum .sier{position:absolute;right:-60px;bottom:-80px;width:460px;opacity:.5}
+.museum h2{font-size:clamp(2.2rem,4vw,3.2rem);margin:12px 0 16px}
+.museum p{color:#4f4860;margin:0 0 26px;max-width:52ch}
+.features{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.feat{background:rgba(255,255,255,.78);border:1px solid #ecdcbc;border-radius:16px;padding:16px}
+.feat b{display:block;font-family:var(--serif);font-size:1.7rem;line-height:1;color:var(--gold)}
+.feat span{font-size:.86rem;color:#4f4860}
+
+/* Timeline */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.cols h3{font-size:1.7rem;margin-bottom:20px}
+.tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.tl li{position:relative;padding:0 0 24px 24px}
+.tl li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--gold2)}
+.tl .when{font-family:var(--mono);font-size:.74rem;color:var(--gold);letter-spacing:.06em}
+.tl .what{font-weight:600}
+.tl .where{color:var(--muted);font-size:.92rem}
+
+/* Divulgación */
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.dcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.dcard h3{font-size:1.55rem;margin:12px 0 10px}
+.dcard p{color:var(--muted);font-size:.94rem;margin:0 0 18px;flex:1}
+.dcard ul{margin:0 0 18px;padding-left:18px;color:var(--muted);font-size:.92rem}
+.dcard .emoji{font-size:1.6rem}
+.dcard a.go{font-weight:600;color:var(--gold);text-decoration:none;font-size:.92rem}
+.dcard a.go:hover{text-decoration:underline}
+
+/* Contact */
+.contact{text-align:center;max-width:720px;margin:0 auto}
+.contact h2{font-size:clamp(2.2rem,4vw,3rem);margin:12px 0 14px}
+.contact p{color:var(--muted);margin:0 0 30px}
+.social{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.social a{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:500;font-size:.92rem;transition:.2s}
+.social a:hover{border-color:var(--gold2);transform:translateY(-1px)}
+.social svg{width:18px;height:18px}
+
+
+/* Course cards stats */
+.course .stats{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.78rem;color:var(--muted);margin:0 0 14px}
+.course .stats span{white-space:nowrap}
+/* Course view */
+#curso{padding:40px 0 90px}
+.crumb{font-size:.88rem;color:var(--muted);margin-bottom:18px}
+.crumb a{color:var(--gold);text-decoration:none;font-weight:600}
+.cv-head{position:relative;overflow:hidden;border-radius:28px;background:linear-gradient(135deg,#fff8ea 0%,#fbefd5 60%,#f3e4f0 100%);border:1px solid #ecd9b0;padding:44px 48px;margin-bottom:28px}
+.cv-head .sier{position:absolute;right:-50px;bottom:-90px;width:380px;opacity:.45;pointer-events:none}
+.cv-head h1{font-size:clamp(2.4rem,5vw,3.6rem);margin:10px 0 10px;position:relative}
+.cv-head .lvl{color:#4f4860;font-size:.95rem;position:relative}
+.cv-head p{position:relative;max-width:68ch;color:#3f3a4d;margin:16px 0 22px}
+.cv-head .btns{position:relative}
+.kpis{position:relative;display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.kpi{background:rgba(255,255,255,.8);border:1px solid #ecdcbc;border-radius:14px;padding:10px 16px;min-width:96px}
+.kpi b{display:block;font-family:var(--serif);font-size:1.6rem;line-height:1;color:var(--gold)}
+.kpi span{font-size:.78rem;color:#4f4860}
+.cv-grid{display:grid;grid-template-columns:240px 1fr;gap:36px;align-items:start}
+.toc{position:sticky;top:84px;font-size:.9rem}
+.toc .ttl{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.toc a{display:flex;gap:10px;padding:8px 10px;border-radius:10px;text-decoration:none;color:var(--muted);line-height:1.35}
+.toc a:hover{background:var(--bg2);color:var(--ink)}
+.toc a i{font-style:normal;font-family:var(--mono);font-size:.75rem;color:var(--gold);padding-top:2px}
+.search{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:10px 18px;margin-bottom:18px}
+.search input{border:0;outline:0;font:inherit;flex:1;background:transparent;color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.8rem;color:var(--muted);margin:0 0 18px 4px}
+.unit{background:var(--card);border:1px solid var(--line);border-radius:20px;margin-bottom:16px;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:84px}
+.unit>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:16px;padding:20px 24px}
+.unit>summary::-webkit-details-marker{display:none}
+.unit .num{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--goldsoft);color:var(--gold);font-family:var(--serif);font-weight:700;font-size:1.35rem}
+.unit h2{font-size:1.55rem;line-height:1.15}
+.unit .ucount{font-size:.8rem;color:var(--muted);margin-top:3px}
+.unit .chev{margin-left:auto;color:var(--muted);transition:transform .2s}
+.unit[open] .chev{transform:rotate(180deg)}
+.unit .ubody{padding:0 24px 22px}
+.topic{display:grid;grid-template-columns:28px 1fr;gap:4px 12px;padding:14px 0;border-top:1px solid var(--line)}
+.topic .tn{font-family:var(--mono);font-size:.75rem;color:var(--muted);padding-top:3px}
+.topic h3{font-family:var(--sans);font-size:1rem;font-weight:600;line-height:1.4}
+.chips{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip2{display:inline-flex;align-items:center;gap:5px;font-size:.78rem;padding:4px 10px;border-radius:999px;text-decoration:none;border:1px solid transparent;transition:.15s;white-space:nowrap}
+.chip2:hover{transform:translateY(-1px);border-color:currentColor}
+.k-v{background:var(--rosesoft);color:var(--rose)}
+.k-n{background:var(--goldsoft);color:var(--gold)}
+.k-q{background:var(--tealsoft);color:var(--teal)}
+.k-a{background:#ebe8f3;color:#4b4470}
+.k-e{background:#e9efe1;color:#4f6b2c}
+.soonx{font-size:.8rem;color:var(--muted);font-style:italic}
+.ubox{margin-top:14px;padding:14px 16px;border-radius:14px;background:var(--bg);border:1px dashed var(--line)}
+.ubox .lab{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.ubox .chips{margin:0}
+.unote{font-size:.9rem;color:var(--muted);margin:12px 0 0}
+.unote a{color:var(--gold)}
+.credits{margin-top:26px;padding:22px 24px;border-radius:20px;background:var(--bg2);border:1px solid var(--line);font-size:.92rem}
+.credits h3{font-size:1.4rem;margin-bottom:10px}
+.credits ul{margin:0;padding-left:18px;color:var(--muted)}
+.credits a{color:var(--gold)}
+.topic.hide,.unit.hide{display:none}
+.cv-nav{display:flex;justify-content:space-between;gap:12px;margin-top:30px}
+
+/* Pages */
+.page{display:none}
+.page.on{display:block;animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.pagetop{padding-top:64px}
+.menu a.on{color:var(--ink);background:var(--goldsoft)}
+.explore{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.xcard{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px;text-decoration:none;box-shadow:var(--shadow);transition:.22s}
+.xcard:hover{transform:translateY(-3px);border-color:var(--gold2)}
+.xcard .xi{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-size:1.35rem;font-family:var(--serif);font-weight:700;margin-bottom:14px}
+.xcard h3{font-size:1.6rem;margin-bottom:8px}
+.xcard p{color:var(--muted);font-size:.92rem;margin:0 0 16px;flex:1}
+.xcard .go{font-weight:600;font-size:.9rem;color:var(--gold)}
+/* Course tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:6px;background:var(--bg2);border:1px solid var(--line);border-radius:16px;margin-bottom:18px}
+.tabs a{flex:1 1 auto;text-align:center;padding:9px 14px;border-radius:11px;text-decoration:none;font-size:.9rem;font-weight:500;color:var(--muted);white-space:nowrap}
+.tabs a:hover{color:var(--ink)}
+.tabs a.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
+.tabs a small{font-family:var(--mono);font-size:.72rem;margin-left:4px;opacity:.75}
+.rlist{list-style:none;margin:0;padding:0}
+.rrow{display:grid;grid-template-columns:28px 1fr;gap:4px 12px;padding:12px 0;border-top:1px solid var(--line)}
+.rrow .tn{font-family:var(--mono);font-size:.75rem;color:var(--muted);padding-top:3px}
+.rrow h3{font-family:var(--sans);font-size:.98rem;font-weight:600;line-height:1.4}
+.empty{color:var(--muted);font-style:italic;padding:20px 0}
+
+.gwrap{max-width:860px}
+.gblock .gh{display:flex;align-items:center;gap:16px;padding:20px 24px 8px}
+.gg{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:12px;padding:13px 0;border-top:1px solid var(--line);text-decoration:none}
+.gg:first-child{border-top:0}
+.ggn{font-family:var(--mono);font-size:.78rem;color:var(--gold)}
+.ggt{font-weight:600;line-height:1.4}
+.ggk{display:block;font-weight:400;font-size:.78rem;color:var(--muted)}
+.ggo.py{background:var(--tealsoft);color:var(--teal)}
+.gg:hover .ggo.py{background:var(--teal);color:#fff}
+.ggo{font-size:.78rem;padding:4px 11px;border-radius:999px;background:#ebe8f3;color:#4b4470;white-space:nowrap;transition:.15s}
+.gg:hover .ggo{background:#4b4470;color:#fff}
+.gg:hover .ggt{color:var(--gold)}
+@media (max-width:560px){.gg{grid-template-columns:30px 1fr}.ggo{grid-column:2;justify-self:start}}
+
+.origin{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:18px;padding:20px 24px;margin:-8px 0 28px;box-shadow:var(--shadow);max-width:860px}
+.origin.ot{border-left-color:var(--rose)}.origin.op{border-left-color:var(--gold2)}
+.origin .oi{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:1.3rem;background:var(--tealsoft);color:var(--teal)}
+.origin.ot .oi{background:var(--rosesoft);color:var(--rose)}.origin.op .oi{background:var(--goldsoft);color:var(--gold)}
+.origin h3{font-family:var(--sans);font-size:1rem;font-weight:600;margin:2px 0 6px}
+.origin p{margin:0 0 6px;font-size:.94rem;color:#4f4860}
+.origin p:last-child{margin:0}
+.origin b{color:var(--ink)}
+.tpill{display:inline-block;font-size:.7rem;font-weight:600;padding:3px 10px;border-radius:999px;margin-bottom:12px;align-self:flex-start}
+.tp-s{background:var(--tealsoft);color:var(--teal)}.tp-t{background:var(--rosesoft);color:var(--rose)}.tp-p{background:var(--goldsoft);color:var(--gold)}
+.types{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 30px}
+.types div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:.88rem;color:var(--muted)}
+.types .tpill{margin-bottom:6px}
+@media (max-width:900px){.types{grid-template-columns:1fr}.origin{grid-template-columns:1fr}}
+
+.pygrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+.pyc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
+.pyh{display:flex;gap:14px;align-items:flex-start}
+.pyi{flex:none;width:46px;height:46px;border-radius:12px;background:var(--bg2);display:grid;place-items:center;font-size:1.4rem}
+.pyc h3{font-family:var(--serif);font-size:1.35rem;line-height:1.15;margin-top:2px}
+.pyd{margin:0;font-size:.9rem;color:var(--muted)}
+.pyg .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.pyg .chips{margin:0}
+.pyg .chip2{white-space:normal;text-align:left}
+
+.more{display:grid;gap:10px;margin-top:22px}
+.mlink{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);text-decoration:none;box-shadow:var(--shadow);transition:.2s;font-size:.93rem}
+a.mlink:hover{border-color:var(--gold2);transform:translateY(-2px)}
+.mlink .pi{width:36px;height:36px;flex:none;border-radius:10px;display:grid;place-items:center}
+.mlink b{display:block;font-weight:600}
+.mlink small{color:var(--muted);font-size:.8rem}
+.mlink .arr{margin-left:auto;color:var(--gold)}
+.soc{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.soc a{font-size:.8rem;padding:4px 11px;border-radius:999px;background:var(--rosesoft);color:var(--rose);text-decoration:none;font-weight:500}
+.soc a:hover{background:var(--rose);color:#fff}
+
+.lang{margin-left:auto;margin-right:6px;display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--card);cursor:pointer;font:600 .74rem var(--mono);letter-spacing:.06em}
+.lang span{padding:4px 9px;border-radius:999px;color:var(--muted);transition:.2s}
+html[lang="es"] .lang [data-l="es"],html[lang="en"] .lang [data-l="en"]{background:var(--ink);color:#fbf8f2}
+.langnote{display:flex;gap:10px;align-items:center;font-size:.88rem;color:#4f4860;background:var(--goldsoft);border-radius:12px;padding:10px 14px;margin:0 0 18px}
+main[hidden]{display:none}
+
+.ccnote{display:block;margin-top:10px;font-size:.86rem;color:#4f4860}
+.oldlink{display:inline-block;margin-top:6px;font-size:.84rem;font-weight:600;color:var(--gold);text-decoration:none}
+.oldlink:hover{text-decoration:underline}
+.ccsmall{display:block;font-size:.78rem;color:var(--muted);font-style:italic}
+.dcard .oldnote{font-size:.86rem;font-style:italic;margin-top:-8px}
+
+.mlist{display:grid;gap:12px}
+.mitem{display:grid;grid-template-columns:44px 1fr auto;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 22px;box-shadow:var(--shadow)}
+.mitem .mi{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--rosesoft);color:var(--rose);font-size:1.1rem;align-self:start}
+.mitem .mt{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.mitem h3{font-size:1.45rem;margin:4px 0 4px}
+.mitem .mm{font-size:.84rem;color:var(--muted)}
+.mitem p{margin:6px 0 0;font-size:.92rem;color:#4f4860}
+.msm{padding:9px 16px;font-size:.85rem;white-space:nowrap}
+@media (max-width:700px){.mitem{grid-template-columns:44px 1fr}.mitem .msm{grid-column:2;justify-self:start}}
+
+footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.85rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer a{color:var(--gold);text-decoration:none}
+
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .explore{grid-template-columns:1fr 1fr}
+  .tabs a{flex:1 1 40%}
+  .menu{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px}
+  .menu.open{display:flex}
+  .burger{display:block}
+  .hero{padding:56px 0 64px}
+  .hero-grid,.about,.museum,.cols{grid-template-columns:1fr}
+  .portrait{order:-1}
+  .cv-grid{grid-template-columns:1fr}
+  .toc{position:static;display:none}
+  .cv-head{padding:28px 22px}
+  .unit>summary{padding:16px}.unit .ubody{padding:0 16px 18px}
+  .kpi{min-width:0;flex:1 1 40%}
+  .museum{padding:32px 24px}
+  .cards3{grid-template-columns:1fr}
+  section{padding:64px 0}
+}
+@media (max-width:560px){.explore{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.page.on{animation:none}.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Triángulo de Sierpinski (nivel 5) generado como símbolo -->
+    <symbol id="sier" viewBox="0 0 512 444"><g id="sierG"></g></symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="Arilín Haro">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><g transform="translate(2,6.019237886466843) scale(0.6)"><g transform="translate(0,0)"><path d="M37.50 21.65L50.00 0.00L62.50 21.65Z" fill="#f0b232"/><path d="M25.00 43.30L37.50 21.65L50.00 43.30Z" fill="#e89628"/><path d="M50.00 43.30L62.50 21.65L75.00 43.30Z" fill="#f7c45a"/><path d="M12.50 64.95L25.00 43.30L37.50 64.95Z" fill="#1ca08f"/><path d="M0.00 86.60L12.50 64.95L25.00 86.60Z" fill="#14788c"/><path d="M25.00 86.60L37.50 64.95L50.00 86.60Z" fill="#3cb6a0"/><path d="M62.50 64.95L75.00 43.30L87.50 64.95Z" fill="#de4a6e"/><path d="M50.00 86.60L62.50 64.95L75.00 86.60Z" fill="#b23e8c"/><path d="M75.00 86.60L87.50 64.95L100.00 86.60Z" fill="#ec6e78"/></g></g></svg>
+      Arilín Haro
+    </a>
+    <button class="lang" type="button" onclick="setLang(L==='en'?'es':'en')" aria-label="Cambiar idioma / Change language"><span data-l="es">ES</span><span data-l="en">EN</span></button>
+    <button class="burger" aria-label="Menu" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
+    <ul class="menu">
+      <li><a href="#inicio" data-nav="inicio" data-en="Home">Inicio</a></li>
+      <li><a href="#sobre-mi" data-nav="sobre-mi" data-en="About me">Sobre mí</a></li>
+      <li><a href="#cursos" data-nav="cursos" data-en="Courses">Cursos</a></li>
+      <li><a href="#recursos" data-nav="recursos" data-en="Resources">Recursos</a></li>
+      <li><a href="#divulgacion" data-nav="divulgacion" data-en="Outreach">Divulgación</a></li>
+      <li><a href="#contacto" data-nav="contacto" data-en="Contact">Contacto</a></li>
+      <li><a class="museo" href="https://museoarilinsmath.com/" target="_blank" rel="noopener" data-en="Museum ↗">Museo ↗</a></li>
+    </ul>
+  </div>
+</header>
+
+<main data-lang="es" lang="es">
+<div class="page" data-page="inicio">
+<!-- HERO -->
+<div class="hero">
+  <svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e9d3a2"/></svg>
+  <div class="wrap hero-grid" style="align-items:center">
+    <div>
+      <div class="eyebrow">Matemática · Docente · Divulgadora · Creadora de contenido</div>
+      <h1>Hola, soy <em>Arilín</em>.<br>Enseño, escribo y juego con matemáticas.</h1>
+      <p class="lead">Soy matemática, con licenciatura y maestría en Matemáticas y doctorado en Matemática Educativa. Soy profesora en la Facultad de Ciencias de la UNAM, divulgadora y creadora de contenido. Diseño contenido educativo, escribo libros de texto y creé un museo virtual para que las matemáticas también se <em>visiten</em>.</p>
+      <div class="btns">
+        <a class="btn primary" href="#cursos">Ver mis cursos →</a>
+        <a class="btn ghost" href="https://sites.google.com/view/arilinharo/curriculum" target="_blank" rel="noopener">Currículum</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <div class="frame"><img src="__RETRATO__" alt="Retrato de la Dra. Arilín Haro" width="640" height="640"></div>
+      <div class="plinks">
+        <a class="plink" href="https://museoarilinsmath.com/" target="_blank" rel="noopener"><span class="pi" style="background:var(--goldsoft);color:var(--gold)">▲</span><span><b>Mi museo virtual de matemáticas</b><small>museoarilinsmath.com</small></span><span class="arr">↗</span></a>
+        <a class="plink" href="https://www.fciencias.unam.mx/directorio/101173" target="_blank" rel="noopener"><span class="pi" style="background:var(--tealsoft);color:var(--teal)">∑</span><span><b>Profesora de la Facultad de Ciencias</b><small>Directorio UNAM</small></span><span class="arr">↗</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- EXPLORA -->
+<section class="alt" style="padding:70px 0">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Explora</div><h2>¿Qué encontrarás <em>aquí</em>?</h2></div>
+    <div class="explore">
+      <a class="xcard" href="#cursos"><span class="xi" style="background:var(--goldsoft);color:var(--gold)">∫</span><h3>Cursos</h3><p>Temarios completos con videos, notas, cuestionarios y ejercicios, ordenados por tema y por recurso.</p><span class="go">Ver cursos →</span></a>
+      <a class="xcard" href="#sobre-mi"><span class="xi" style="background:var(--rosesoft);color:var(--rose)">✦</span><h3>Sobre mí</h3><p>Quién soy, mi formación y mi trayectoria en docencia, contenido educativo y ciencia de datos.</p><span class="go">Conóceme →</span></a>
+      <a class="xcard" href="#recursos"><span class="xi" style="background:#e9efe1;color:#4f6b2c">◆</span><h3>Recursos didácticos</h3><p>Clases y actividades interactivas en GeoGebra y Python, con retos y preguntas para reflexionar.</p><span class="go">Ver recursos →</span></a>
+      <a class="xcard" href="#divulgacion"><span class="xi" style="background:var(--tealsoft);color:var(--teal)">◈</span><h3>Divulgación</h3><p>Canal de YouTube, ferias, festivales y talleres para llevar las matemáticas a todas partes.</p><span class="go">Ver proyectos →</span></a>
+      <a class="xcard" href="https://museoarilinsmath.com/" target="_blank" rel="noopener"><span class="xi" style="background:#ebe8f3;color:#4b4470">▲</span><h3>Museo virtual</h3><p>Catorce salas interactivas para todas las edades. Gratuito y sin registro.</p><span class="go">Entrar al museo ↗</span></a>
+    </div>
+  </div>
+</section>
+<!-- MUSEO -->
+<section id="museo">
+  <div class="wrap">
+    <div class="museum reveal">
+      <svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div style="position:relative">
+        <div class="eyebrow">Museo virtual · Arilín's Math World</div>
+        <h2>Las matemáticas también se <em>visitan</em>.</h2>
+        <p>Un museo virtual de matemáticas para todas las edades, con juegos, leyendas, fractales, origami, simetría, música, billar, ilusiones y matemáticas de otras culturas. Gratuito y sin registro.</p>
+        <div class="btns">
+          <a class="btn primary" href="https://museoarilinsmath.com/" target="_blank" rel="noopener">Entrar al museo ↗</a>
+          <a class="btn ghost" href="https://museoarilinsmath.com/#contacto" target="_blank" rel="noopener">Escuelas y medios</a>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feat"><b>14</b><span>salas interactivas</span></div>
+        <div class="feat"><b>3D</b><span>recorrido con tu monito</span></div>
+        <div class="feat"><b>3–7</b><span>años: modo para peques</span></div>
+        <div class="feat"><b>★</b><span>reto diario y pasaporte con sellos</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="sobre-mi">
+<!-- SOBRE MÍ -->
+<section class="alt pagetop" id="sobre-mi-s">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">Sobre mí</div>
+      <h2>Matemáticas y pasión por <em>enseñar</em></h2>
+    </div>
+    <div class="about">
+      <div class="reveal">
+        <p>Soy matemática: estudié la licenciatura y la maestría en Matemáticas, y el doctorado en Matemática Educativa. Me gustan las matemáticas y tengo una enorme pasión por la enseñanza. He trabajado como docente, científica de datos, autora de libros de texto y como creadora, revisora y traductora de contenido educativo. También hago divulgación de las matemáticas y creo contenido para redes sociales.</p>
+        <p>Fuera del aula disfruto caminar, cocinar, pasar tiempo con mi familia y cuidar mis plantas. También me gusta leer y pintar, aunque últimamente los he dejado un poco de lado.</p>
+        <div class="roles">
+          <span class="chip">Matemática</span>
+          <span class="chip">Docente universitaria</span>
+          <span class="chip">Autora de libros de texto</span>
+          <span class="chip">Diseño de contenido educativo</span>
+          <span class="chip">Ciencia de datos</span>
+          <span class="chip">Divulgadora</span>
+          <span class="chip">Creadora de contenido</span>
+        </div>
+        <div class="more">
+          <a class="mlink" href="#divulgacion"><span class="pi" style="background:var(--tealsoft);color:var(--teal)">◈</span><span><b>Divulgación</b><small>Canal, ferias, festivales y talleres</small></span><span class="arr">→</span></a>
+          <a class="mlink" href="#recursos"><span class="pi" style="background:#e9efe1;color:#4f6b2c">◆</span><span><b>Recursos educativos</b><small>Actividades en GeoGebra y Python</small></span><span class="arr">→</span></a>
+          <div class="mlink cc"><span class="pi" style="background:var(--rosesoft);color:var(--rose)">▶</span><span><b>Creadora de contenido</b><small>Sígueme en redes sociales</small>
+            <span class="soc">
+              <a href="https://www.youtube.com/@arilinsmathworld" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://www.instagram.com/arilinsmath/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.tiktok.com/@arilinsmath" target="_blank" rel="noopener">TikTok</a>
+              <a href="https://www.facebook.com/profile.php?id=61557539306659" target="_blank" rel="noopener">Facebook</a>
+            </span>
+            <span class="ccnote">Creé Arilín's Math World como una forma de comunicar y enseñar las matemáticas.</span>
+            <a class="oldlink" href="https://sites.google.com/view/arilinsmathworld/inicio" target="_blank" rel="noopener">Mi página anterior ↗</a>
+            <span class="ccsmall">Ya no está actualizada, pero ahí puedes ver mis inicios.</span></span></div>
+        </div>
+      </div>
+      <div class="facts reveal">
+        <div class="fact"><div class="k">Dra.</div><div class="v">Matemática (licenciatura y maestría) con doctorado en Matemática Educativa, IPN</div></div>
+        <div class="fact"><div class="k">2020</div><div class="v">Profesora en la Facultad de Ciencias, UNAM, desde ese año</div></div>
+        <a class="fact" href="#sobre-mi" onclick="event.preventDefault();this.closest('main').querySelector('.js-libros').scrollIntoView({behavior:'smooth'})" style="text-decoration:none"><div class="k">10+</div><div class="v">Libros de texto de bachillerato publicados · <span style="color:var(--gold)">ver libros</span></div></a>
+        <div class="fact"><div class="k">CAO</div><div class="v">Chief Academic Officer en Nomed, EdTech para Latinoamérica</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- TRAYECTORIA -->
+<section class="alt" id="trayectoria-s">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">Trayectoria</div>
+      <h2>Formación y <em>experiencia</em></h2>
+      <p>Un resumen; el detalle completo está en mi <a href="https://sites.google.com/view/arilinharo/curriculum" target="_blank" rel="noopener" style="color:var(--gold)">currículum</a>.</p>
+    </div>
+    <div class="cols">
+      <div class="reveal">
+        <h3>Formación</h3>
+        <ul class="tl">
+          <li><div class="when">2021 – 2024</div><div class="what">Doctorado en Matemática Educativa</div><div class="where">Instituto Politécnico Nacional</div></li>
+          <li><div class="when">2012 – 2014</div><div class="what">Maestría en Matemáticas</div><div class="where">Universidad Autónoma de Zacatecas</div></li>
+          <li><div class="when">2007 – 2011</div><div class="what">Licenciatura en Matemáticas</div><div class="where">Universidad Autónoma de Ciudad Juárez</div></li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3>Experiencia</h3>
+        <ul class="tl">
+          <li><div class="when">2024 – hoy</div><div class="what">Chief Academic Officer</div><div class="where">Nomed · EdTech de contenidos personalizados para Latinoamérica</div></li>
+          <li><div class="when">2023 – hoy</div><div class="what">Autora de libros de texto</div><div class="where">Más de 10 libros de texto de bachillerato · <a href="https://www.isbnmexico.indautor.cerlalc.org/catalogo.php?mode=busqueda_menu&amp;id_autor=482927" target="_blank" rel="noopener" style="color:var(--gold)">ver registro en el INDAUTOR</a></div></li>
+          <li><div class="when">2020 – hoy</div><div class="what">Profesora de asignatura</div><div class="where">Facultad de Ciencias, UNAM</div></li>
+          <li><div class="when">2022 – 2024</div><div class="what">Manager Applied Analytics</div><div class="where">HSBC · ciencia de datos contra el crimen financiero</div></li>
+          <li><div class="when">2021 – 2022</div><div class="what">Subject-Matter Expert de Matemáticas</div><div class="where">BYJU's Future School</div></li>
+          <li><div class="when">2015 – 2018</div><div class="what">Docencia en primaria, bachillerato y universidad</div><div class="where">ENES Morelia UNAM, UMSNH, Colegio Williams y más</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="libros-s" class="js-libros">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">Libros de texto</div>
+      <h2>Más de 10 libros para <em>bachillerato</em></h2>
+      <p>He escrito más de 10 libros de texto para bachillerato. Todos están registrados con su ISBN ante el Instituto Nacional del Derecho de Autor (INDAUTOR), donde puedes consultar la lista completa.</p>
+    </div>
+    <!--BOOKS-->
+    <div class="btns reveal"><a class="btn primary" href="https://www.isbnmexico.indautor.cerlalc.org/catalogo.php?mode=busqueda_menu&amp;id_autor=482927" target="_blank" rel="noopener">Ver mis publicaciones en el INDAUTOR ↗</a></div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="cursos">
+<!-- CURSOS -->
+<section class="pagetop" id="cursos-s">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">Cursos</div>
+      <h2>Material de clase <em>libre</em> para aprender a tu ritmo</h2>
+      <p>Los cursos que he creado, con su temario completo: videos, notas, cuestionarios y listas de ejercicios de cada tema. Elige un curso para ver todo su material.</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filtrar cursos">
+      <button class="on" data-f="all">Todos</button>
+      <button data-f="alg">Álgebra</button>
+      <button data-f="geo">Geometría y topología</button>
+      <button data-f="tool">Herramientas</button>
+    </div>
+
+    <div class="grid js-grid" id="courseGrid"></div>
+
+    <h3 class="sub reveal">Otros materiales</h3>
+    <div class="extra reveal">
+      <a href="https://sites.google.com/view/arilinsmathworld/aprendiendo/diapositivas/física" target="_blank" rel="noopener"><span>Diapositivas de Física<small>Presentaciones de clase</small></span><span>↗</span></a>
+      <a href="https://sites.google.com/view/arilinsmathworld/aprendiendo/diapositivas/diap-geometría-analítica" target="_blank" rel="noopener"><span>Diapositivas de Geometría Analítica<small>Presentaciones de clase</small></span><span>↗</span></a>
+      <a href="https://sites.google.com/view/arilinsmathworld/cursos" target="_blank" rel="noopener"><span>Todos los cursos en Arilín's Math World<small>Página completa de cursos</small></span><span>↗</span></a>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="curso"><section id="curso"><div class="wrap js-cv" id="cv"></div></section></div>
+<div class="page" data-page="recursos">
+<section class="pagetop" id="recursos-s">
+  <div class="wrap">
+    <div class="head reveal"><div class="eyebrow">Recursos didácticos</div><h2>Materiales para <em>enseñar</em> y aprender</h2>
+    <p>Recursos listos para usar en el aula o para estudiar por tu cuenta: clases interactivas, actividades y retos. Algunos son de mi autoría y otros resultaron de servicios sociales y proyectos de titulación que he asesorado. En cada recurso se indica su origen y su propósito.</p></div>
+    <div class="types reveal">
+      <div><span class="tpill tp-p">Material propio</span><br>Recursos que diseñé y elaboré yo.</div>
+      <div><span class="tpill tp-s">Servicio social asesorado</span><br>Creados por estudiantes durante su servicio social, con mi asesoría y tutoría.</div>
+      <div><span class="tpill tp-t">Proyecto de titulación asesorado</span><br>Resultado de tesis y proyectos de titulación que dirigí o asesoré.</div>
+    </div>
+    <div class="grid">
+      <a class="course c-an" href="#recurso-python">
+        <span class="tpill tp-p">Material propio</span>
+        <div class="ico">🐍</div><div class="tag">Python · Bachillerato y universidad</div><h3>Matemáticas con Python</h3>
+        <p>11 actividades que explican un tema con código en Python y enseñan a programarlo. Temas Selectos de Matemáticas (NEM) y licenciatura.</p>
+        <div class="stats"><span>🐍 11 cuadernos de Colab</span><span>▶ 18 videos</span></div>
+        <span class="go">Ver las actividades →</span></a>
+      <a class="course c-geo" href="#recurso-geogebra-nem">
+        <span class="tpill tp-s">Servicio social asesorado</span>
+        <div class="ico">◆</div><div class="tag">GeoGebra · Bachillerato</div><h3>Clases de GeoGebra para 4.º semestre (NEM)</h3>
+        <p>19 clases interactivas que explican cada tema y proponen actividades, retos y preguntas para reflexionar. Por David Mendoza Jiménez.</p>
+        <div class="stats"><span>5 bloques</span><span>◆ 19 clases</span></div>
+        <span class="go">Ver las clases →</span></a>
+      <a class="course c-tool" href="#recurso-geometria-analitica">
+        <span class="tpill tp-s">Servicio social asesorado</span>
+        <div class="ico">◆</div><div class="tag">GeoGebra y Python · Licenciatura</div><h3>Actividades de Geometría Analítica I</h3>
+        <p>17 actividades en GeoGebra y Google Colab que explican temas del curso y proponen retos para trabajarlos. Por Sabino Isaac Cano Páez.</p>
+        <div class="stats"><span>5 unidades</span><span>◆ 13 GeoGebra</span><span>🐍 4 Python</span></div>
+        <span class="go">Ver las actividades →</span></a>
+      <div class="course soon c-alg"><span class="pill">Muy pronto</span><div class="ico">+</div><div class="tag">Recursos</div><h3>Más recursos</h3><p>Pronto se sumarán materiales propios y de proyectos de titulación que he asesorado.</p></div>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="recurso-geogebra-nem" data-nav="recursos">
+<section id="recurso-s" style="padding:40px 0 90px">
+  <div class="wrap">
+    <div class="crumb"><a href="#recursos">← Recursos didácticos</a> &nbsp;/&nbsp; Clases de GeoGebra</div>
+    <div class="cv-head"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div class="eyebrow" style="position:relative">GeoGebra · Bachillerato</div>
+      <h1>Clases de GeoGebra para 4.º semestre</h1>
+      <div class="lvl">Bachillerato · Nueva Escuela Mexicana (NEM) · Por David Mendoza Jiménez</div>
+      <p>Clases interactivas en GeoGebra que explican los temas de cuarto semestre de bachillerato según la NEM. Cada clase propone actividades, retos y preguntas para reflexionar, y puede usarse en el aula o para estudiar de forma autónoma.</p>
+      <div class="kpis"><div class="kpi"><b>19</b><span>clases</span></div><div class="kpi"><b>5</b><span>bloques</span></div><div class="kpi"><b>4.º</b><span>semestre</span></div></div>
+    </div>
+    <div class="origin "><span class="oi">🎓</span><div><h3>Origen: proyecto de servicio social asesorado por mí</h3><p>Estas clases son resultado del <b>servicio social de David Mendoza Jiménez</b>, que asesoré como su tutora. Él diseñó y construyó las clases en GeoGebra; yo acompañé y revisé el proyecto.</p><p><b>Propósito:</b> ofrecer a docentes y estudiantes de bachillerato clases interactivas que cubran los temas de 4.º semestre según la Nueva Escuela Mexicana, con explicaciones, actividades, retos y preguntas para reflexionar.</p></div></div>
+    <div class="gwrap">
+<div class="unit gblock"><div class="gh"><div class="num">△</div><div><h2>Fundamentos de geometría</h2><div class="ucount">5 clases</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/f5n3rfhr" target="_blank" rel="noopener"><span class="ggn">01</span><span class="ggt">Concepto de punto como objeto geométrico</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/x6dzh6wn" target="_blank" rel="noopener"><span class="ggn">02</span><span class="ggt">Concepto de recta</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/nb2s5zbd" target="_blank" rel="noopener"><span class="ggn">03</span><span class="ggt">Tipos de recta</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/ayeuumkv" target="_blank" rel="noopener"><span class="ggn">04</span><span class="ggt">Construcción de figuras</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/d4t2nvsd" target="_blank" rel="noopener"><span class="ggn">05</span><span class="ggt">Circunferencia</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">θ</div><div><h2>Trigonometría</h2><div class="ucount">2 clases</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/avgrenp3" target="_blank" rel="noopener"><span class="ggn">06</span><span class="ggt">Razones trigonométricas</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/hbdxesyv" target="_blank" rel="noopener"><span class="ggn">07</span><span class="ggt">Demostración de identidades trigonométricas</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">y</div><div><h2>Ecuaciones en dos variables y la recta</h2><div class="ucount">4 clases</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/kxxdrtqg" target="_blank" rel="noopener"><span class="ggn">08</span><span class="ggt">Polinomios de dos variables con coeficientes reales</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/sdzqf6b2" target="_blank" rel="noopener"><span class="ggn">09</span><span class="ggt">Propiedades geométricas (simetría, extensión, etc.)</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/abjxtecy" target="_blank" rel="noopener"><span class="ggn">10</span><span class="ggt">Comportamiento de dos variables</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/tg4m8uex" target="_blank" rel="noopener"><span class="ggn">11</span><span class="ggt">Ecuación de la recta</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">◯</div><div><h2>Cónicas</h2><div class="ucount">5 clases</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/gwexuayx" target="_blank" rel="noopener"><span class="ggn">12</span><span class="ggt">Propiedades analíticas de la parábola</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/s25wpehs" target="_blank" rel="noopener"><span class="ggn">13</span><span class="ggt">Ecuación ordinaria de parábolas con vértice fuera del origen y ejemplo de modelación</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/undybaap" target="_blank" rel="noopener"><span class="ggn">14</span><span class="ggt">Ecuación de la circunferencia</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/vbc3gwj4" target="_blank" rel="noopener"><span class="ggn">15</span><span class="ggt">Leyes de Kepler</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/azjgf4yq" target="_blank" rel="noopener"><span class="ggn">16</span><span class="ggt">Elipse y coplanaridad</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">∿</div><div><h2>Modelación y aplicaciones</h2><div class="ucount">3 clases</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/dyewny7g" target="_blank" rel="noopener"><span class="ggn">17</span><span class="ggt">Modelado y estimación</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/mhect5gq" target="_blank" rel="noopener"><span class="ggn">18</span><span class="ggt">Aplicación de las secciones cónicas</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/jwdstcvz" target="_blank" rel="noopener"><span class="ggn">19</span><span class="ggt">Uso de GeoGebra y perfeccionamiento de la modelación matemática</span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+
+      <div class="credits"><h3>Créditos</h3><ul><li>Clases creadas por <strong>David Mendoza Jiménez</strong> como parte de su servicio social, realizado bajo la asesoría y tutoría de la Dra. Arilín Haro (mayo de 2026).</li></ul></div>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="recurso-geometria-analitica" data-nav="recursos">
+<section id="recurso-ga-s" style="padding:40px 0 90px">
+  <div class="wrap">
+    <div class="crumb"><a href="#recursos">← Recursos didácticos</a> &nbsp;/&nbsp; Actividades de Geometría Analítica</div>
+    <div class="cv-head"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div class="eyebrow" style="position:relative">GeoGebra y Python · Licenciatura</div>
+      <h1>Actividades divertidas de Geometría Analítica I</h1>
+      <div class="lvl">Geometría Analítica I · Facultad de Ciencias, UNAM · Por Sabino Isaac Cano Páez</div>
+      <p>Actividades interactivas en GeoGebra y cuadernos de Python en Google Colab. Cada una explica un tema del curso y propone actividades para trabajarlo. Están organizadas según las cinco unidades del curso.</p>
+      <div class="btns" style="position:relative"><a class="btn ghost" href="#curso-geometria-analitica-1">Ver el curso de Geometría Analítica I →</a></div>
+      <div class="kpis"><div class="kpi"><b>17</b><span>actividades</span></div><div class="kpi"><b>13</b><span>GeoGebra</span></div><div class="kpi"><b>4</b><span>Python</span></div><div class="kpi"><b>5</b><span>unidades</span></div></div>
+    </div>
+    <div class="origin "><span class="oi">🎓</span><div><h3>Origen: proyecto de servicio social asesorado por mí</h3><p>Estas actividades son resultado del <b>servicio social de Sabino Isaac Cano Páez</b> en el proyecto Matemáticas a Distancia, que asesoré como su tutora. Él diseñó las actividades en GeoGebra y Python; yo acompañé y revisé el proyecto.</p><p><b>Propósito:</b> complementar el curso de Geometría Analítica I con actividades divertidas que explican cada tema y proponen retos para trabajarlo de forma interactiva.</p></div></div>
+    <div class="gwrap">
+<div class="unit gblock"><div class="gh"><div class="num">1</div><div><h2>El plano y el espacio cartesiano</h2><div class="ucount">1 GeoGebra · 1 Python</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/rkfc7pwf" target="_blank" rel="noopener"><span class="ggn">01</span><span class="ggt">Simetría<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://colab.research.google.com/drive/1TTISFB_bmQrh9K8vypjY7XVdr6F9coSa?usp=drive_link" target="_blank" rel="noopener"><span class="ggn">02</span><span class="ggt">Gráficas de funciones<small class="ggk">Python · Google Colab</small></span><span class="ggo py">Abrir en Colab ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">2</div><div><h2>Trigonometría y coordenadas polares, cilíndricas y esféricas</h2><div class="ucount">4 GeoGebra · 1 Python</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/jr5hd357" target="_blank" rel="noopener"><span class="ggn">03</span><span class="ggt">El plano polar<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/a5eusghm" target="_blank" rel="noopener"><span class="ggn">04</span><span class="ggt">Graficando en el plano polar<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/kdqsdztw" target="_blank" rel="noopener"><span class="ggn">05</span><span class="ggt">Medidas indirectas<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/apugw426" target="_blank" rel="noopener"><span class="ggn">06</span><span class="ggt">Ley de senos y cosenos en acción<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://colab.research.google.com/drive/1O6KB_AG2zhCro2I6D3EPKdTxkJDll_5K?usp=drive_link" target="_blank" rel="noopener"><span class="ggn">07</span><span class="ggt">Coordenadas polares<small class="ggk">Python · Google Colab</small></span><span class="ggo py">Abrir en Colab ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">3</div><div><h2>Espacios vectoriales</h2><div class="ucount">1 GeoGebra · 2 Python</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/tkn8tadf" target="_blank" rel="noopener"><span class="ggn">08</span><span class="ggt">La forma vectorial de la ley de cosenos<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://colab.research.google.com/drive/1_fw54drccL4KrllRyP7liHA5wGysLHoi?usp=drive_link" target="_blank" rel="noopener"><span class="ggn">09</span><span class="ggt">Vectores y matrices 1<small class="ggk">Python · Google Colab</small></span><span class="ggo py">Abrir en Colab ↗</span></a>
+<a class="gg" href="https://colab.research.google.com/drive/1gs4Pp5BPalo9QlWz--z9KlHVc_ngGJaQ?usp=drive_link" target="_blank" rel="noopener"><span class="ggn">10</span><span class="ggt">Vectores y matrices 2<small class="ggk">Python · Google Colab</small></span><span class="ggo py">Abrir en Colab ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">4</div><div><h2>Rectas y planos</h2><div class="ucount">3 GeoGebra</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/ucmffh7p" target="_blank" rel="noopener"><span class="ggn">11</span><span class="ggt">Ecuaciones de la recta en el plano<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/cxwmaumg" target="_blank" rel="noopener"><span class="ggn">12</span><span class="ggt">Ecuaciones de la recta en el espacio<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/kfhcf9py" target="_blank" rel="noopener"><span class="ggn">13</span><span class="ggt">Ecuaciones del plano<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+<div class="unit gblock"><div class="gh"><div class="num">5</div><div><h2>Cónicas</h2><div class="ucount">4 GeoGebra</div></div></div><div class="ubody"><a class="gg" href="https://www.geogebra.org/m/htuqpq9w" target="_blank" rel="noopener"><span class="ggn">14</span><span class="ggt">Dukensio y Sombra 1<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/cc4wa3re" target="_blank" rel="noopener"><span class="ggn">15</span><span class="ggt">Dukensio y Sombra 2<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/rz6ekhpq" target="_blank" rel="noopener"><span class="ggn">16</span><span class="ggt">Telescopios, antenas y parábola<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+<a class="gg" href="https://www.geogebra.org/m/aacskpxd" target="_blank" rel="noopener"><span class="ggn">17</span><span class="ggt">Cónicas a partir de circunferencias y mediatrices<small class="ggk">GeoGebra</small></span><span class="ggo">Abrir en GeoGebra ↗</span></a>
+</div></div>
+
+      <div class="credits"><h3>Créditos</h3><ul><li>Actividades creadas por <strong>Sabino Isaac Cano Páez</strong> como parte de su servicio social en el proyecto Matemáticas a Distancia, realizado bajo la asesoría y tutoría de la Dra. Arilín Haro.</li></ul></div>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="recurso-python" data-nav="recursos">
+<section id="recurso-py-s" style="padding:40px 0 90px">
+  <div class="wrap">
+    <div class="crumb"><a href="#recursos">← Recursos didácticos</a> &nbsp;/&nbsp; Matemáticas con Python</div>
+    <div class="cv-head"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div class="eyebrow" style="position:relative">Python · Bachillerato y universidad</div>
+      <h1>Matemáticas con Python</h1>
+      <div class="lvl">Temas Selectos de Matemáticas (NEM) y licenciatura · Por Arilín Haro</div>
+      <p>Actividades que explican un tema de matemáticas acompañado de código en Python, en Google Colab. Muchas incluyen videos cortos para empezar y un video donde explico paso a paso cómo se programa el código.</p>
+      <div class="kpis"><div class="kpi"><b>11</b><span>actividades</span></div><div class="kpi"><b>11</b><span>cuadernos de Colab</span></div><div class="kpi"><b>18</b><span>videos</span></div></div>
+    </div>
+    <div class="origin op"><span class="oi">✦</span><div><h3>Origen: material propio</h3><p>Estas actividades son <b>de mi autoría</b>: escribí las explicaciones de los temas, el código en Python y los videos donde explico cómo se programa cada código.</p><p><b>Propósito:</b> que te familiarices con temas de matemáticas y, al mismo tiempo, aprendas a programar. Son temas que se ven en la universidad y también en bachillerato, en la unidad de aprendizaje curricular de <b>Temas Selectos de Matemáticas</b> de la Nueva Escuela Mexicana.</p></div></div>
+
+    <div class="legend" style="margin-bottom:16px"><span>▶ Video para empezar</span><span>▲ Taller del museo virtual</span><span>🐍 Actividad en Colab</span><span>▶ Explicación del código</span></div>
+    <div class="pygrid">
+<article class="pyc"><div class="pyh"><span class="pyi">🌦️</span><div><span class="ggn">01</span><h3>El caos y el clima: explorando sistemas caóticos y no caóticos</h3></div></div><p class="pyd">Se explica qué es un sistema caótico y se aborda el clima como ejemplo.</p><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/uzPjOQ62yLE" target="_blank" rel="noopener">▶ ¿Qué es el caos?</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/sDZnsLuyAoE" target="_blank" rel="noopener">▶ ¿Qué es un sistema dinámico?</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/wDFCzsSulko" target="_blank" rel="noopener">▶ Mariposa del caos: el clima como sistema caótico</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/18l7KXJUDFPyzlvUjnxltSmeQehp4_DzZ?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=Qg0Vqv1F9o8&amp;list=PLsHfADbz5gM6ZcUTs2UAMScmFEIqqysGw&amp;index=8" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">🌳</span><div><span class="ggn">02</span><h3>Árbol binario fractal</h3></div></div><p class="pyd">Se explica cómo se construye el árbol binario fractal. En el taller del museo virtual se puede ver más bonito y explorar otros fractales.</p><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-a" href="https://museoarilinsmath.com/taller" target="_blank" rel="noopener">▲ Museo virtual: crea tu árbol fractal</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1dK5v8u9_wUzD5ZQJFWFHEjVzOjs_4BSA?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">💡</span><div><span class="ggn">03</span><h3>Conjetura de Collatz</h3></div></div><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/SL24Dw68lls" target="_blank" rel="noopener">▶ La conjetura de Collatz</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/aIpiqnI6cec" target="_blank" rel="noopener">▶ ¿Qué es una conjetura?</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/19FgXyxuXEotXe-uIyMwJrqmQ9OzEfCOO?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=Zq6kP-GlBwg" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">📝</span><div><span class="ggn">04</span><h3>Promediar para saber si aprobaste o no</h3></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1sdXaxDyVZ0mkjuWuaYPAOVXXFI138wx0?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=L2vk9FQlkls&amp;t=10s" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">🐅</span><div><span class="ggn">05</span><h3>Corredor entre reservas naturales</h3></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1wUI4b1q5ZlP71icGlAoTiFE3yd64XsVC?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=4RHrAfi1EtM" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">💥</span><div><span class="ggn">06</span><h3>Conjunto de Mandelbrot</h3></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1EkN-5u0IjpUPYlsehkXlyqhKUuvdSCcZ?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=Ua5qRGOvOno&amp;t=95s" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">❄️</span><div><span class="ggn">07</span><h3>Explorando el copo de nieve de Koch</h3></div></div><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-a" href="https://museoarilinsmath.com/taller" target="_blank" rel="noopener">▲ Museo virtual: crea tu copo</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1LmkoI8n6HEfIgc_VDR72t-VkaHQ1IwP-?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">🎮</span><div><span class="ggn">08</span><h3>Acceso a la sala de videojuegos</h3></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1Q5OLNRM50ycDz-g97Z7MTrPJ5xrkkkYL?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=Fl4Cyx7KN5g&amp;list=PLsHfADbz5gM6ZcUTs2UAMScmFEIqqysGw&amp;index=6" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">🌎</span><div><span class="ggn">09</span><h3>Distancias grandes en la Tierra</h3></div></div><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/watch?v=otFw-otybvc" target="_blank" rel="noopener">▶ Coordenadas esféricas</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1y151-PyUtxJMJNHgYOg8ofqmwS7Ub5g7?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">❤️</span><div><span class="ggn">10</span><h3>Análisis de fractalidad en intervalos R-R de un electrocardiograma (ECG)</h3></div></div><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/_cb7ng3zgGs" target="_blank" rel="noopener">▶ Video introductorio</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/11nyMLzH0QyjiTs2ob1LBiBwmCx92e2hH?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=uyIMjWubvTg&amp;t=22s" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+<article class="pyc"><div class="pyh"><span class="pyi">⚡</span><div><span class="ggn">11</span><h3>Explorando las escalas logarítmicas</h3></div></div><p class="pyd">Exploramos qué son los logaritmos y algunos ejemplos de escalas logarítmicas.</p><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/MLeS59UIRik" target="_blank" rel="noopener">▶ ¿Qué es una escala logarítmica?</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/h70xns-Kq-Q" target="_blank" rel="noopener">▶ La magnitud del sonido se mide en escala logarítmica</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/6_K8RYtJCVE" target="_blank" rel="noopener">▶ ¿Qué es un logaritmo?</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/19LgWKhv9H6P5gQJ_Q1negyEV9fXrh4fH?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=_VLysRWf7GY&amp;t=397s" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="divulgacion">
+<!-- DIVULGACIÓN -->
+<section class="pagetop" id="divulgacion-s">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">Divulgación</div>
+      <h2>Llevar las matemáticas <em>a todas partes</em></h2>
+      <p>Videos, entrevistas, ferias, talleres y charlas para públicos de todas las edades. <a href="#divulgacion" onclick="event.preventDefault();this.closest('main').querySelector('.js-medios').scrollIntoView({behavior:'smooth'})" style="color:var(--gold);font-weight:600">Ver entrevistas y ponencias ↓</a></p>
+    </div>
+    <div style="margin:0 0 40px"><div class="museum reveal">
+      <svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div style="position:relative">
+        <div class="eyebrow">Museo virtual · Arilín's Math World</div>
+        <h2>Las matemáticas también se <em>visitan</em>.</h2>
+        <p>Un museo virtual de matemáticas para todas las edades, con juegos, leyendas, fractales, origami, simetría, música, billar, ilusiones y matemáticas de otras culturas. Gratuito y sin registro.</p>
+        <div class="btns">
+          <a class="btn primary" href="https://museoarilinsmath.com/" target="_blank" rel="noopener">Entrar al museo ↗</a>
+          <a class="btn ghost" href="https://museoarilinsmath.com/#contacto" target="_blank" rel="noopener">Escuelas y medios</a>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feat"><b>14</b><span>salas interactivas</span></div>
+        <div class="feat"><b>3D</b><span>recorrido con tu monito</span></div>
+        <div class="feat"><b>3–7</b><span>años: modo para peques</span></div>
+        <div class="feat"><b>★</b><span>reto diario y pasaporte con sellos</span></div>
+      </div>
+    </div>
+  </div>
+    <div class="cards3">
+      <div class="dcard reveal">
+        <div class="emoji">▶</div>
+        <h3>Canal de YouTube</h3>
+        <p>Arilín's Math World desde 2020: clases, la serie «¿Qué son las matemáticas?» y las entrevistas en vivo «Conociendo matemátic@s» y «Conociendo los problemas del milenio».</p>
+        <a class="go" href="https://www.youtube.com/@arilinsmathworld" target="_blank" rel="noopener">Ver el canal ↗</a>
+      </div>
+      <div class="dcard reveal">
+        <div class="emoji">✦</div>
+        <h3>Ferias y festivales</h3>
+        <ul>
+          <li>Math Rock Fest 2023, 2024 (invitada especial) y 2025 · <a href="https://www.youtube.com/watch?v=QvD46ysIvro" target="_blank" rel="noopener" style="color:var(--gold)">ver conferencia magistral 2025</a></li>
+          <li>Festival de Divulgación Científica, BUAP (2025)</li>
+          <li>Noche de las Estrellas (2025, 20 talleres)</li>
+          <li>Soy mujer y hago ciencia (2023 y 2025)</li>
+          <li>COSI Science Festival, Columbus, Ohio (2019)</li>
+          <li>1.ª Tarde Fractal, Facultad de Ciencias UNAM · <a href="https://www.facebook.com/reel/838388335460604" target="_blank" rel="noopener" style="color:var(--gold)">ver video</a></li>
+        </ul>
+        <a class="go" href="https://museoarilinsmath.com/prensa" target="_blank" rel="noopener">Más sobre ferias y festivales ↗</a>
+      </div>
+      <div class="dcard reveal">
+        <div class="emoji">◈</div>
+        <h3>Arilín's Math World</h3>
+        <p>Creé Arilín's Math World como una forma de comunicar y enseñar las matemáticas.</p>
+        <p class="oldnote">Mi primera página reúne retos, un taller de divulgación científica, un seminario de enseñanza y los materiales de mis cursos. Ya no está actualizada, pero ahí puedes echar un vistazo a mis inicios.</p>
+        <a class="go" href="https://sites.google.com/view/arilinsmathworld/inicio" target="_blank" rel="noopener">Ver mi página anterior ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="medios-s" class="js-medios" style="padding-top:20px">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">En los medios</div>
+      <h2>Entrevistas, ponencias y <em>menciones</em></h2>
+      <p>Entrevistas y ponencias en línea abiertas a todo público a las que me han invitado, y artículos en los que mencionan mi trabajo.</p>
+    </div>
+    <h3 class="sub">Entrevistas y ponencias en video</h3>
+    <div class="mlist">
+      <article class="mitem"><span class="mi">▶</span><div class="mb"><span class="mt">Entrevista</span><h3>Entrevista a la Dra. Arilín Susana Haro, FCiencias UNAM</h3><div class="mm">Art, science and stuff (Ouroboros) · enero de 2026</div><p>Conversación sobre mi trabajo y mi interés por las matemáticas.</p></div><a class="btn ghost msm" href="https://www.youtube.com/watch?v=tHvhs58nHZA" target="_blank" rel="noopener">Ver entrevista ↗</a></article>
+      <article class="mitem"><span class="mi">▶</span><div class="mb"><span class="mt">Conferencia magistral</span><h3>Beyond Flatness, Testing Other Geometries</h3><div class="mm">Math Rocks Fest 3.0 · septiembre de 2025</div><p>Las geometrías que surgen al modificar el quinto postulado de Euclides y su relación con el mundo que nos rodea.</p></div><a class="btn ghost msm" href="https://www.youtube.com/watch?v=QvD46ysIvro" target="_blank" rel="noopener">Ver conferencia ↗</a></article>
+      <article class="mitem"><span class="mi">▶</span><div class="mb"><span class="mt">Plática de divulgación</span><h3>Una vida de caos y complejidad</h3><div class="mm">Coloquio de Matemáticas UACJ · 2.º Taller de Verano de Geometría y Topología · junio de 2025</div><p>Plática de divulgación sobre caos y complejidad.</p></div><a class="btn ghost msm" href="https://www.youtube.com/watch?v=geZ4s3g6iR4" target="_blank" rel="noopener">Ver plática ↗</a></article>
+      <article class="mitem"><span class="mi">▶</span><div class="mb"><span class="mt">Charla</span><h3>De matemáticas y su aprendizaje</h3><div class="mm">Ciencias TV, Facultad de Ciencias UNAM · Coloquio de Orientación · agosto de 2022</div><p>Charla sobre el aprendizaje de las matemáticas.</p></div><a class="btn ghost msm" href="https://www.youtube.com/watch?v=jwT6g8KAaIw" target="_blank" rel="noopener">Ver charla ↗</a></article>
+      <article class="mitem"><span class="mi">▶</span><div class="mb"><span class="mt">Invitación en video</span><h3>1.ª Tarde Fractal</h3><div class="mm">Facultad de Ciencias UNAM · Facebook</div><p>Video de la Facultad de Ciencias en el que invito a la 1.ª Tarde Fractal.</p></div><a class="btn ghost msm" href="https://www.facebook.com/reel/838388335460604" target="_blank" rel="noopener">Ver en Facebook ↗</a></article>
+    </div>
+    <h3 class="sub">Artículos</h3>
+    <div class="mlist">
+      <article class="mitem"><span class="mi" style="background:var(--goldsoft);color:var(--gold)">✎</span><div class="mb"><span class="mt">Artículo</span><h3>Educadoras en la ciencia</h3><div class="mm">Revista Voces (ENMJN) · Mónica Álvarez Lara · 28 de marzo de 2025</div><p>Artículo sobre educadoras en espacios públicos de conocimiento que menciona mi trabajo de fomento científico docente y la invitación a estudiantes de la ENMJN a participar como expositoras en la feria «Soy mujer y hago ciencia».</p></div><a class="btn ghost msm" href="https://revistavoces.net/educadoras-en-la-ciencia/" target="_blank" rel="noopener">Leer artículo ↗</a></article>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="contacto">
+<!-- CONTACTO -->
+<section class="pagetop" id="contacto-s" style="min-height:60vh">
+  <div class="wrap contact reveal">
+    <div class="eyebrow">Contacto</div>
+    <h2>¿Hablamos de <em>matemáticas</em>, ciencia y educación?</h2>
+    <p>Para talleres, charlas, escuelas, medios o colaboraciones, escríbeme desde el formulario del museo o por mensaje directo en redes.</p>
+    <div class="social">
+      <a href="https://museoarilinsmath.com/#contacto" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Escríbeme</a>
+      <a href="https://www.youtube.com/@arilinsmathworld" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z" fill="currentColor"/></svg>YouTube</a>
+      <a href="https://www.instagram.com/arilinsmath/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>Instagram</a>
+      <a href="https://www.tiktok.com/@arilinsmath" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 2.5 2.5 4.5 5 4.5"/></svg>TikTok</a>
+      <a href="https://www.facebook.com/profile.php?id=61557539306659" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V10H6.5v3.5H9V21h3.5v-7.5H15l.5-3.5h-3V7a1 1 0 0 1 1-1H15z"/></svg>Facebook</a>
+    </div>
+  </div>
+</section>
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span data-en="© 2026 Arilín Haro · Free-access course materials">© 2026 Arilín Haro · Material de cursos de libre acceso</span>
+    <span><a href="https://museoarilinsmath.com/" target="_blank" rel="noopener" data-en="Arilín's Math World Museum">Museo Arilín's Math World</a> · <a href="https://sites.google.com/view/arilinsmathworld/inicio" target="_blank" rel="noopener" data-en="Outreach website">Página de divulgación</a></span>
+  </div>
+</footer>
+
+<script>
+// Triángulo de Sierpinski: dibuja los triángulos del nivel n
+(function(){
+  const g=document.getElementById('sierG'), ns='http://www.w3.org/2000/svg';
+  function tri(x,y,s,n){
+    if(n===0){const h=s*Math.sqrt(3)/2,p=document.createElementNS(ns,'path');
+      p.setAttribute('d',`M${x} ${y+h}L${x+s/2} ${y}L${x+s} ${y+h}Z`);g.appendChild(p);return;}
+    const h=s*Math.sqrt(3)/4;tri(x+s/4,y,s/2,n-1);tri(x,y+h,s/2,n-1);tri(x+s/2,y+h,s/2,n-1);
+  }
+  tri(0,0,512,5);
+})();
+// ===== Idioma / Language =====
+let L='es';try{const s=localStorage.getItem('lang');L=s||(((navigator.language||'es').toLowerCase().startsWith('es'))?'es':'en')}catch(e){}
+const tr=(es,en)=>L==='en'?en:es;
+const $id=x=>document.getElementById(L==='en'?x+'-en':x);
+const activeMain=()=>document.querySelector(`main[data-lang="${L}"]`);
+// ===== Cursos =====
+const COURSES=__DATA__;
+const F=(c,k)=>(L==='en'&&c.en&&c.en[k]!==undefined)?c.en[k]:c[k];
+const CHIP_EN=[[/^Notas \(versión alternativa\)/,'Notes (alt. version)'],[/^Notas/,'Notes'],[/^Cuestionario de la unidad/,'Unit quiz'],[/^Cuestionario/,'Quiz'],[/^Más ejercicios/,'More exercises'],[/^Ejercicios de práctica/,'Practice exercises'],[/^Ejercicios de repaso/,'Review exercises'],[/^Ejercicios/,'Exercises'],[/^Más ejemplos/,'More examples'],[/^Más notas/,'More notes'],[/^Video complementario/,'Supplementary video'],[/^Video alternativo/,'Alternative video'],[/^Video de Arilín/,"Arilín's video"],[/^Erratas videos y notas/,'Errata (videos and notes)'],[/^Ver video/,'Watch video'],[/^Video y Actividad/,'Video and activity'],[/^Actividad de autoevaluación/,'Self-assessment activity'],[/^Dem\. Teo\. del Binomio/,'Proof of the Binomial Theorem'],[/^Triángulo de Pascal/,"Pascal's triangle"],[/^Graficador online coordenadas polares/,'Online polar graphing tool']];
+function chipText(s){if(L!=='en')return s;for(const [re,en] of CHIP_EN){if(re.test(s))return s.replace(re,en)}return s}
+const SOON=()=>[];
+const AREA={alg:'c-alg',geo:'c-geo',an:'c-an',tool:'c-tool'};
+const KIND={v:['▶','k-v'],n:['📄','k-n'],q:['✎','k-q'],a:['◆','k-a'],e:['✍','k-e']};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function stats(c){const s={u:c.units.length,t:0,v:0,n:0,q:0};c.units.forEach(u=>{s.t+=u.topics.length;u.topics.forEach(t=>t.res.forEach(r=>{if(s[r.k]!==undefined)s[r.k]++}));[...u.mat,...u.act].forEach(r=>{if(r.k==='q')s.q++})});return s}
+function plural(n,a,b){return n+' '+(n===1?a:b)}
+function renderGrid(){
+const grid=$id('courseGrid');if(!grid)return;
+grid.innerHTML=COURSES.map(c=>{const s=stats(c);return `<a class="course ${AREA[c.area]}" data-c="${c.area}" href="#curso-${c.id}">
+  <div class="ico">${esc(c.ico)}</div><div class="tag">${esc(F(c,'tag'))}</div><h3>${esc(F(c,'title'))}</h3>
+  <p>${esc(F(c,'level'))}</p>
+  <div class="stats"><span>${plural(s.u,tr('unidad','unit'),tr('unidades','units'))}</span><span>${plural(s.t,tr('tema','topic'),tr('temas','topics'))}</span>${s.v?`<span>▶ ${s.v} videos</span>`:''}${s.n?`<span>📄 ${s.n} ${tr('notas','notes')}</span>`:''}</div>
+  <span class="go">${tr('Ver el curso →','See the course →')}</span></a>`}).join('')+SOON().map(c=>`<div class="course soon ${AREA[c.area]}" data-c="${c.area}"><span class="pill ${c.area==='geo'?'t':''}">${tr('En preparación','In preparation')}</span><div class="ico">${c.ico}</div><div class="tag">${c.tag}</div><h3>${c.title}</h3><p>${c.txt}</p></div>`).join('');
+const M=grid.closest('main');const on=M.querySelector('.filters button.on');if(on&&on.dataset.f!=='all')on.click();
+}
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{
+  const M=b.closest('main');
+  M.querySelectorAll('.filters button').forEach(x=>x.classList.toggle('on',x===b));
+  const f=b.dataset.f;
+  M.querySelectorAll('.js-grid .course').forEach(c=>c.classList.toggle('hidden',f!=='all'&&c.dataset.c!==f));
+}));
+function chip(r){const [i,k]=KIND[r.k]||KIND.n;return `<a class="chip2 ${k}" href="${esc(r.u)}" target="_blank" rel="noopener">${i} ${esc(chipText(r.t))}</a>`}
+const TABS0=[['tema','Por tema','By topic',null],['videos','Videos','Videos','v'],['notas','Notas','Notes','n'],['cuestionarios','Cuestionarios','Quizzes','q'],['ejercicios','Ejercicios y actividades','Exercises and activities','ea']];
+const TABSf=()=>TABS0.map(([k,es,en,kk])=>[k,tr(es,en),kk]);
+function has(r,k){return k==='ea'?(r.k==='e'||r.k==='a'):r.k===k}
+function hasU(r,k){return has(r,k)||(k==='ea'&&(!'qvn'.includes(r.k)||/ejercicio|ejemplo/i.test(r.t)))}
+function countK(c,k){let n=0;c.units.forEach(u=>{u.topics.forEach(t=>t.res.forEach(r=>{if(has(r,k))n++}));[...u.mat,...u.act].forEach(r=>{if(hasU(r,k))n++})});return n}
+function unitBlock(c,u,i,inner,count){return `<details class="unit" id="u${i}" open><summary><div class="num">${i+1}</div><div><h2>${esc(u.title)}</h2><div class="ucount">${count}</div></div><span class="chev">⌄</span></summary><div class="ubody">${inner}</div></details>`}
+function renderCourse(id,tab){
+  const c=COURSES.find(x=>x.id===id);if(!c)return false;
+  tab=tab||'tema';const TABS=TABSf();const T=TABS.find(x=>x[0]===tab)||TABS[0];
+  const s=stats(c);const idx=COURSES.indexOf(c);const prev=COURSES[idx-1],next=COURSES[idx+1];
+  let h=`<div class="crumb"><a href="#cursos">${tr('← Cursos','← Courses')}</a> &nbsp;/&nbsp; ${esc(F(c,'title'))}</div>
+  <div class="cv-head"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+    <div class="eyebrow" style="position:relative">${esc(F(c,'tag'))}</div><h1>${esc(F(c,'title'))}</h1>
+    <div class="lvl">${esc(F(c,'level'))}${c.by?` · ${tr('Por','By')} ${esc(F(c,'by'))}`:''}</div>
+    <p>${F(c,'intro')}</p>
+    <div class="btns">${c.video?`<a class="btn primary" href="${esc(c.video)}" target="_blank" rel="noopener">▶ ${tr('Video de presentación','Intro video')}</a>`:''}<a class="btn ghost" href="${esc(c.src)}" target="_blank" rel="noopener">${tr('Página original del curso ↗','Original course page ↗')}</a></div>
+    <div class="kpis"><div class="kpi"><b>${s.u}</b><span>${tr('unidades','units')}</span></div><div class="kpi"><b>${s.t}</b><span>${tr('temas','topics')}</span></div>${s.v?`<div class="kpi"><b>${s.v}</b><span>videos</span></div>`:''}${s.n?`<div class="kpi"><b>${s.n}</b><span>${tr('notas','notes')}</span></div>`:''}${s.q?`<div class="kpi"><b>${s.q}</b><span>${tr('cuestionarios','quizzes')}</span></div>`:''}</div>
+  </div>
+  <div class="cv-grid"><nav class="toc" aria-label="${tr('Unidades','Units')}"><div class="ttl">${tr('Unidades','Units')}</div>${c.units.map((u,i)=>`<a href="#curso-${c.id}" data-u="${i}"><i>${String(i+1).padStart(2,'0')}</i><span>${esc(u.title)}</span></a>`).join('')}</nav>
+  <div>${L==='en'?'<div class="langnote">🇲🇽 The course materials (videos, notes and quizzes) are in Spanish.</div>':''}<div class="tabs" role="tablist">${TABS.map(([k,l,kk])=>{const n=kk?countK(c,kk):s.t;return (kk&&!n)?'':`<a role="tab" class="${k===T[0]?'on':''}" href="#curso-${c.id}${k==='tema'?'':'-'+k}">${l}<small>${n}</small></a>`}).join('')}</div>
+  <label class="search"><span>🔎</span><input type="search" placeholder="${tr('Buscar un tema en este curso…','Search for a topic in this course…')}" aria-label="${tr('Buscar un tema','Search for a topic')}"></label>`;
+  if(T[0]==='tema'){
+    h+=`<div class="legend"><span>▶ Video</span><span>📄 ${tr('Notas','Notes')}</span><span>✎ ${tr('Cuestionario','Quiz')}</span><span>◆ ${tr('Actividad','Activity')}</span><span>✍ ${tr('Ejercicios','Exercises')}</span></div>`;
+    c.units.forEach((u,i)=>{
+      const nv=u.topics.reduce((a,t)=>a+t.res.filter(r=>r.k==='v').length,0);
+      let inner='';
+      u.topics.forEach((t,j)=>{inner+=`<div class="topic" data-s="${esc(t.title.toLowerCase())}"><span class="tn">${i+1}.${j+1}</span><h3>${esc(t.title)}</h3><div class="chips">${t.res.length?t.res.map(chip).join(''):`<span class="soonx">${tr('Material en preparación','Material in preparation')}</span>`}</div></div>`});
+      u.notes.forEach(n=>inner+=`<p class="unote">${n}</p>`);
+      if(u.mat.length)inner+=`<div class="ubox"><div class="lab">${tr('Material de la unidad','Unit materials')}</div><div class="chips">${u.mat.map(chip).join('')}</div></div>`;
+      if(u.act.length)inner+=`<div class="ubox"><div class="lab">${tr('Actividades, preguntas y retos','Activities, questions and challenges')}</div><div class="chips">${u.act.map(chip).join('')}</div></div>`;
+      h+=unitBlock(c,u,i,inner,`${plural(u.topics.length,tr('tema','topic'),tr('temas','topics'))}${nv?` · ${nv} videos`:''}`);
+    });
+  } else {
+    const k=T[2];let any=false;
+    c.units.forEach((u,i)=>{
+      let inner='',n=0;
+      u.topics.forEach((t,j)=>{const rs=t.res.filter(r=>has(r,k));if(!rs.length)return;n+=rs.length;inner+=`<div class="topic rrow" data-s="${esc(t.title.toLowerCase())}"><span class="tn">${i+1}.${j+1}</span><h3>${esc(t.title)}</h3><div class="chips">${rs.map(chip).join('')}</div></div>`});
+      const um=[...u.mat,...u.act].filter(r=>hasU(r,k));
+      if(um.length){n+=um.length;inner+=`<div class="ubox"><div class="lab">${tr('De la unidad','From the unit')}</div><div class="chips">${um.map(chip).join('')}</div></div>`}
+      if(!n)return;any=true;
+      h+=unitBlock(c,u,i,inner,`${n} ${T[1].toLowerCase()}`);
+    });
+    if(!any)h+=`<p class="empty">${tr('Este curso no tiene','This course has no')} ${T[1].toLowerCase()}.</p>`;
+  }
+  const cr=F(c,'credits');if(cr.length)h+=`<div class="credits"><h3>${tr('Agradecimientos','Acknowledgments')}</h3><ul>${cr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+  h+=`<div class="cv-nav">${prev?`<a class="btn ghost" href="#curso-${prev.id}">← ${esc(F(prev,'title'))}</a>`:'<span></span>'}${next?`<a class="btn ghost" href="#curso-${next.id}">${esc(F(next,'title'))} →</a>`:''}</div></div></div>`;
+  const cv=$id('cv');cv.innerHTML=h;
+  cv.querySelectorAll('.toc a').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const d=cv.querySelector('#u'+a.dataset.u);if(d){d.open=true;d.scrollIntoView({behavior:'smooth'})}}));
+  const inp=cv.querySelector('.search input');const norm=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'');
+  inp.addEventListener('input',()=>{const q=norm(inp.value.trim().toLowerCase());
+    cv.querySelectorAll('.unit').forEach(u=>{let any=false;u.querySelectorAll('.topic').forEach(t=>{const ok=!q||norm(t.dataset.s).includes(q);t.classList.toggle('hide',!ok);any=any||ok});u.classList.toggle('hide',!!q&&!any)})});
+  return true;
+}
+const PAGES=['inicio','sobre-mi','cursos','recursos','recurso-geogebra-nem','recurso-geometria-analitica','recurso-python','divulgacion','contacto'];
+function show(p){const M=activeMain();M.querySelectorAll('.page').forEach(x=>x.classList.toggle('on',x.dataset.page===p));
+  const pg=M.querySelector(`.page[data-page="${p}"]`);const nav=p==='curso'?'cursos':(pg&&pg.dataset.nav)||p;document.querySelectorAll('.menu a[data-nav]').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));
+  M.querySelectorAll('.page.on .reveal').forEach(el=>el.classList.add('in'));}
+let lastCourse=null;
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1))||'inicio';
+  if(h.startsWith('curso-')){
+    const rest=h.slice(6);const c=[...COURSES].sort((a,b)=>b.id.length-a.id.length).find(x=>rest===x.id||rest.startsWith(x.id+'-'));
+    if(c){const tab=rest.slice(c.id.length+1);const same=lastCourse===c.id;renderCourse(c.id,tab);lastCourse=c.id;show('curso');
+      document.title=F(c,'title')+' · Arilín Haro';if(!same)window.scrollTo(0,0);else{const tb=activeMain().querySelector('.tabs');if(tb&&tb.getBoundingClientRect().top<0)tb.scrollIntoView()}return}
+  }
+  lastCourse=null;
+  const p=PAGES.includes(h)?h:'inicio';show(p);
+  const na=document.querySelector(`.menu a[data-nav="${p}"]`);document.title=(p==='recurso-geogebra-nem'?tr('Clases de GeoGebra · ','GeoGebra lessons · '):p==='recurso-geometria-analitica'?tr('Actividades de Geometría Analítica · ','Analytic Geometry activities · '):p==='recurso-python'?tr('Matemáticas con Python · ','Mathematics with Python · '):(p==='inicio'||!na)?'':na.textContent+' · ')+'Arilín Haro';
+  window.scrollTo(0,0);
+}
+function setLang(l){L=l;try{localStorage.setItem('lang',l)}catch(e){}
+  document.documentElement.lang=l;
+  document.querySelectorAll('main[data-lang]').forEach(m=>m.hidden=m.dataset.lang!==l);
+  document.querySelectorAll('[data-en]').forEach(el=>{if(el.dataset.es===undefined)el.dataset.es=el.textContent;el.textContent=l==='en'?el.dataset.en:el.dataset.es});
+  document.querySelector('meta[name=description]').content=l==='en'?"Personal website of Dr. Arilín Haro: mathematician with a PhD in Mathematics Education, professor at the Faculty of Sciences of UNAM and creator of the Arilín's Math World virtual museum.":"Página personal de la Dra. Arilín Haro: matemática con doctorado en Matemática Educativa, profesora de la Facultad de Ciencias de la UNAM y creadora del Museo Virtual Arilín's Math World.";
+  document.querySelectorAll('.js-cv').forEach(c=>{if(!c.closest(`main[data-lang="${l}"]`))c.innerHTML=''});
+  renderGrid();lastCourse=null;route();}
+window.addEventListener('hashchange',route);setLang(L);
+// Cerrar menú móvil al elegir
+document.querySelectorAll('.menu a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.menu').classList.remove('open')));
+// Aparición suave
+const io=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12}):null;
+document.querySelectorAll('.reveal').forEach(el=>io?io.observe(el):el.classList.add('in'));
+</script>
+</body>
+</html>
