@@ -102,7 +102,7 @@ def sub_attr(m):
     v=m.group(2); return m.group(1)+'="'+TR.get(v,v)+'"'
 en=re.sub(r'\b(alt|aria-label|placeholder)="([^"]*)"',sub_attr,en)
 en=en.replace('Materials to <em>teaching</em>','Materials to <em>teach</em>').replace('href="https://museoarilinsmath.com/prensa"','href="https://museoarilinsmath.com/en/prensa"')
-for x,y in [('Clases de GeoGebra','GeoGebra lessons'),('Actividades de Geometría Analítica','Analytic Geometry activities'),('Matemáticas con Python','Mathematics with Python')]:
+for x,y in [('Clases de GeoGebra','GeoGebra lessons'),('Actividades de Geometría Analítica','Analytic Geometry activities'),('Matemáticas con Python','Mathematics with Python'),('Finanzas con propósito','Finance with Purpose')]:
     en=en.replace('&nbsp;/&nbsp; '+x,'&nbsp;/&nbsp; '+y)
 t=t[:b]+'\n'+en+t[b:]
 open(P('..','index.html'),'w',encoding='utf-8').write(t)

@@ -308,6 +308,11 @@ main[hidden]{display:none}
 .msm{padding:9px 16px;font-size:.85rem;white-space:nowrap}
 @media (max-width:700px){.mitem{grid-template-columns:44px 1fr}.mitem .msm{grid-column:2;justify-self:start}}
 
+.labrows{display:grid;gap:6px;font-size:.9rem}
+.labrows>div{display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline}
+.labrows .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:560px){.labrows>div{grid-template-columns:1fr;gap:2px}}
+
 footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.85rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 footer a{color:var(--gold);text-decoration:none}
@@ -562,6 +567,12 @@ footer a{color:var(--gold);text-decoration:none}
         <p>11 actividades que explican un tema con código en Python y enseñan a programarlo. Temas Selectos de Matemáticas (NEM) y licenciatura.</p>
         <div class="stats"><span>🐍 11 cuadernos de Colab</span><span>▶ 18 videos</span></div>
         <span class="go">Ver las actividades →</span></a>
+      <a class="course c-alg" href="#recurso-finanzas">
+        <span class="tpill tp-t">Proyecto de titulación asesorado</span>
+        <div class="ico">$</div><div class="tag">Python y educación financiera · Bachillerato</div><h3>Finanzas con propósito</h3>
+        <p>4 laboratorios de modelación financiera con 12 cuadernos de Python para 5.º semestre de bachillerato (NEM). Por Frida Sánchez Morales.</p>
+        <div class="stats"><span>4 laboratorios</span><span>🐍 12 cuadernos</span></div>
+        <span class="go">Ver los laboratorios →</span></a>
       <a class="course c-geo" href="#recurso-geogebra-nem">
         <span class="tpill tp-s">Servicio social asesorado</span>
         <div class="ico">◆</div><div class="tag">GeoGebra · Bachillerato</div><h3>Clases de GeoGebra para 4.º semestre (NEM)</h3>
@@ -574,7 +585,7 @@ footer a{color:var(--gold);text-decoration:none}
         <p>17 actividades en GeoGebra y Google Colab que explican temas del curso y proponen retos para trabajarlos. Por Sabino Isaac Cano Páez.</p>
         <div class="stats"><span>5 unidades</span><span>◆ 13 GeoGebra</span><span>🐍 4 Python</span></div>
         <span class="go">Ver las actividades →</span></a>
-      <div class="course soon c-alg"><span class="pill">Muy pronto</span><div class="ico">+</div><div class="tag">Recursos</div><h3>Más recursos</h3><p>Pronto se sumarán materiales propios y de proyectos de titulación que he asesorado.</p></div>
+      <div class="course soon c-alg"><span class="pill">Muy pronto</span><div class="ico">+</div><div class="tag">Recursos</div><h3>Más recursos</h3><p>Pronto se sumarán más materiales propios y de proyectos que he asesorado.</p></div>
     </div>
   </div>
 </section>
@@ -690,6 +701,60 @@ footer a{color:var(--gold);text-decoration:none}
 <article class="pyc"><div class="pyh"><span class="pyi">🌎</span><div><span class="ggn">09</span><h3>Distancias grandes en la Tierra</h3></div></div><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/watch?v=otFw-otybvc" target="_blank" rel="noopener">▶ Coordenadas esféricas</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1y151-PyUtxJMJNHgYOg8ofqmwS7Ub5g7?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div></article>
 <article class="pyc"><div class="pyh"><span class="pyi">❤️</span><div><span class="ggn">10</span><h3>Análisis de fractalidad en intervalos R-R de un electrocardiograma (ECG)</h3></div></div><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/_cb7ng3zgGs" target="_blank" rel="noopener">▶ Video introductorio</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/11nyMLzH0QyjiTs2ob1LBiBwmCx92e2hH?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=uyIMjWubvTg&amp;t=22s" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
 <article class="pyc"><div class="pyh"><span class="pyi">⚡</span><div><span class="ggn">11</span><h3>Explorando las escalas logarítmicas</h3></div></div><p class="pyd">Exploramos qué son los logaritmos y algunos ejemplos de escalas logarítmicas.</p><div class="pyg"><div class="lab">Para empezar</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/MLeS59UIRik" target="_blank" rel="noopener">▶ ¿Qué es una escala logarítmica?</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/h70xns-Kq-Q" target="_blank" rel="noopener">▶ La magnitud del sonido se mide en escala logarítmica</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/6_K8RYtJCVE" target="_blank" rel="noopener">▶ ¿Qué es un logaritmo?</a></div></div><div class="pyg"><div class="lab">Actividad</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/19LgWKhv9H6P5gQJ_Q1negyEV9fXrh4fH?usp=sharing" target="_blank" rel="noopener">🐍 Abrir en Google Colab</a></div></div><div class="pyg"><div class="lab">Cómo se programó</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=_VLysRWf7GY&amp;t=397s" target="_blank" rel="noopener">▶ Video: explicación del código</a></div></div></article>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="recurso-finanzas" data-nav="recursos">
+<section id="recurso-fin-s" style="padding:40px 0 90px">
+  <div class="wrap">
+    <div class="crumb"><a href="#recursos">← Recursos didácticos</a> &nbsp;/&nbsp; Finanzas con propósito</div>
+    <div class="cv-head"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div class="eyebrow" style="position:relative">Python y educación financiera · Bachillerato</div>
+      <h1>Finanzas con propósito</h1>
+      <div class="lvl">5.º semestre de bachillerato (NEM) · Por Frida Sánchez Morales</div>
+      <p>Estrategias de pensamiento matemático para la Educación Media Superior: cuatro laboratorios de modelación financiera con cuadernos de Python en Google Colab, pensados para cubrir un semestre de 60 horas. Cada laboratorio parte de un problema financiero real, lo formaliza con matemáticas, lo traduce a código y cierra con una reflexión crítica.</p>
+      <div class="kpis"><div class="kpi"><b>4</b><span>laboratorios</span></div><div class="kpi"><b>12</b><span>cuadernos de Colab</span></div><div class="kpi"><b>60</b><span>horas</span></div></div>
+    </div>
+    <div class="origin ot"><span class="oi">🎓</span><div><h3>Origen: proyecto de titulación asesorado por mí</h3><p>Este material forma parte del <b>proyecto de titulación de Frida Sánchez Morales</b>, realizado en la modalidad de Actividad de Apoyo a la Docencia para obtener el título de Licenciada en Matemáticas en la Facultad de Ciencias de la UNAM (2026). Fui su tutora: ella diseñó los laboratorios y los cuadernos de Python, y yo asesoré y revisé el proyecto.</p><p><b>Propósito:</b> ofrecer una propuesta didáctica para quinto semestre de bachillerato (Pensamiento Matemático Aplicado a las Finanzas I, del Marco Curricular Común de la NEM) que une el pensamiento matemático, la educación financiera y el pensamiento computacional con Python. Python no se enseña como un fin aislado, sino como un laboratorio de modelación para entender el ahorro, la inversión y la deuda.</p></div></div>
+    <div class="gwrap">
+      <div class="unit gblock"><div class="gh"><div class="num">I</div><div><h2>Laboratorio I: El mito del ahorro pasivo</h2><div class="ucount">Semanas 1 a 3 · 15 horas · 2 cuadernos</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Analiza cómo la inflación erosiona el ahorro estático usando sucesiones aritméticas e interés simple, y construye una calculadora de poder adquisitivo.</p>
+        <div class="labrows">
+          <div><span class="lab">Finanzas</span><span>Presupuesto básico, inflación y ahorro estático</span></div>
+          <div><span class="lab">Matemáticas</span><span>Modelos lineales y variación (progresiones 1 y 2)</span></div>
+          <div><span class="lab">Python</span><span>Variables, tipos de datos, operadores aritméticos, input y print</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Cuadernos</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1gbgejAseokIZajKWLYmUf6bjLtMFELwt?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 1 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1qwmXXlJ5gdkR7Z5xd5evvJFxcWG3iJg9?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 2 en Colab ↗</a></div></div>
+      </div></div>
+      <div class="unit gblock"><div class="gh"><div class="num">II</div><div><h2>Laboratorio II: La bola de nieve financiera</h2><div class="ucount">Semanas 4 a 6 · 15 horas · 3 cuadernos</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Da el salto del crecimiento lineal al exponencial: interés compuesto, capitalización y CETES como primer instrumento de inversión.</p>
+        <div class="labrows">
+          <div><span class="lab">Finanzas</span><span>Interés compuesto, capitalización y modelos multiplicativos</span></div>
+          <div><span class="lab">Matemáticas</span><span>Funciones exponenciales y tasas de cambio (progresiones 3 y 6)</span></div>
+          <div><span class="lab">Python</span><span>Ciclos for, listas y gráficas con matplotlib</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Cuadernos</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/17mLmJqAD3MHmS3MvOc6RpfXBVN80GKXO?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 1 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1B90sS5bhqP8yQyrZmXMu9kGw6CvRI5ZT?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 2 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1hc6N9RHUwFLo8XQX7kcNhFZJyfopYfHM?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 3 en Colab ↗</a></div></div>
+      </div></div>
+      <div class="unit gblock"><div class="gh"><div class="num">III</div><div><h2>Laboratorio III: Análisis de deuda</h2><div class="ucount">Semanas 7 a 9 · 15 horas · 3 cuadernos</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Estudia créditos, Costo Anual Total (CAT), intereses moratorios y saldo insoluto, simulando penalizaciones con condicionales.</p>
+        <div class="labrows">
+          <div><span class="lab">Finanzas</span><span>Créditos, CAT, intereses moratorios y saldo insoluto</span></div>
+          <div><span class="lab">Matemáticas</span><span>Derivada y razón de cambio instantánea (progresión 7)</span></div>
+          <div><span class="lab">Python</span><span>Condicionales if–elif–else y manejo de errores</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Cuadernos</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1h7h-_cOrlzLuLwh44f2KXm_rmCrzfBSs?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 1 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1OD2MEeSqvJmeYEYX9w9kM85mLm_91Jkn?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 2 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1BWkrbcMVRdFI5lBd3zSvQjGsVOpMFMzM?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 3 en Colab ↗</a></div></div>
+      </div></div>
+      <div class="unit gblock"><div class="gh"><div class="num">IV</div><div><h2>Laboratorio IV: Consultoría financiera</h2><div class="ucount">Semanas 10 a 12 · 15 horas · 4 cuadernos</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Optimiza amortizaciones, compara instrumentos financieros y cierra con el proyecto integrador: un simulador de crédito con dictamen automatizado.</p>
+        <div class="labrows">
+          <div><span class="lab">Finanzas</span><span>Optimización de amortizaciones y comparación de instrumentos</span></div>
+          <div><span class="lab">Matemáticas</span><span>Optimización y toma de decisiones (progresión 8)</span></div>
+          <div><span class="lab">Python</span><span>Ciclos while y proyecto integrador “Simulador de crédito”</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Cuadernos</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1Mf6lhpmHYC7cuWAV0wpY7x5RvWWvyZfH?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 1 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1gf9_PwCLjl8aI6xbdvBzD1LItA3qEAQp?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 2 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1ntWOd4WZjTGwn9ZCnTKIHWGf5mxOzSRp?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 3 en Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1WH0LFxBRtcRCFtFhTtEb07DXUGqfRakr?usp=sharing" target="_blank" rel="noopener">🐍 Cuaderno 4 en Colab ↗</a></div></div>
+      </div></div>
+      <div class="credits"><h3>Créditos</h3><ul><li>Laboratorios y cuadernos creados por <strong>Frida Sánchez Morales</strong> como proyecto de titulación (Actividad de Apoyo a la Docencia) de la Licenciatura en Matemáticas, Facultad de Ciencias, UNAM, bajo la tutoría de la Dra. Arilín Haro (2026).</li></ul></div>
     </div>
   </div>
 </section>
@@ -990,6 +1055,12 @@ footer a{color:var(--gold);text-decoration:none}
         <p>11 activities that explain a topic with Python code and teach you how to program it. For the NEM “Temas Selectos de Matemáticas” course and university.</p>
         <div class="stats"><span>🐍 11 Colab notebooks</span><span>▶ 18 videos</span></div>
         <span class="go">See the activities →</span></a>
+      <a class="course c-alg" href="#recurso-finanzas">
+        <span class="tpill tp-t">Supervised thesis project</span>
+        <div class="ico">$</div><div class="tag">Python and financial education · High school</div><h3>Finance with Purpose</h3>
+        <p>4 financial modeling labs with 12 Python notebooks for the 5th semester of high school (NEM). By Frida Sánchez Morales.</p>
+        <div class="stats"><span>4 labs</span><span>🐍 12 notebooks</span></div>
+        <span class="go">See the labs →</span></a>
       <a class="course c-geo" href="#recurso-geogebra-nem">
         <span class="tpill tp-s">Supervised social service</span>
         <div class="ico">◆</div><div class="tag">GeoGebra · High school</div><h3>GeoGebra lessons for 4th semester (NEM)</h3>
@@ -1002,7 +1073,7 @@ footer a{color:var(--gold);text-decoration:none}
         <p>17 activities in GeoGebra and Google Colab that explain course topics and propose challenges to work on them. By Sabino Isaac Cano Páez.</p>
         <div class="stats"><span>5 units</span><span>◆ 13 GeoGebra</span><span>🐍 4 Python</span></div>
         <span class="go">See the activities →</span></a>
-      <div class="course soon c-alg"><span class="pill">Coming soon</span><div class="ico">+</div><div class="tag">Resources</div><h3>More resources</h3><p>My own materials and outcomes of thesis projects I supervised will be added soon.</p></div>
+      <div class="course soon c-alg"><span class="pill">Coming soon</span><div class="ico">+</div><div class="tag">Resources</div><h3>More resources</h3><p>More of my own materials and of projects I have supervised will be added soon.</p></div>
     </div>
   </div>
 </section>
@@ -1118,6 +1189,60 @@ footer a{color:var(--gold);text-decoration:none}
 <article class="pyc"><div class="pyh"><span class="pyi">🌎</span><div><span class="ggn">09</span><h3>Large distances on Earth</h3></div></div><div class="pyg"><div class="lab">Get started</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/watch?v=otFw-otybvc" target="_blank" rel="noopener">▶ Spherical coordinates</a></div></div><div class="pyg"><div class="lab">Activity</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1y151-PyUtxJMJNHgYOg8ofqmwS7Ub5g7?usp=sharing" target="_blank" rel="noopener">🐍 Open in Google Colab</a></div></div></article>
 <article class="pyc"><div class="pyh"><span class="pyi">❤️</span><div><span class="ggn">10</span><h3>Fractal analysis of R-R intervals in an electrocardiogram (ECG)</h3></div></div><div class="pyg"><div class="lab">Get started</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/_cb7ng3zgGs" target="_blank" rel="noopener">▶ Intro video</a></div></div><div class="pyg"><div class="lab">Activity</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/11nyMLzH0QyjiTs2ob1LBiBwmCx92e2hH?usp=sharing" target="_blank" rel="noopener">🐍 Open in Google Colab</a></div></div><div class="pyg"><div class="lab">How it was coded</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=uyIMjWubvTg&amp;t=22s" target="_blank" rel="noopener">▶ Video: code walkthrough</a></div></div></article>
 <article class="pyc"><div class="pyh"><span class="pyi">⚡</span><div><span class="ggn">11</span><h3>Exploring logarithmic scales</h3></div></div><p class="pyd">We explore what logarithms are and some examples of logarithmic scales.</p><div class="pyg"><div class="lab">Get started</div><div class="chips"><a class="chip2 k-v" href="https://www.youtube.com/shorts/MLeS59UIRik" target="_blank" rel="noopener">▶ What is a logarithmic scale?</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/h70xns-Kq-Q" target="_blank" rel="noopener">▶ Sound loudness is measured on a logarithmic scale</a><a class="chip2 k-v" href="https://www.youtube.com/shorts/6_K8RYtJCVE" target="_blank" rel="noopener">▶ What is a logarithm?</a></div></div><div class="pyg"><div class="lab">Activity</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/19LgWKhv9H6P5gQJ_Q1negyEV9fXrh4fH?usp=sharing" target="_blank" rel="noopener">🐍 Open in Google Colab</a></div></div><div class="pyg"><div class="lab">How it was coded</div><div class="chips"><a class="chip2 k-n" href="https://www.youtube.com/watch?v=_VLysRWf7GY&amp;t=397s" target="_blank" rel="noopener">▶ Video: code walkthrough</a></div></div></article>
+    </div>
+  </div>
+</section>
+</div>
+<div class="page" data-page="recurso-finanzas" data-nav="recursos">
+<section id="recurso-fin-s-en" style="padding:40px 0 90px">
+  <div class="wrap">
+    <div class="crumb"><a href="#recursos">← Teaching resources</a> &nbsp;/&nbsp; Finance with Purpose</div>
+    <div class="cv-head"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div class="eyebrow" style="position:relative">Python and financial education · High school</div>
+      <h1>Finance with Purpose</h1>
+      <div class="lvl">5th semester of high school (NEM) · By Frida Sánchez Morales</div>
+      <p>Mathematical thinking strategies for high school: four financial modeling labs with Python notebooks in Google Colab, designed to cover a 60-hour semester. Each lab starts from a real financial problem, formalizes it mathematically, translates it into code and closes with a critical reflection. The materials are in Spanish.</p>
+      <div class="kpis"><div class="kpi"><b>4</b><span>labs</span></div><div class="kpi"><b>12</b><span>Colab notebooks</span></div><div class="kpi"><b>60</b><span>hours</span></div></div>
+    </div>
+    <div class="origin ot"><span class="oi">🎓</span><div><h3>Origin: degree project under my supervision</h3><p>This material is part of the <b>degree project of Frida Sánchez Morales</b>, carried out as a Teaching Support Activity to earn her Bachelor’s degree in Mathematics at the Faculty of Sciences, UNAM (2026). I was her advisor: she designed the labs and the Python notebooks, and I supervised and reviewed the project.</p><p><b>Purpose:</b> to offer a teaching proposal for the fifth semester of high school (Mathematical Thinking Applied to Finance I, in the NEM common curriculum) that brings together mathematical thinking, financial education and computational thinking with Python. Python is not taught as an end in itself, but as a modeling lab for understanding saving, investing and debt.</p></div></div>
+    <div class="gwrap">
+      <div class="unit gblock"><div class="gh"><div class="num">I</div><div><h2>Lab I: The myth of passive saving</h2><div class="ucount">Weeks 1 to 3 · 15 hours · 2 notebooks</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Analyzes how inflation erodes static savings using arithmetic sequences and simple interest, and builds a purchasing-power calculator.</p>
+        <div class="labrows">
+          <div><span class="lab">Finance</span><span>Basic budgeting, inflation and static saving</span></div>
+          <div><span class="lab">Mathematics</span><span>Linear models and variation (progressions 1 and 2)</span></div>
+          <div><span class="lab">Python</span><span>Variables, data types, arithmetic operators, input and print</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Notebooks</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1gbgejAseokIZajKWLYmUf6bjLtMFELwt?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 1 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1qwmXXlJ5gdkR7Z5xd5evvJFxcWG3iJg9?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 2 in Colab ↗</a></div></div>
+      </div></div>
+      <div class="unit gblock"><div class="gh"><div class="num">II</div><div><h2>Lab II: The financial snowball</h2><div class="ucount">Weeks 4 to 6 · 15 hours · 3 notebooks</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Makes the leap from linear to exponential growth: compound interest, compounding and CETES as a first investment instrument.</p>
+        <div class="labrows">
+          <div><span class="lab">Finance</span><span>Compound interest, compounding and multiplicative models</span></div>
+          <div><span class="lab">Mathematics</span><span>Exponential functions and rates of change (progressions 3 and 6)</span></div>
+          <div><span class="lab">Python</span><span>For loops, lists and plots with matplotlib</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Notebooks</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/17mLmJqAD3MHmS3MvOc6RpfXBVN80GKXO?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 1 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1B90sS5bhqP8yQyrZmXMu9kGw6CvRI5ZT?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 2 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1hc6N9RHUwFLo8XQX7kcNhFZJyfopYfHM?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 3 in Colab ↗</a></div></div>
+      </div></div>
+      <div class="unit gblock"><div class="gh"><div class="num">III</div><div><h2>Lab III: Debt analysis</h2><div class="ucount">Weeks 7 to 9 · 15 hours · 3 notebooks</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Studies loans, Total Annual Cost (CAT), late-payment interest and outstanding balance, simulating penalties with conditionals.</p>
+        <div class="labrows">
+          <div><span class="lab">Finance</span><span>Loans, CAT, late-payment interest and outstanding balance</span></div>
+          <div><span class="lab">Mathematics</span><span>The derivative and instantaneous rate of change (progression 7)</span></div>
+          <div><span class="lab">Python</span><span>if–elif–else conditionals and error handling</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Notebooks</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1h7h-_cOrlzLuLwh44f2KXm_rmCrzfBSs?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 1 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1OD2MEeSqvJmeYEYX9w9kM85mLm_91Jkn?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 2 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1BWkrbcMVRdFI5lBd3zSvQjGsVOpMFMzM?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 3 in Colab ↗</a></div></div>
+      </div></div>
+      <div class="unit gblock"><div class="gh"><div class="num">IV</div><div><h2>Lab IV: Financial consulting</h2><div class="ucount">Weeks 10 to 12 · 15 hours · 4 notebooks</div></div></div><div class="ubody">
+        <p class="pyd" style="margin:0 0 12px">Optimizes amortization, compares financial instruments and closes with the capstone project: a loan simulator with an automated assessment.</p>
+        <div class="labrows">
+          <div><span class="lab">Finance</span><span>Optimizing amortization and comparing instruments</span></div>
+          <div><span class="lab">Mathematics</span><span>Optimization and decision-making (progression 8)</span></div>
+          <div><span class="lab">Python</span><span>While loops and the “Loan simulator” capstone project</span></div>
+        </div>
+        <div class="pyg" style="margin-top:12px"><div class="lab">Notebooks</div><div class="chips"><a class="chip2 k-q" href="https://colab.research.google.com/drive/1Mf6lhpmHYC7cuWAV0wpY7x5RvWWvyZfH?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 1 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1gf9_PwCLjl8aI6xbdvBzD1LItA3qEAQp?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 2 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1ntWOd4WZjTGwn9ZCnTKIHWGf5mxOzSRp?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 3 in Colab ↗</a><a class="chip2 k-q" href="https://colab.research.google.com/drive/1WH0LFxBRtcRCFtFhTtEb07DXUGqfRakr?usp=sharing" target="_blank" rel="noopener">🐍 Notebook 4 in Colab ↗</a></div></div>
+      </div></div>
+      <div class="credits"><h3>Credits</h3><ul><li>Labs and notebooks created by <strong>Frida Sánchez Morales</strong> as her degree project (Teaching Support Activity) for the Bachelor’s in Mathematics, Faculty of Sciences, UNAM, under the supervision of Dr. Arilín Haro (2026).</li></ul></div>
     </div>
   </div>
 </section>
@@ -1326,7 +1451,7 @@ function renderCourse(id,tab){
     cv.querySelectorAll('.unit').forEach(u=>{let any=false;u.querySelectorAll('.topic').forEach(t=>{const ok=!q||norm(t.dataset.s).includes(q);t.classList.toggle('hide',!ok);any=any||ok});u.classList.toggle('hide',!!q&&!any)})});
   return true;
 }
-const PAGES=['inicio','sobre-mi','cursos','recursos','recurso-geogebra-nem','recurso-geometria-analitica','recurso-python','divulgacion','contacto'];
+const PAGES=['inicio','sobre-mi','cursos','recursos','recurso-geogebra-nem','recurso-geometria-analitica','recurso-python','recurso-finanzas','divulgacion','contacto'];
 function show(p){const M=activeMain();M.querySelectorAll('.page').forEach(x=>x.classList.toggle('on',x.dataset.page===p));
   const pg=M.querySelector(`.page[data-page="${p}"]`);const nav=p==='curso'?'cursos':(pg&&pg.dataset.nav)||p;document.querySelectorAll('.menu a[data-nav]').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));
   M.querySelectorAll('.page.on .reveal').forEach(el=>el.classList.add('in'));}
@@ -1340,7 +1465,7 @@ function route(){
   }
   lastCourse=null;
   const p=PAGES.includes(h)?h:'inicio';show(p);
-  const na=document.querySelector(`.menu a[data-nav="${p}"]`);document.title=(p==='recurso-geogebra-nem'?tr('Clases de GeoGebra · ','GeoGebra lessons · '):p==='recurso-geometria-analitica'?tr('Actividades de Geometría Analítica · ','Analytic Geometry activities · '):p==='recurso-python'?tr('Matemáticas con Python · ','Mathematics with Python · '):(p==='inicio'||!na)?'':na.textContent+' · ')+'Arilín Haro';
+  const na=document.querySelector(`.menu a[data-nav="${p}"]`);document.title=(p==='recurso-geogebra-nem'?tr('Clases de GeoGebra · ','GeoGebra lessons · '):p==='recurso-geometria-analitica'?tr('Actividades de Geometría Analítica · ','Analytic Geometry activities · '):p==='recurso-python'?tr('Matemáticas con Python · ','Mathematics with Python · '):p==='recurso-finanzas'?tr('Finanzas con propósito · ','Finance with Purpose · '):(p==='inicio'||!na)?'':na.textContent+' · ')+'Arilín Haro';
   window.scrollTo(0,0);
 }
 function setLang(l){L=l;try{localStorage.setItem('lang',l)}catch(e){}
