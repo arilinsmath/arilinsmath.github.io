@@ -7,3 +7,4 @@
 - La página es bilingüe: dos copias de `<main>` (es/en); botón ES|EN en la barra; el idioma se guarda en localStorage.
 - Navegación por hash (`#cursos`, `#curso-<id>`, `#curso-<id>-videos`, `#recurso-python`, etc.).
 - Mantén `.nojekyll` en la raíz.
+- Enlaces de Drive rotos: lista en `fuente/enlaces_rotos.txt`; `build.py` los filtra y renumera ("Notas 1, 2…").

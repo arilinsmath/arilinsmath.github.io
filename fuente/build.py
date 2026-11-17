@@ -68,6 +68,28 @@ EN={
    intro='More than a full course, this is a helping hand for anyone learning to write in LaTeX. The first two videos are a mini course with the basics for writing a nice-looking homework assignment; the rest explain each topic in more detail.',credits=[]),
 }
 d=[c for c in d if c['id']!='ed1']
+# Enlaces de Drive que ya no existen o no son públicos (revisados con el conector de Google Drive).
+# Se eliminan de los cursos; ver enlaces_rotos.txt
+BROKEN=set(l.strip() for l in open(P('enlaces_rotos.txt'),encoding='utf-8') if l.strip() and not l.startswith('#'))
+def _ok(r):
+    m=re.search(r'drive\.google\.com/file/d/([\w-]+)',r['u'])
+    return not (m and m.group(1) in BROKEN)
+def _renum(lst):
+    cnt={}
+    for r in lst:
+        m=re.fullmatch(r'(.*\D) (\d+)',r['t'])
+        if m:
+            cnt[m.group(1)]=cnt.get(m.group(1),0)+1
+            r['t']=f"{m.group(1)} {cnt[m.group(1)]}"
+    return lst
+REMOVED=0
+for c in d:
+    for u in c['units']:
+        for t in u['topics']:
+            n=len(t['res']); t['res']=_renum([r for r in t['res'] if _ok(r)]); REMOVED+=n-len(t['res'])
+        for k in ('material','activities'):
+            n=len(u[k]); u[k]=_renum([r for r in u[k] if _ok(r)]); REMOVED+=n-len(u[k])
+print('enlaces eliminados:',REMOVED)
 FIX={'Triángulo de Pasca':'Triángulo de Pascal','EJERCICIOS DE PRÁCTICA':'Ejercicios de práctica','Cuest1':'Cuestionario 1','Cuest2':'Cuestionario 2','notas':'Más notas','ejercicios':'Más ejercicios','Acvt. Geogebra':'GeoGebra','+Ejercicios':'Más ejercicios'}
 for c in d:
     for u in c['units']:

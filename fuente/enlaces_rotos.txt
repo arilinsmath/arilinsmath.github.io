@@ -1,0 +1,37 @@
+# IDs de archivos de Google Drive que ya no existen o no son públicos (revisado 2026-11-17).
+# build.py los quita de los cursos. Si un archivo vuelve a publicarse, borra su línea.
+1-8KCiTQzGAsqkqPBvmNrGrYlbwevEbBu
+10Hjmm6CIYYZgPGAegUUoroumx3s-dnkl
+11Yh3wHgcjCHqhjcvArbzZt333TR_88hf
+14p7Ljh8-ApMT8dHlbVmBs6EHCEL9dqYm
+19R-Jq1a_AeloaJInrrtEmey6u-uv9Obv
+1Be8hcdzTdJ0h9ECTcHdJI0UsYeT-yCdA
+1EfGelxINHg7WXjbI_L4SxRhPRf8JNC8W
+1HKStaHL5xYCA25WBbZgHoTwy3q5tKlZo
+1HnO92FvUeJ4c-3NjXLu8kTkAeqCgJvi_
+1IlKrM6KzMrg2TjnyxWRF-gLVJYSMA4p4
+1KZYL5ajYULTq7NkuAlyp7rqMm_FA-6qA
+1Kh-UoTuy-3kHNmxhSNEIZYaDrx5PrEBT
+1L-ltIMYpAQlHxc8x0r5AuBSXNWX8SoNS
+1LfTxqSQykHYAFDUgwDSvEKTs_ktAEJuo
+1LrXC6gSIrfV-mStse-gKPmL9fK7QMyiD
+1MWksEJdMJuBgIAa8nI0_J17uJnaKPxqa
+1NT_aJEkdLzwwNnty9nRXrG8CIdZSKDI_
+1O7vIuJcDNxHPKe-10fgRqgdTT0pyjUHX
+1PdwwtN0t8CqmzhEtJGvdRjAY3MBJrUmB
+1Qh-5VdLQ7MGscDI_pkYrqpTa1vGZ0cjv
+1TCvfo1fMiHdWAKFXBfEncmLcuoB64eT5
+1Wr2zcdcolSyRcGpPPc2iXFIPjDyKn6RJ
+1YjucPuiHqgaSv2tH8gR-DPQZy3J23ywV
+1bZXX2f-RPNTAPnEiHYxnsh1J5W9KFvUD
+1hO5SvPwnPJgxEIdHjS72BEiLdpZri_v0
+1ndmv4qqT47q6dFbPLfdpNaicpG4hfpFo
+1o6HkxL8JU1k__3FNDXhJZ4QOSV6ttD6e
+1rrFKwD1qPKMKo4ODHmT1N-4U9Ydi1IY6
+1ulG2UXj_JykGYvipzFUKIGnA20MUDk0N
+1usjuXlgpSQvxHjlS1dlgn5zxL66MyqRh
+1vdbkqiHt1wUvb7SvOR0OdAQpP5T0YI1n
+1vq0Ghx0xfxqbnfUFlV70pF3VLu5FCaE8
+1yFAuxgMBFGhkU5L0EOs-Rjt5ChwqJTNy
+1ySxvYpnPaIkEnaREUbNZZgR9gS2XP2wo
+1zrEnG2mP8SewmXhlbohlbLgpGkMtccqX
