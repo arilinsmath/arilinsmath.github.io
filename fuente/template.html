@@ -313,6 +313,13 @@ main[hidden]{display:none}
 .labrows .lab{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 @media (max-width:560px){.labrows>div{grid-template-columns:1fr;gap:2px}}
 
+.cvjump{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.cvj{font-size:.84rem;padding:7px 14px;border-radius:999px;background:rgba(255,255,255,.85);border:1px solid #ecdcbc;text-decoration:none;color:var(--ink);transition:.2s}
+.cvj:hover{border-color:var(--gold2);color:var(--gold)}
+.cvsec{padding:70px 0;scroll-margin-top:64px}
+.cvsec .sub:first-child{margin-top:0}
+.cvsec .tl{margin-bottom:10px}
+
 footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.85rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 footer a{color:var(--gold);text-decoration:none}
@@ -362,6 +369,7 @@ footer a{color:var(--gold);text-decoration:none}
     <ul class="menu">
       <li><a href="#inicio" data-nav="inicio" data-en="Home">Inicio</a></li>
       <li><a href="#sobre-mi" data-nav="sobre-mi" data-en="About me">Sobre mí</a></li>
+      <li><a href="#cv" data-nav="cv" data-en="CV">CV</a></li>
       <li><a href="#cursos" data-nav="cursos" data-en="Courses">Cursos</a></li>
       <li><a href="#recursos" data-nav="recursos" data-en="Resources">Recursos</a></li>
       <li><a href="#divulgacion" data-nav="divulgacion" data-en="Outreach">Divulgación</a></li>
@@ -383,7 +391,7 @@ footer a{color:var(--gold);text-decoration:none}
       <p class="lead">Soy matemática, con licenciatura y maestría en Matemáticas y doctorado en Matemática Educativa. Soy profesora en la Facultad de Ciencias de la UNAM, divulgadora y creadora de contenido. Diseño contenido educativo, escribo libros de texto y creé un museo virtual para que las matemáticas también se <em>visiten</em>.</p>
       <div class="btns">
         <a class="btn primary" href="#cursos">Ver mis cursos →</a>
-        <a class="btn ghost" href="https://sites.google.com/view/arilinharo/curriculum" target="_blank" rel="noopener">Currículum</a>
+        <a class="btn ghost" href="#cv">Mi CV</a>
       </div>
     </div>
     <div class="portrait">
@@ -455,7 +463,7 @@ footer a{color:var(--gold);text-decoration:none}
         </div>
         <div class="more">
           <a class="mlink" href="#divulgacion"><span class="pi" style="background:var(--tealsoft);color:var(--teal)">◈</span><span><b>Divulgación</b><small>Canal, ferias, festivales y talleres</small></span><span class="arr">→</span></a>
-          <a class="mlink" href="#sobre-mi" onclick="event.preventDefault();this.closest('main').querySelector('.js-tesis').scrollIntoView({behavior:'smooth'})"><span class="pi" style="background:var(--goldsoft);color:var(--gold)">🎓</span><span><b>Proyectos de titulación dirigidos</b><small>Tesis y proyectos que he asesorado</small></span><span class="arr">↓</span></a>
+          <a class="mlink" href="#cv"><span class="pi" style="background:var(--goldsoft);color:var(--gold)">🎓</span><span><b>Curriculum Vitae</b><small>Formación, tesis, libros, artículos y conferencias</small></span><span class="arr">→</span></a>
           <a class="mlink" href="#recursos"><span class="pi" style="background:#e9efe1;color:#4f6b2c">◆</span><span><b>Recursos educativos</b><small>Actividades en GeoGebra y Python</small></span><span class="arr">→</span></a>
           <div class="mlink cc"><span class="pi" style="background:var(--rosesoft);color:var(--rose)">▶</span><span><b>Creadora de contenido</b><small>Sígueme en redes sociales</small>
             <span class="soc">
@@ -472,67 +480,85 @@ footer a{color:var(--gold);text-decoration:none}
       <div class="facts reveal">
         <div class="fact"><div class="k">Dra.</div><div class="v">Matemática (licenciatura y maestría) con doctorado en Matemática Educativa, IPN</div></div>
         <div class="fact"><div class="k">2020</div><div class="v">Profesora en la Facultad de Ciencias, UNAM, desde ese año</div></div>
-        <a class="fact" href="#sobre-mi" onclick="event.preventDefault();this.closest('main').querySelector('.js-libros').scrollIntoView({behavior:'smooth'})" style="text-decoration:none"><div class="k">10+</div><div class="v">Libros de texto de bachillerato publicados · <span style="color:var(--gold)">ver libros</span></div></a>
-        <div class="fact"><div class="k">CAO</div><div class="v">Chief Academic Officer en Nomed, EdTech para Latinoamérica</div></div>
+        <a class="fact" href="#cv" style="text-decoration:none"><div class="k">12</div><div class="v">Libros de texto de bachillerato publicados · <span style="color:var(--gold)">ver CV</span></div></a>
+        <div class="fact"><div class="k">2026</div><div class="v">Apoyo Sofía Kovalévskaya para el proyecto «Comunicación pública de las matemáticas en redes sociales»</div></div>
       </div>
     </div>
   </div>
 </section>
-<!-- TRAYECTORIA -->
-<section class="alt" id="trayectoria-s">
+<section style="padding:60px 0 80px">
   <div class="wrap">
-    <div class="head reveal">
-      <div class="eyebrow">Trayectoria</div>
-      <h2>Formación y <em>experiencia</em></h2>
-      <p>Un resumen; el detalle completo está en mi <a href="https://sites.google.com/view/arilinharo/curriculum" target="_blank" rel="noopener" style="color:var(--gold)">currículum</a>.</p>
-    </div>
-    <div class="cols">
-      <div class="reveal">
-        <h3>Formación</h3>
-        <ul class="tl">
-          <li><div class="when">2021 – 2024</div><div class="what">Doctorado en Matemática Educativa</div><div class="where">Instituto Politécnico Nacional</div></li>
-          <li><div class="when">2012 – 2014</div><div class="what">Maestría en Matemáticas</div><div class="where">Universidad Autónoma de Zacatecas</div></li>
-          <li><div class="when">2007 – 2011</div><div class="what">Licenciatura en Matemáticas</div><div class="where">Universidad Autónoma de Ciudad Juárez</div></li>
-        </ul>
-      </div>
-      <div class="reveal">
-        <h3>Experiencia</h3>
-        <ul class="tl">
-          <li><div class="when">2024 – hoy</div><div class="what">Chief Academic Officer</div><div class="where">Nomed · EdTech de contenidos personalizados para Latinoamérica</div></li>
-          <li><div class="when">2023 – hoy</div><div class="what">Autora de libros de texto</div><div class="where">Más de 10 libros de texto de bachillerato · <a href="https://www.isbnmexico.indautor.cerlalc.org/catalogo.php?mode=busqueda_menu&amp;id_autor=482927" target="_blank" rel="noopener" style="color:var(--gold)">ver registro en el INDAUTOR</a></div></li>
-          <li><div class="when">2020 – hoy</div><div class="what">Profesora de asignatura</div><div class="where">Facultad de Ciencias, UNAM</div></li>
-          <li><div class="when">2022 – 2024</div><div class="what">Manager Applied Analytics</div><div class="where">HSBC · ciencia de datos contra el crimen financiero</div></li>
-          <li><div class="when">2021 – 2022</div><div class="what">Subject-Matter Expert de Matemáticas</div><div class="where">BYJU's Future School</div></li>
-          <li><div class="when">2015 – 2018</div><div class="what">Docencia en primaria, bachillerato y universidad</div><div class="where">ENES Morelia UNAM, UMSNH, Colegio Williams y más</div></li>
-        </ul>
+    <div class="museum reveal" style="grid-template-columns:1.4fr 1fr">
+      <div style="position:relative"><div class="eyebrow">Curriculum Vitae</div><h2>Mi trayectoria <em>completa</em></h2>
+      <p>Formación y experiencia, proyectos de titulación, libros de texto, artículos, eventos y conferencias.</p>
+      <div class="btns"><a class="btn primary" href="#cv">Ver mi CV →</a></div></div>
+      <div class="features">
+        <div class="feat"><b>12</b><span>libros de texto</span></div>
+        <div class="feat"><b>5</b><span>tesistas</span></div>
+        <div class="feat"><b>5</b><span>servicios sociales</span></div>
+        <div class="feat"><b>2020</b><span>profesora en la UNAM</span></div>
       </div>
     </div>
   </div>
 </section>
-
-<section id="tesis-s" class="js-tesis alt" style="border-bottom:0">
+</div>
+<div class="page" data-page="cv">
+<section class="pagetop" id="cv-s" style="padding-bottom:30px">
   <div class="wrap">
-    <div class="head reveal">
-      <div class="eyebrow">Dirección de tesis</div>
-      <h2>Proyectos de titulación que he <em>dirigido</em></h2>
-      <p>Tesis y otros proyectos de titulación de la Licenciatura en Matemáticas de la Facultad de Ciencias, UNAM, en los que he sido asesora o tutora.</p>
-    </div>
-    <div class="mlist">
-      <article class="mitem reveal"><span class="mi" style="background:var(--rosesoft);color:var(--rose)">🎓</span><div class="mb"><span class="mt">Proyecto de titulación · 2026</span><h3>Finanzas con propósito: estrategias de pensamiento matemático para la Educación Media Superior</h3><div class="mm">Frida Sánchez Morales · Actividad de Apoyo a la Docencia · Licenciatura en Matemáticas, Facultad de Ciencias, UNAM</div><p>Cuatro laboratorios de modelación financiera con Python para 5.º semestre de bachillerato. Fui su tutora.</p></div><a class="btn ghost msm" href="#recurso-finanzas">Ver los materiales →</a></article>
-      <article class="mitem reveal"><span class="mi" style="background:var(--goldsoft);color:var(--gold)">📜</span><div class="mb"><span class="mt">Tesis · 2024</span><h3>Relación entre números construibles y números origami</h3><div class="mm">Jaime Ulises Jiménez Cardoso · Licenciatura en Matemáticas, Facultad de Ciencias, UNAM</div><p>Tesis sobre la relación entre los números que se pueden construir con regla y compás y los que se obtienen doblando papel. Fui su asesora.</p></div><a class="btn ghost msm" href="https://ru.dgb.unam.mx/items/0d4949df-6dfb-4f8c-863f-24390c261923" target="_blank" rel="noopener">Leer la tesis ↗</a></article>
+    <div class="cv-head" style="margin-bottom:0"><svg class="sier" viewBox="0 0 512 444" aria-hidden="true"><use href="#sier" fill="#e8c98a"/></svg>
+      <div class="eyebrow" style="position:relative">Curriculum Vitae</div>
+      <h1>Dra. Arilín Haro</h1>
+      <div class="lvl">Matemática · Doctora en Matemática Educativa · Profesora de la Facultad de Ciencias, UNAM</div>
+      <p>Doctora en Matemática Educativa con maestría y licenciatura en Matemáticas Puras, con experiencia docente universitaria en la UNAM y en otras instituciones de educación superior, así como experiencia en la industria en analítica aplicada, manejo de datos y colaboración interdisciplinaria. Mi trayectoria integra investigación en enseñanza y aprendizaje de las matemáticas, formación de recursos humanos, desarrollo de materiales didácticos, divulgación matemática, innovación educativa y uso de tecnología para apoyar la docencia, la comunicación y el aprendizaje de las matemáticas.</p>
+      <div class="cvjump"><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-formacion').scrollIntoView({behavior:'smooth'})">Formación y experiencia</a><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-tesis').scrollIntoView({behavior:'smooth'})">Proyectos de titulación</a><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-libros').scrollIntoView({behavior:'smooth'})">Libros de texto</a><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-articulos').scrollIntoView({behavior:'smooth'})">Artículos</a><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-innovacion').scrollIntoView({behavior:'smooth'})">Innovación y contenido</a><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-eventos').scrollIntoView({behavior:'smooth'})">Eventos y conferencias</a><a class="cvj" href="#cv" onclick="event.preventDefault();this.closest('main').querySelector('.js-cv-habilidades').scrollIntoView({behavior:'smooth'})">Habilidades</a></div>
     </div>
   </div>
 </section>
-
-<section id="libros-s" class="js-libros">
+<section class="alt cvsec js-cv-formacion">
   <div class="wrap">
-    <div class="head reveal">
-      <div class="eyebrow">Libros de texto</div>
-      <h2>Más de 10 libros para <em>bachillerato</em></h2>
-      <p>He escrito más de 10 libros de texto para bachillerato. Todos están registrados con su ISBN ante el Instituto Nacional del Derecho de Autor (INDAUTOR), donde puedes consultar la lista completa.</p>
-    </div>
-    <!--BOOKS-->
-    <div class="btns reveal"><a class="btn primary" href="https://www.isbnmexico.indautor.cerlalc.org/catalogo.php?mode=busqueda_menu&amp;id_autor=482927" target="_blank" rel="noopener">Ver mis publicaciones en el INDAUTOR ↗</a></div>
+    <div class="head"><div class="eyebrow">Trayectoria</div><h2>Formación y <em>experiencia</em></h2></div>
+<div class="cols"><div><h3 class="sub">Educación</h3><ul class="tl"><li><div class="when">2021 – 2025</div><div class="what">Doctorado en Matemática Educativa</div><div class="where">Instituto Politécnico Nacional</div></li><li><div class="when">2012 – 2014</div><div class="what">Maestría en Matemáticas</div><div class="where">Universidad Autónoma de Zacatecas</div></li><li><div class="when">2007 – 2011</div><div class="what">Licenciatura en Matemáticas</div><div class="where">Universidad Autónoma de Ciudad Juárez</div></li></ul><h3 class="sub">Reconocimientos y premios</h3><ul class="tl"><li><div class="when">2026</div><div class="what">Apoyo Sofía Kovalévskaya 2026 · Proyecto de investigación</div><div class="where">Fundación Sofía Kovalevskaia y Sociedad Matemática Mexicana. Proyecto: «Comunicación pública de las matemáticas en redes sociales: un estudio desde el análisis de métricas, narrativas e interacciones en plataformas digitales».</div></li></ul></div><div><h3 class="sub">Experiencia laboral</h3><ul class="tl"><li><div class="when">Ene 2020 – hoy</div><div class="what">Profesora de asignatura</div><div class="where">Facultad de Ciencias, UNAM. Docencia universitaria, asesoría de tesis, dirección de servicios sociales y desarrollo de recursos para cursos de matemáticas.</div></li><li><div class="when">Jul 2023 – mar 2026</div><div class="what">Autora de libros de texto</div><div class="where">Editorial Patria. Elaboración de materiales de matemáticas para bachillerato tecnológico y trayectorias formativas.</div></li><li><div class="when">Oct 2022 – oct 2024</div><div class="what">Manager Applied Analytics</div><div class="where">HSBC, CDMX. Análisis aplicado, manejo de datos y colaboración interdisciplinaria en entornos tecnológicos y de toma de decisiones.</div></li><li><div class="when">Oct 2021 – oct 2022</div><div class="what">Subject-Matter Expert de Matemáticas</div><div class="where">BYJU’s Future School. Diseño y revisión de contenidos digitales de matemáticas para aprendizaje en línea.</div></li><li><div class="when">Jul – ago 2020</div><div class="what">Facilitadora en línea</div><div class="where">Universidad Tecnológica de Querétaro. Curso: Estrategias para la Enseñanza de las Matemáticas.</div></li><li><div class="when">Jun – dic 2018</div><div class="what">Profesora y coordinadora del área de Matemáticas, Programa de Años Intermedios</div><div class="where">Colegio Williams de Cuernavaca, Morelos</div></li><li><div class="when">Ene – jun 2018</div><div class="what">Profesora de Física</div><div class="where">Universidad del Valle de México, Cuernavaca, Morelos</div></li><li><div class="when">Jul 2017 – feb 2018</div><div class="what">Profesora de Matemáticas</div><div class="where">Universidad Fray Luca Paccioli, Cuernavaca, Morelos</div></li><li><div class="when">Jul 2016 – feb 2017</div><div class="what">Profesora de asignatura</div><div class="where">Facultad de Ciencias Físico-Matemáticas, Universidad Michoacana de San Nicolás de Hidalgo, Morelia</div></li><li><div class="when">Jul 2015 – ene 2017</div><div class="what">Profesora de asignatura</div><div class="where">Escuela Nacional de Estudios Superiores, UNAM, Morelia, Michoacán</div></li><li><div class="when">Mar 2015 – jul 2016</div><div class="what">Profesora de taller de matemáticas</div><div class="where">Colegio Kipling de Morelia, sección primaria</div></li></ul></div></div>
+  </div>
+</section>
+<section class="cvsec js-cv-tesis">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Formación de recursos humanos</div><h2>Proyectos de titulación y <em>servicios sociales</em></h2><p>Estudiantes a quienes he asesorado en su titulación o en su servicio social.</p></div>
+<div class="cols"><div><h3 class="sub">Tesistas de licenciatura</h3><ul class="tl"><li><div class="when">Titulado · 10 ene 2025</div><div class="what">Jaime Ulises Jiménez Cardoso</div><div class="where">«Relación entre números construibles y números origami». Facultad de Ciencias, UNAM.<span> · </span><a href="https://ru.dgb.unam.mx/items/0d4949df-6dfb-4f8c-863f-24390c261923" target="_blank" rel="noopener" style="color:var(--gold)">leer la tesis ↗</a></div></li><li><div class="when">Titulada · 19 ago 2025</div><div class="what">Vanessa Álvarez Navarro</div><div class="where">«Diseño de actividades y herramientas de autoevaluación para Álgebra Superior 1». Facultad de Ciencias, UNAM.</div></li><li><div class="when">Titulada · 26 may 2026</div><div class="what">Mirna Marlene Hernández Haro</div><div class="where">«Ansiedad matemática en estudiantes universitarios». Departamento de Física y Matemáticas, UACJ.</div></li><li><div class="when">2026</div><div class="what">Frida Sánchez Morales</div><div class="where">«Finanzas con propósito: estrategias de pensamiento matemático para la Educación Media Superior». Actividad de Apoyo a la Docencia, Facultad de Ciencias, UNAM.<span> · </span><a href="#recurso-finanzas" style="color:var(--gold)">ver los materiales →</a></div></li><li><div class="when">En revisión de sinodales</div><div class="what">Nidia Elizabeth Gómez Ortega</div><div class="where">«Diseño de actividades y herramientas de autoevaluación para Geometría Analítica 1». Facultad de Ciencias, UNAM.</div></li></ul><h3 class="sub">Participación en proyectos</h3><ul class="tl"><li><div class="when">PAPIME</div><div class="what">Matemáticas a Distancia</div><div class="where">Asesora de 2 tesis de licenciatura y 4 servicios sociales. Responsable de 2 COMALes (Curso Online de Matemáticas Abierto para Licenciatura).<span> · </span><a href="https://www.mdistancia.com/comales" target="_blank" rel="noopener" style="color:var(--gold)">ver COMALes ↗</a></div></li></ul></div><div><h3 class="sub">Servicios sociales dirigidos</h3><ul class="tl"><li><div class="when">Concluido · 22 sep 2026</div><div class="what">David Mendoza Jiménez</div><div class="where">Elaboración de material educativo para 4.º semestre de bachillerato (NEM). Facultad de Ciencias, UNAM.<span> · </span><a href="#recurso-geogebra-nem" style="color:var(--gold)">ver las clases →</a></div></li><li><div class="when">2024</div><div class="what">Sabino Isaac Cano Páez</div><div class="where">Actividades de GeoGebra y Python para Geometría Analítica 1. Facultad de Ciencias, UNAM.<span> · </span><a href="#recurso-geometria-analitica" style="color:var(--gold)">ver las actividades →</a></div></li><li><div class="when">2022</div><div class="what">Christian Saúl Villanueva Ocampo</div><div class="where">Cuestionarios en línea para Álgebra Superior 1. Facultad de Ciencias, UNAM.</div></li><li><div class="when">2022</div><div class="what">José Antonio Quiroz Pineda</div><div class="where">Cuestionarios en línea para Álgebra Superior 2. Facultad de Ciencias, UNAM.</div></li><li><div class="when">2022</div><div class="what">Sergio Arturo Armendariz Trejo</div><div class="where">Cuestionarios en línea para Geometría Analítica 1. Facultad de Ciencias, UNAM.</div></li></ul></div></div>
+  </div>
+</section>
+<section class="alt cvsec js-cv-libros">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Publicaciones</div><h2>12 libros de texto para <em>bachillerato</em></h2><p>Selección actual (3 de 12), publicados con Editorial Patria y Editorial Hachette.</p></div>
+<div class="cols"><div><ul class="tl"><li><div class="when">2025</div><div class="what">Temas Selectos de Matemáticas 1</div><div class="where">Bachillerato tecnológico · Editorial Patria · ISBN 9786075749556</div></li><li><div class="when">2025</div><div class="what">Pensamiento Matemático 1. Trayectorias</div><div class="where">Coautoría con Jairzinho Quintana · Editorial Hachette · ISBN 9786075749600</div></li><li><div class="when">2025</div><div class="what">Temas Selectos de Matemáticas 2</div><div class="where">Bachillerato tecnológico · coautoría con Danelly Esparza, Jazmín Amaya y Sarahi Lechuga · Editorial Patria · ISBN 9786075748085</div></li></ul></div><div class="ubox" style="align-self:start"><div class="lab">Catálogo completo</div><p class="pyd" style="margin:0 0 12px">Todos mis libros están registrados con su ISBN ante el Instituto Nacional del Derecho de Autor (INDAUTOR).</p><a class="btn primary" href="https://www.isbnmexico.indautor.cerlalc.org/catalogo.php?mode=busqueda_menu&amp;id_autor=482927" target="_blank" rel="noopener">Ver mis publicaciones en el INDAUTOR ↗</a></div></div>
+  </div>
+</section>
+<section class="cvsec js-cv-articulos">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Publicaciones</div><h2>Artículos de investigación, <em>difusión y divulgación</em></h2></div>
+<div class="cols"><div><h3 class="sub">Artículos de investigación</h3><ul class="tl"><li><div class="when">2024</div><div class="what">Learning obstacles and teaching proposals associated with the polar coordinate system: A literature review</div><div class="where">International Journal of Mathematical Education in Science and Technology, págs. 1–23<span> · </span><a href="https://doi.org/10.1080/0020739X.2023.2295903" target="_blank" rel="noopener" style="color:var(--gold)">DOI ↗</a></div></li><li><div class="when">Enviado</div><div class="what">Exploring Students’ Concept Images of the Polar Coordinate System and Associated Cognitive Conflicts</div></li><li><div class="when">Enviado</div><div class="what">Between Remedial School Mathematics and Public Communication: Mathematics Content Creators as Digital Mathematical Mediators</div></li><li><div class="when">En progreso</div><div class="what">Representing Mathematics in the Digital Public Sphere: An Analysis of Math Communicators on Social Media</div><div class="where">Con la Dra. Gabriela Frías Villegas</div></li><li><div class="when">En progreso</div><div class="what">When Explanation Does Not Lead to Action: Confidence and Tutorial Use in Mathematics Learning</div></li><li><div class="when">En progreso</div><div class="what">Ansiedad matemática en estudiantes de Licenciatura en Matemáticas: existencia, detonantes y efectos</div><div class="where">Con la Dra. Danelly Esparza y la Mat. Mirna Hernández</div></li></ul></div><div><h3 class="sub">Artículos de divulgación y difusión</h3><ul class="tl"><li><div class="when">2025</div><div class="what">El infinito</div><div class="where">Hypatia Kids, 2025(4), págs. 32–33. Consejo de Ciencia y Tecnología del Estado de Morelos.</div></li><li><div class="when">2011</div><div class="what">¿Dónde están los primos?</div><div class="where">Memorias de la XXI Semana de Investigación y Docencia en Matemáticas, págs. 123–130.<span> · </span><a href="https://semana.mat.uson.mx/semanaxxvii/Memorias/XXI.pdf" target="_blank" rel="noopener" style="color:var(--gold)">PDF ↗</a></div></li></ul></div></div>
+  </div>
+</section>
+<section class="alt cvsec js-cv-innovacion">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Innovación educativa</div><h2>Innovación educativa y <em>creación de contenido</em></h2></div>
+<ul class="tl"><li><div class="when">2026</div><div class="what">Creadora del museo virtual de matemáticas Arilín's Math World</div><div class="where">Catorce salas con juegos, leyendas, arte fractal, simetría, origami, billar, ilusiones, música, retos de grafos y matemáticas de otras culturas, más un blog de datos curiosos.<span> · </span><a href="https://museoarilinsmath.com/" target="_blank" rel="noopener" style="color:var(--gold)">museoarilinsmath.com ↗</a></div></li><li><div class="when">2025</div><div class="what">Proyecto de uso de IA para crear materiales de evaluación y repaso académico</div><div class="where">Nomed</div></li><li><div class="when">2025</div><div class="what">Responsable de 2 COMALes (Curso Online de Matemáticas Abierto para Licenciatura)</div><div class="where">Facultad de Ciencias, UNAM<span> · </span><a href="https://www.mdistancia.com/comales" target="_blank" rel="noopener" style="color:var(--gold)">mdistancia.com ↗</a></div></li><li><div class="when">2025</div><div class="what">Material para el curso de Álgebra Superior 1 de la licenciatura en línea</div><div class="where">Facultad de Ciencias, UNAM</div></li><li><div class="when">2020</div><div class="what">Creación del canal de YouTube Arilín's Math World</div><div class="where"><a href="https://www.youtube.com/@arilinsmathworld" target="_blank" rel="noopener" style="color:var(--gold)">ver canal ↗</a></div></li><li><div class="when">2019</div><div class="what">Creación de la página de divulgación de las matemáticas</div><div class="where"><a href="https://sites.google.com/view/arilinsmathworld" target="_blank" rel="noopener" style="color:var(--gold)">ver página ↗</a></div></li></ul>
+  </div>
+</section>
+<section class="cvsec js-cv-eventos">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Comunicación de las matemáticas</div><h2>Eventos y <em>conferencias</em></h2></div>
+<div class="cols"><div><h3 class="sub">Organización de eventos (selección 2025–2026)</h3><ul class="tl"><li><div class="when">Oct 2026</div><div class="what">Coordinadora del área de Comunicación Pública de las Matemáticas</div><div class="where">59 Congreso Nacional de la Sociedad Matemática Mexicana, Universidad Autónoma de Tlaxcala, 19 al 23 de octubre de 2026</div></li><li><div class="when">Nov 2025</div><div class="what">Feria científica «Noche de las Estrellas»</div><div class="where">Coordinadora de 19 talleres de Arilín's Math World, Jantetelco, Morelos</div></li><li><div class="when">Nov 2025</div><div class="what">Feria científica «1.ª Tarde Fractal»</div><div class="where">Organizadora del evento, con talleres y charlas de divulgación de la ciencia, Facultad de Ciencias, UNAM<span> · </span><a href="https://www.facebook.com/reel/838388335460604" target="_blank" rel="noopener" style="color:var(--gold)">ver video ↗</a></div></li><li><div class="when">Ene – jun 2025</div><div class="what">Seminario de Comunicación y Enseñanza de las Matemáticas «Despejando Incógnitas»</div><div class="where">Transmitido por Arilín's Math World, Facultad de Ciencias, UNAM</div></li><li><div class="when">Mar 2025</div><div class="what">Feria de las Matemáticas del Día de Pi</div><div class="where">2 talleres del Departamento de Matemáticas de la Facultad de Ciencias y Arilín's Math World, Facultad de Ciencias, UNAM</div></li><li><div class="when">Feb 2025</div><div class="what">Feria científica «Soy Mujer y Hago Ciencia»</div><div class="where">Coordinadora de 20 talleres de Arilín's Math World, Cuernavaca, Morelos</div></li></ul></div><div><h3 class="sub">Conferencias impartidas (selección)</h3><ul class="tl"><li><div class="when">2026</div><div class="what">«Entre la divulgación y la matemática escolar: Creadores de contenido matemático en la cultura digital»</div><div class="where">59 Congreso Nacional de la Sociedad Matemática Mexicana, Área de Matemática Educativa, Universidad Autónoma de Tlaxcala</div></li><li><div class="when">2026</div><div class="what">«Matemáticas para quienes creen odiarlas»</div><div class="where">Instituto de Física, Universidad Autónoma de San Luis Potosí</div></li><li><div class="when">2026</div><div class="what">«Matemáticas en las redes sociales»</div><div class="where">Instituto de Ingeniería y Tecnología, Universidad Autónoma de México</div></li><li><div class="when">2026</div><div class="what">Taller: divulgación de la ciencia</div><div class="where">Instituto de Ingeniería y Tecnología, Universidad Autónoma de México</div></li><li><div class="when">2026</div><div class="what">«Conversando sobre la divulgación matemática» (mesa redonda)</div><div class="where">Departamento de Matemáticas, Universidad Autónoma de México, Campus Iztapalapa</div></li><li><div class="when">2025</div><div class="what">«Del caos y sus representaciones»</div><div class="where">Festival Synapsia 2025, Ciudad de México</div></li><li><div class="when">2025</div><div class="what">«Más allá de lo plano: Probando otras geometrías»</div><div class="where">Festival de divulgación, 75 aniversario FCFM, BUAP</div></li><li><div class="when">2025</div><div class="what">«Más allá de lo plano: Probando otras geometrías»</div><div class="where">Math Rock Fest 3.0</div></li><li><div class="when">2025</div><div class="what">«La compleja y caótica vida»</div><div class="where">Openbiolab S. de R.L. de C.V.</div></li><li><div class="when">2024</div><div class="what">«Matemáticas de papel: Origami y geometría»</div><div class="where">Coloquio de Matemáticas, Departamento de Física y Matemáticas, UACJ, Cd. Juárez</div></li><li><div class="when">2024</div><div class="what">«Hablar de matemáticas: Entre la divulgación, la popularización y la educación»</div><div class="where">57 Congreso Nacional de la Sociedad Matemática Mexicana, Durango</div></li><li><div class="when">2024</div><div class="what">«Sobre la enseñanza y el aprendizaje del sistema de coordenadas polares»</div><div class="where">57 Congreso Nacional de la Sociedad Matemática Mexicana, Durango</div></li><li><div class="when">2024</div><div class="what">«De curiosidad matemática»</div><div class="where">Congreso Nacional de Innovación, Tecnología, Liderazgo y Sostenibilidad 2024, Instituto Tecnológico de Zacatepec, Morelos</div></li><li><div class="when">2023</div><div class="what">«¿Estamos enseñando matemáticas?»</div><div class="where">Jornadas de Física, Matemáticas y Materiales, Universidad Autónoma de Ciudad Juárez</div></li><li><div class="when">2023</div><div class="what">«De matemáticas y su aprendizaje»</div><div class="where">Seminario de Posgrado en Matemática Educativa, Tunja, Colombia</div></li><li><div class="when">2023</div><div class="what">«Objetos matemáticos»</div><div class="where">Tópicos Matemáticos πQ2, CUCEI, Universidad de Guadalajara</div></li></ul></div></div>
+  </div>
+</section>
+<section class="alt cvsec js-cv-habilidades">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Habilidades</div><h2>Habilidades e <em>idiomas</em></h2></div>
+<div class="explore" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+<div class="xcard"><h3>Programación</h3><p>Python, SQL</p></div>
+<div class="xcard"><h3>Analítica</h3><p>SAS, Qlik Sense, Excel</p></div>
+<div class="xcard"><h3>Educación</h3><p>GeoGebra, LaTeX, Wolfram Mathematica, paquetería Office</p></div>
+<div class="xcard"><h3>Idiomas</h3><p>Español: nativo · Inglés: avanzado</p></div>
+</div>
   </div>
 </section>
 </div>
@@ -978,7 +1004,7 @@ function renderCourse(id,tab){
     cv.querySelectorAll('.unit').forEach(u=>{let any=false;u.querySelectorAll('.topic').forEach(t=>{const ok=!q||norm(t.dataset.s).includes(q);t.classList.toggle('hide',!ok);any=any||ok});u.classList.toggle('hide',!!q&&!any)})});
   return true;
 }
-const PAGES=['inicio','sobre-mi','cursos','recursos','recurso-geogebra-nem','recurso-geometria-analitica','recurso-python','recurso-finanzas','divulgacion','contacto'];
+const PAGES=['inicio','sobre-mi','cv','cursos','recursos','recurso-geogebra-nem','recurso-geometria-analitica','recurso-python','recurso-finanzas','divulgacion','contacto'];
 function show(p){const M=activeMain();M.querySelectorAll('.page').forEach(x=>x.classList.toggle('on',x.dataset.page===p));
   const pg=M.querySelector(`.page[data-page="${p}"]`);const nav=p==='curso'?'cursos':(pg&&pg.dataset.nav)||p;document.querySelectorAll('.menu a[data-nav]').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));
   M.querySelectorAll('.page.on .reveal').forEach(el=>el.classList.add('in'));}
