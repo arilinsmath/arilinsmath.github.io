@@ -350,6 +350,27 @@ footer a{color:var(--gold);text-decoration:none}
 }
 @media (max-width:560px){.explore{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.page.on{animation:none}.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+/* Notas de los videos (notas/<curso>/<slug>.html) */
+.nbw{grid-column:2;display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.nbrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.nbt{font:500 .8rem var(--sans);border:1px solid var(--teal,#2c857c);color:var(--teal,#2c857c);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer}
+.nbt[aria-expanded="true"]{background:var(--teal,#2c857c);color:#fff}
+.nbpdf{font:500 .8rem var(--sans);color:var(--ink,#1c1a27);border:1px solid var(--line);border-radius:999px;padding:4px 10px;text-decoration:none}
+.nbpdf:hover,.nbt:hover{border-color:var(--gold,#d9a441)}
+.nbp{border:1px solid var(--line);border-left:3px solid var(--gold,#d9a441);border-radius:10px;background:#fffdf8;padding:14px 18px;font-size:.95rem;line-height:1.6;overflow-x:auto}
+.nbp h4{font-family:var(--serif);font-size:1.2rem;margin:14px 0 6px}.nbp h4:first-child{margin-top:0}
+.nbp p{margin:6px 0}.nbp ul,.nbp ol{margin:6px 0 6px 22px}
+.nbp .def,.nbp .thm,.nbp .ej{margin:10px 0;padding:8px 12px;border-radius:8px}
+.nbp .def{background:#eef6f5;border-left:3px solid #2c857c}
+.nbp .thm{background:#fbf3e3;border-left:3px solid #a8761c}
+.nbp .ej{background:#f6f4f8;border-left:3px solid #8a8697}
+.nbp .com{color:#5b5868;font-style:italic}
+.nbp figure{margin:12px 0;text-align:center}.nbp figure svg{max-width:100%;height:auto}.nbp figcaption{font-size:.85rem;color:var(--muted)}
+.nbp .s-tinta{stroke:#1c1a27}.nbp .s-oro{stroke:#a8761c}.nbp .s-verdeazul{stroke:#2c857c}.nbp .s-rosa{stroke:#b94d60}
+.nbp .t-tinta{fill:#1c1a27}.nbp .t-oro{fill:#a8761c}.nbp .t-verdeazul{fill:#2c857c}.nbp .t-rosa{fill:#b94d60}
+.nbp .erratas{margin-top:14px;padding-top:8px;border-top:1px dashed var(--line)}
+.nbp .nbsrc{font-size:.8rem;color:var(--muted);margin-top:12px}
+.nbp .katex-display{overflow-x:auto;overflow-y:hidden}
 </style>
 </head>
 <body>
@@ -954,6 +975,18 @@ document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('clic
   const f=b.dataset.f;
   M.querySelectorAll('.js-grid .course').forEach(c=>c.classList.toggle('hidden',f!=='all'&&c.dataset.c!==f));
 }));
+function nbHTML(t){if(!t.nb||!t.nb.length)return '';const nv=t.res.filter(r=>r.k==='v').length;
+  return `<div class="nbw">${t.nb.map(n=>`<div class="nbrow"><button type="button" class="nbt" aria-expanded="false" data-src="${esc(n.src)}">📝 ${nv>1?tr('Notas del video','Notes for video')+' '+n.video:tr('Notas del video','Notes for the video')}</button><a class="nbpdf" href="${esc(n.pdf)}" target="_blank" rel="noopener">⬇ ${tr('Descargar PDF','Download PDF')}</a></div><div class="nbp" hidden></div>`).join('')}${L==='en'?'<small class="langnote">The notes are in Spanish.</small>':''}</div>`}
+let KX=null;function katexReady(){if(KX)return KX;const B='https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/';
+  const ld=s=>new Promise((ok,ko)=>{const e=document.createElement('script');e.src=s;e.onload=ok;e.onerror=ko;document.head.appendChild(e)});
+  const l=document.createElement('link');l.rel='stylesheet';l.href=B+'katex.min.css';document.head.appendChild(l);
+  KX=ld(B+'katex.min.js').then(()=>ld(B+'contrib/auto-render.min.js'));return KX}
+document.addEventListener('click',async e=>{const b=e.target.closest('.nbt');if(!b)return;const p=b.parentElement.nextElementSibling;
+  const open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',open);p.hidden=!open;if(!open||p.dataset.ok)return;
+  p.textContent=tr('Cargando…','Loading…');
+  try{const r=await fetch(b.dataset.src);if(!r.ok)throw 0;p.innerHTML=await r.text();p.dataset.ok=1;
+    try{await katexReady();renderMathInElement(p,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}],throwOnError:false})}catch(_){}}
+  catch(_){p.textContent=tr('No se pudieron cargar las notas. Puedes descargar el PDF.','The notes could not be loaded. You can download the PDF.')}});
 function chip(r){const [i,k]=KIND[r.k]||KIND.n;return `<a class="chip2 ${k}" href="${esc(r.u)}" target="_blank" rel="noopener">${i} ${esc(chipText(r.t))}</a>`}
 const TABS0=[['tema','Por tema','By topic',null],['videos','Videos','Videos','v'],['notas','Notas','Notes','n'],['cuestionarios','Cuestionarios','Quizzes','q'],['ejercicios','Ejercicios y actividades','Exercises and activities','ea']];
 const TABSf=()=>TABS0.map(([k,es,en,kk])=>[k,tr(es,en),kk]);
@@ -981,7 +1014,7 @@ function renderCourse(id,tab){
     c.units.forEach((u,i)=>{
       const nv=u.topics.reduce((a,t)=>a+t.res.filter(r=>r.k==='v').length,0);
       let inner='';
-      u.topics.forEach((t,j)=>{inner+=`<div class="topic" data-s="${esc(t.title.toLowerCase())}"><span class="tn">${i+1}.${j+1}</span><h3>${esc(t.title)}</h3><div class="chips">${t.res.length?t.res.map(chip).join(''):`<span class="soonx">${tr('Material en preparación','Material in preparation')}</span>`}</div></div>`});
+      u.topics.forEach((t,j)=>{inner+=`<div class="topic" data-s="${esc(t.title.toLowerCase())}"><span class="tn">${i+1}.${j+1}</span><h3>${esc(t.title)}</h3><div class="chips">${t.res.length?t.res.map(chip).join(''):`<span class="soonx">${tr('Material en preparación','Material in preparation')}</span>`}</div>${nbHTML(t)}</div>`});
       u.notes.forEach(n=>inner+=`<p class="unote">${n}</p>`);
       if(u.mat.length)inner+=`<div class="ubox"><div class="lab">${tr('Material de la unidad','Unit materials')}</div><div class="chips">${u.mat.map(chip).join('')}</div></div>`;
       if(u.act.length)inner+=`<div class="ubox"><div class="lab">${tr('Actividades, preguntas y retos','Activities, questions and challenges')}</div><div class="chips">${u.act.map(chip).join('')}</div></div>`;

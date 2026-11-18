@@ -95,9 +95,22 @@ for c in d:
     for u in c['units']:
         for r in [r for t in u['topics'] for r in t['res']]+u['material']+u['activities']:
             r['t']=FIX.get(r['t'],r['t'])
+# Notas de los videos (../notas/notas.json, ver ../notas/CONVENCIONES.md): se agregan como t['nb'] al tema
+NB=json.load(open(P('../notas/notas.json'),encoding='utf-8')) if os.path.exists(P('../notas/notas.json')) else []
+NB_USADAS=0
 out=[]
 for c in d:
     m=META[c['id']]
+    for e in NB:
+        if e['curso']!=m['slug'] or c['id'] in ('ed1',):continue
+        us=c['units']
+        ts=[t for t in us[e['unidad']-1]['topics'] if t['title']==e['tema']] if e['unidad']<=len(us) else []
+        if len(ts)!=1:raise SystemExit('notas.json: no encuentro el tema %r en %s unidad %d'%(e['tema'],e['curso'],e['unidad']))
+        ruta='notas/%s/%s'%(e['curso'],e['slug'])
+        for ext in ('html','pdf'):
+            if not os.path.exists(P('../'+ruta+'.'+ext)):raise SystemExit('Falta '+ruta+'.'+ext)
+        ts[0].setdefault('nb',[]).append({'video':e['video'],'src':ruta+'.html','pdf':ruta+'.pdf'})
+        ts[0]['nb'].sort(key=lambda x:x['video']);NB_USADAS+=1
     units=[]
     for u in c['units']:
         notes=[md(n) for n in u['notes'] if not (c['id']=='ed1')]

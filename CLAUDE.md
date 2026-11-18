@@ -8,3 +8,4 @@
 - Navegación por hash (`#cursos`, `#curso-<id>`, `#curso-<id>-videos`, `#recurso-python`, etc.).
 - Mantén `.nojekyll` en la raíz.
 - Enlaces de Drive rotos: lista en `fuente/enlaces_rotos.txt`; `build.py` los filtra y renumera ("Notas 1, 2…").
+- Notas de los videos de los cursos: `notas/<curso>/<slug>.{tex,pdf,html}`, registro en `notas/notas.json`, reglas en `notas/CONVENCIONES.md`, herramientas en `tools/` (`nueva-nota.py crear|enganchar|buscar|cursos`, `verificar-notas.py --compilar`). `build.py` agrega a cada tema registrado los botones «Notas del video» y «Descargar PDF». Ninguna nota se sube sin la aprobación de Arilín.

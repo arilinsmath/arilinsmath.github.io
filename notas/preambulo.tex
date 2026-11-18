@@ -1,0 +1,46 @@
+% Preámbulo compartido de las notas de los videos de los cursos de Arilín Haro.
+% Cada nota vive en notas/<curso>/<slug>.tex, empieza con \documentclass[11pt]{article},
+% define \videoid{...} (identificador del video de YouTube) y hace \input{../preambulo}.
+% Compilar con LuaLaTeX desde la carpeta del curso:  latexmk -lualatex <slug>.tex
+\usepackage[spanish,provide=*]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,babel}
+\usepackage[colorlinks=true,urlcolor=verdeazul,linkcolor=verdeazul]{hyperref}
+
+\hyphenpenalty=10000 \exhyphenpenalty=10000 \emergencystretch=3em
+
+% Colores de las figuras: los mismos de la página (arilinsmath.github.io)
+\definecolor{tinta}{RGB}{28,26,39}
+\definecolor{oro}{RGB}{168,118,28}
+\definecolor{verdeazul}{RGB}{44,133,124}
+\definecolor{rosa}{RGB}{185,77,96}
+
+% Enunciados numerados: definiciones, proposiciones, teoremas, lemas y corolarios
+% comparten UN solo contador por unidad del curso (u.n). Entornos: defn, prop, teo, lema, cor.
+\theoremstyle{definition}
+\newtheorem{defn}{Definición}
+\newtheorem{ejem}{Ejemplo}[section]\renewcommand{\theejem}{\arabic{ejem}}
+\theoremstyle{plain}
+\newtheorem{prop}[defn]{Proposición}
+\newtheorem{teo}[defn]{Teorema}
+\newtheorem{lema}[defn]{Lema}
+\newtheorem{cor}[defn]{Corolario}
+% \unidad{u}{n}: los enunciados numerados de la nota se llaman u.n, u.(n+1), ...
+% n es el primer número libre de esa unidad del curso (lo calcula tools/nueva-nota.py).
+\newcommand{\unidad}[2]{\renewcommand{\thedefn}{#1.\arabic{defn}}\setcounter{defn}{\numexpr#2-1\relax}}
+% \curso{slug}: el curso de la página al que pertenece la nota (algebra-superior-1, ...).
+\newcommand{\curso}[1]{\def\cursoslug{#1}}
+
+% Observaciones y erratas del video. Usar SOLO si hay algo que señalar y ya lo confirmó Arilín:
+%   \begin{erratas}
+%     \errata{203}{3:23}{Se dice ..., pero debe decir ...}
+%   \end{erratas}
+\newenvironment{erratas}{\section*{Observaciones y erratas del video}\begin{itemize}}{\end{itemize}}
+\newcommand{\errata}[3]{%
+  \edef\errurl{https://www.youtube.com/watch?v=\videoid\string&t=#1}%
+  \item[\textbf{\expandafter\href\expandafter{\errurl}{#2}}] #3}
