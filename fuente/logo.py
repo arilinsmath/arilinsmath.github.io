@@ -12,7 +12,7 @@ def text_path(fontfile,text,size,x,y,tracking=0):
         if d: out.append(f'<path transform="translate({x+cx*s:.2f},{y:.2f}) scale({s:.5f},{-s:.5f})" d="{d}"/>')
         cx+=hm[g][0]+tracking
     return ''.join(out), cx*s
-GOLD=(217,164,65); ROSE=(196,86,106); TEAL=(44,133,124); INK='#1c1a27'
+GOLD=(217,164,65); ROSE=(196,86,106); TEAL=(44,133,124); INK='#1c1b22'
 def mix(px,py,size):
     # barycentric-ish: top gold, bottom-left teal, bottom-right rose
     h=size*math.sqrt(3)/2
@@ -20,7 +20,7 @@ def mix(px,py,size):
     wt=1-v; wl=v*(1-u); wr=v*u
     c=[int(GOLD[i]*wt+TEAL[i]*wl+ROSE[i]*wr) for i in range(3)]
     return '#%02x%02x%02x'%tuple(c)
-PAL={0:[(240,178,50),(232,150,40),(247,196,90)],1:[(28,160,143),(20,120,140),(60,182,160)],2:[(222,74,110),(178,62,140),(236,110,120)]}
+PAL={0:[(255,79,163),(155,93,229),(255,128,190)],1:[(23,166,201),(124,197,49),(80,200,224)],2:[(255,138,61),(211,33,124),(255,176,110)]}
 def shade(c,k):
     return '#%02x%02x%02x'%tuple(max(0,min(255,int(v*k))) for v in c)
 def sier(x,y,s,n,S,out,path=()):
@@ -48,14 +48,14 @@ def mono(size=512,bg=None,pad=36):
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}">{bgs}{body}</svg>'
 # 3) horizontal logo: mark + name + tagline
 def horiz(dark=False):
-    ink='#fbf8f2' if dark else INK; muted='#c9bfa8' if dark else '#6a6377'
+    ink='#fffbee' if dark else INK; muted='#f1e3bd' if dark else '#585468'
     W,Hh=1200,360
     S=260;h=H(S);mx,my=50,(Hh-h)/2
     m=f'<g transform="translate({mx},{my}) scale({S/100})">{mark(4)}</g>'
     p1,w1=text_path(LM+'lmroman10-regular.otf','Arilín Haro',118,360,200)
     p2,w2=text_path('/usr/share/fonts/opentype/inter/Inter-Medium.otf' if False else '/usr/share/fonts/opentype/inter/InterDisplay-Medium.otf','MATEMÁTICAS · EDUCACIÓN · DIVULGACIÓN',25,364,262,tracking=180)
     W=int(360+max(w1,w2)+50)
-    bg=f'<rect width="{W}" height="{Hh}" fill="{"#1c1a27" if dark else "none"}"/>' if dark else ''
+    bg=f'<rect width="{W}" height="{Hh}" fill="{"#1c1b22" if dark else "none"}"/>' if dark else ''
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}">{bg}{m}<g fill="{ink}">{p1}</g><g fill="{muted}">{p2}</g></svg>'
 # 4) stacked/square badge for QR center & social
 def badge(size=800):
@@ -66,15 +66,15 @@ def badge(size=800):
     p1,_=text_path(LM+'lmroman10-regular.otf','Arilín Haro',96,x1,my+h+110)
     p2,w2=text_path('/usr/share/fonts/opentype/inter/InterDisplay-Medium.otf','MATEMÁTICAS · EDUCACIÓN · DIVULGACIÓN',21,0,0,tracking=180)
     p2,_=text_path('/usr/share/fonts/opentype/inter/InterDisplay-Medium.otf','MATEMÁTICAS · EDUCACIÓN · DIVULGACIÓN',21,(size-w2)/2,my+h+165,tracking=180)
-    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><rect width="{size}" height="{size}" rx="120" fill="#fbf8f2"/>{m}<g fill="{INK}">{p1}</g><g fill="#6a6377">{p2}</g></svg>'
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><rect width="{size}" height="{size}" rx="120" fill="#fffbee"/>{m}<g fill="{INK}">{p1}</g><g fill="#585468">{p2}</g></svg>'
 files={
  'arilin-logo-horizontal.svg':horiz(),
  'arilin-logo-horizontal-fondo-oscuro.svg':horiz(True),
  'arilin-logo-cuadrado.svg':badge(),
  'arilin-icono.svg':svg_mark(4,512,28),
- 'arilin-icono-fondo.svg':svg_mark(4,512,70,'#fbf8f2',110),
+ 'arilin-icono-fondo.svg':svg_mark(4,512,70,'#fffbee',110),
  'favicon.svg':svg_mark(2,64,2),
- 'favicon-fondo.svg':svg_mark(2,64,7,'#1c1a27',14),
+ 'favicon-fondo.svg':svg_mark(2,64,7,'#1c1b22',14),
 }
 for k,v in files.items(): open(k,'w').write(v)
 print('ok')
